@@ -1,0 +1,19 @@
+{
+  "repo_id": "IELTS8/JEPA-CAD",
+  "repo_type": "model",
+  "url": "https://huggingface.co/IELTS8/JEPA-CAD",
+  "revision": "30dde4683d2fbfb78a2dce31468a117c23eee20c",
+  "remote_sizes_and_sha256_verified": true,
+  "files": [
+    {
+      "path": "histcad_large_joint_jepa_v8/data/processed/full_paired_graphs_v7.pt",
+      "bytes": 8075724068,
+      "sha256": "9944b05fe6dacc9e52250da9dcccfdcac1ef7ad1380a2dbb5d0217a7a8f52e76"
+    },
+    {
+      "path": "histcad_large_joint_jepa_v8/outputs/full_dataset_4096/best.pt",
+      "bytes": 1938955953,
+      "sha256": "fe54c5645b231887079bbe22d8b6e071d316f5355517f05f43cf35c8d348360d"
+    }
+  ]
+}

@@ -27,3 +27,4 @@ __pycache__/
 # Local reuse of the Windows pretrained comparison arm (multi-gigabyte artifacts).
 histcad_large_joint_jepa_v8/outputs/full_dataset_4096/best.pt
 *.pt.copying
+.cache/huggingface/

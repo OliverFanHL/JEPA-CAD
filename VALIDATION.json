@@ -48,5 +48,13 @@
     "training_run": false,
     "optimizer_created": false,
     "artifact_copies_byte_identical": true
+  },
+  "huggingface_upload": {
+    "repo_id": "IELTS8/JEPA-CAD",
+    "artifact_revision": "30dde4683d2fbfb78a2dce31468a117c23eee20c",
+    "remote_sizes_and_sha256_verified": true,
+    "remote_manifest_download_verified": true,
+    "files": 2,
+    "total_bytes": 10014680021
   }
 }

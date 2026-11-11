@@ -32,8 +32,9 @@ study reused the v7 pretrained checkpoint. No JEV-CAD code or results are includ
 Source CAD files, original parametric JSON histories, annotation datasets, and
 full processed graph caches are excluded. Small derived frozen logits and
 physical descriptors for reproducing the final classifier are included.
-Selected downstream checkpoints are included. Multi-gigabyte encoder checkpoints
-and full-corpus embedding matrices are omitted; their producing code, saved
+Selected downstream checkpoints are included. The multi-gigabyte pretrained
+checkpoint and prepared graph cache are hosted separately on Hugging Face.
+Full-corpus embedding matrices are omitted; their producing code, saved
 configuration, training history, and evaluation results are retained.
 
 The final reports preserve distinct cohorts: HistCAD's original 8,086 test parts,
@@ -45,6 +46,12 @@ Run `python verify_classifier.py` with NumPy and PyTorch to reproduce all 1,404
 final TMCAD predictions from the released checkpoint and frozen inputs.
 
 ## Existing pretrained comparison arm
+
+The two large artifacts are hosted on
+[Hugging Face](https://huggingface.co/IELTS8/JEPA-CAD). See the
+[Linux setup guide](LINUX_SETUP.md), or run `python download_pretrained.py`
+after installing `huggingface_hub`. Downloads use a pinned revision and verify
+both SHA-256 checksums.
 
 On the Windows working copy, the original graph cache and pretrained `best.pt`
 are copied into the v8 project's matching paths. `jepa_joint` explicitly uses

@@ -46,6 +46,11 @@ only, writing the representation file consumed by benchmark arm `jepa_joint`.
 Missing cache/checkpoint files cause an error, never a preprocessing/training
 fallback. The large local files remain ignored by Git.
 
+On Linux, first download these same artifacts from Hugging Face with
+`python download_pretrained.py`; see [LINUX_SETUP.md](LINUX_SETUP.md). The
+download script checks both file sizes and SHA-256 hashes against a pinned
+revision before declaring the artifacts ready.
+
 The following instructions are for a separate, deliberate from-scratch run.
 
 Download the [source datasets](DATASETS.md), retain the original split identities,
