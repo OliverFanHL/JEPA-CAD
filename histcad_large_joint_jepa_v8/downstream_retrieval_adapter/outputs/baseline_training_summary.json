@@ -1,0 +1,44 @@
+{
+  "best_epoch": 6,
+  "best_validation_loss": 0.0029561087544113947,
+  "epochs_completed": 6,
+  "train_samples": 145915,
+  "validation_samples": 8130,
+  "test_samples_accessed_during_training": 0,
+  "retrieval_labels_used_for_training": false,
+  "embedding_dim": 4096,
+  "descriptor_dim": 421,
+  "trainable_parameters": 67322693,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.017990931793806092,
+      "validation_loss": 0.008042695679155443
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.008039912718281155,
+      "validation_loss": 0.005736625207608696
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0059227845055091904,
+      "validation_loss": 0.004549706906772151
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.005074827168170663,
+      "validation_loss": 0.004151165118809849
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.004605702948371803,
+      "validation_loss": 0.0032899356550258685
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.004257108069117082,
+      "validation_loss": 0.0029561087544113947
+    }
+  ]
+}

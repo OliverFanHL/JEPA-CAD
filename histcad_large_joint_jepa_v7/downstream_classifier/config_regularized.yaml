@@ -1,0 +1,27 @@
+seed: 97
+paths:
+  representations: ../outputs/full_dataset_4096/representations.pt
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  graph_cache: ../data/processed/full_paired_graphs_v7.pt
+  output_dir: outputs/attention_regularized_v2
+  taxonomy: taxonomy_refinement_v2.json
+model:
+  token_width: 256
+  attention_heads: 8
+  attention_layers: 2
+  feedforward_width: 768
+  dropout: 0.20
+training:
+  epochs: 32
+  batch_size: 1024
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.00003
+  warmup_epochs: 1
+  weight_decay: 0.0001
+  gradient_clip: 1.0
+  device: auto
+  mixed_precision: true
+  functional_label_smoothing: 0.05
+  early_stopping_min_delta: 0.001
+  early_stopping_patience: 7
+  early_stopping_min_epochs: 9

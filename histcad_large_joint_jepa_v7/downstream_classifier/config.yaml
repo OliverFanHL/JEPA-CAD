@@ -1,0 +1,19 @@
+seed: 97
+paths:
+  representations: ../outputs/full_dataset_4096/representations.pt
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  graph_cache: ../data/processed/full_paired_graphs_v7.pt
+  extracted_representations: outputs/representations_from_best.pt
+  output_dir: outputs
+  taxonomy: taxonomy.json
+classification:
+  representations: [joint, parametric, step]
+  joint_mlp: true
+  batch_size: 1024
+  epochs: 8
+  patience: 3
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  device: auto
+  extraction_batch_size: 8
+  extraction_num_workers: 0

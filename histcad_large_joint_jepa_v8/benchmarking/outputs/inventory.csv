@@ -1,0 +1,13 @@
+name,family,dataset,available,required,reuse,tasks,comparability,prepare,rows,source_rows,dimensions
+jepa_joint,jepa,histcad,True,True,True,"['frozen', 'retrieval', 'semantic']",exact HistCAD cache and split; 4096-D joint representation,,162064,162131,4096
+graph_autoencoder_joint,autoencoder,histcad,True,True,True,"['frozen', 'retrieval', 'semantic']",completed same-input/same-encoder 4096-D reconstruction baseline,,162064,162131,4096
+pca_graph_statistics,classical,histcad,True,True,True,"['frozen', 'retrieval', 'semantic']",train-split PCA of standardized input graph statistics,,162064,162131,256
+input_graph_statistics,nonlearned,histcad,True,True,True,"['frozen', 'retrieval', 'semantic']",deterministic graph-statistics control,,162064,162131,421
+contrastive_joint,contrastive_same_encoder,histcad,True,True,False,"['frozen', 'retrieval', 'semantic']",same cache/encoder/width; NT-Xent objective; not a GC-CAD reproduction,python baselines/contrastive/train.py,162064,162131,4096
+random_joint,no_pretraining,histcad,True,True,False,"['frozen', 'retrieval', 'semantic']",identical randomly initialized encoder; no representation training,python baselines/contrastive/train.py --random-only,162064,162131,4096
+brepnet_official_histcad,external_brepnet,histcad,True,True,False,"['frozen', 'retrieval', 'semantic']",official segmentation-pretrained checkpoint and preprocessing; different architecture/objective,python baselines/external/prepare_brepnet.py histcad --external-python <brepnet-python>,162064,162064,168
+jepa_step_tmcad,jepa,tmcad,True,True,True,"['frozen', 'classification']",existing frozen 2048-D JEPA STEP branch on exact TMCAD split,,7252,9312,2048
+autoencoder_step_tmcad,autoencoder,tmcad,True,True,False,"['frozen', 'classification']",same TMCAD STEP graphs passed through HistCAD-pretrained AE STEP encoder,python baselines/extract_tmcad.py autoencoder,7252,9312,2048
+contrastive_step_tmcad,contrastive_same_encoder,tmcad,True,True,False,"['frozen', 'classification']",same TMCAD STEP graphs passed through controlled contrastive STEP encoder,python baselines/extract_tmcad.py contrastive,7252,9312,2048
+random_step_tmcad,no_pretraining,tmcad,True,True,False,"['frozen', 'classification']",same STEP architecture with seeded random initialization,python baselines/extract_tmcad.py random,7252,9312,2048
+brepnet_official_tmcad,external_brepnet,tmcad,True,True,False,"['frozen', 'classification']",official segmentation-pretrained BRepNet; different input preprocessing/objective,python baselines/external/prepare_brepnet.py tmcad --external-python <brepnet-python>,7252,7252,168

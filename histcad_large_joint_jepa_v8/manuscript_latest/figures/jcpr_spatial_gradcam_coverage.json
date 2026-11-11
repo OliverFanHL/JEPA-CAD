@@ -1,0 +1,17 @@
+[
+  {
+    "uid": "bearing/55.stp",
+    "matched_faces": 59,
+    "total_faces": 79
+  },
+  {
+    "uid": "pulley/423.stp",
+    "matched_faces": 69,
+    "total_faces": 69
+  },
+  {
+    "uid": "coupling/257.stp",
+    "matched_faces": 69,
+    "total_faces": 85
+  }
+]

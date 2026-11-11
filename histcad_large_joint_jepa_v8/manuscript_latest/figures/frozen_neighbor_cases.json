@@ -1,0 +1,221 @@
+{
+  "protocol": "shared-coverage TMCAD test subset, frozen 5-NN",
+  "classes": [
+    "bearing",
+    "bolt_screw",
+    "bracket",
+    "coupling",
+    "flange",
+    "gear",
+    "nut",
+    "pulley",
+    "shaft",
+    "spring"
+  ],
+  "methods": {
+    "jepa_step_tmcad": {
+      "test_macro_f1": 0.6724620916281893,
+      "cases": [
+        {
+          "uid": "bearing/55.stp",
+          "true_class": "bearing",
+          "prediction": "bracket",
+          "votes_for_prediction": 2,
+          "votes_for_truth": 0,
+          "neighbor_uids": [
+            "bracket/490.stp",
+            "gear/844.stp",
+            "bracket/445.stp",
+            "shaft/508.stp",
+            "gear/942.stp"
+          ],
+          "neighbor_classes": [
+            "bracket",
+            "gear",
+            "bracket",
+            "shaft",
+            "gear"
+          ]
+        },
+        {
+          "uid": "pulley/423.stp",
+          "true_class": "pulley",
+          "prediction": "coupling",
+          "votes_for_prediction": 2,
+          "votes_for_truth": 1,
+          "neighbor_uids": [
+            "nut/433.stp",
+            "shaft/832.stp",
+            "coupling/356.stp",
+            "coupling/415.stp",
+            "pulley/444.stp"
+          ],
+          "neighbor_classes": [
+            "nut",
+            "shaft",
+            "coupling",
+            "coupling",
+            "pulley"
+          ]
+        },
+        {
+          "uid": "coupling/257.stp",
+          "true_class": "coupling",
+          "prediction": "bracket",
+          "votes_for_prediction": 3,
+          "votes_for_truth": 0,
+          "neighbor_uids": [
+            "bracket/283.stp",
+            "flange/89.stp",
+            "bracket/570.stp",
+            "bearing/566.stp",
+            "bracket/590.stp"
+          ],
+          "neighbor_classes": [
+            "bracket",
+            "flange",
+            "bracket",
+            "bearing",
+            "bracket"
+          ]
+        }
+      ]
+    },
+    "autoencoder_step_tmcad": {
+      "test_macro_f1": 0.62418593969189,
+      "cases": [
+        {
+          "uid": "bearing/55.stp",
+          "true_class": "bearing",
+          "prediction": "bracket",
+          "votes_for_prediction": 3,
+          "votes_for_truth": 0,
+          "neighbor_uids": [
+            "bracket/490.stp",
+            "gear/844.stp",
+            "bracket/163.stp",
+            "gear/812.stp",
+            "bracket/727.stp"
+          ],
+          "neighbor_classes": [
+            "bracket",
+            "gear",
+            "bracket",
+            "gear",
+            "bracket"
+          ]
+        },
+        {
+          "uid": "pulley/423.stp",
+          "true_class": "pulley",
+          "prediction": "coupling",
+          "votes_for_prediction": 3,
+          "votes_for_truth": 0,
+          "neighbor_uids": [
+            "bracket/866.stp",
+            "coupling/119.stp",
+            "coupling/349.stp",
+            "bracket/569.stp",
+            "coupling/356.stp"
+          ],
+          "neighbor_classes": [
+            "bracket",
+            "coupling",
+            "coupling",
+            "bracket",
+            "coupling"
+          ]
+        },
+        {
+          "uid": "coupling/257.stp",
+          "true_class": "coupling",
+          "prediction": "pulley",
+          "votes_for_prediction": 2,
+          "votes_for_truth": 0,
+          "neighbor_uids": [
+            "pulley/50.stp",
+            "bolt_screw/screw/290.stp",
+            "pulley/54.stp",
+            "nut/476.stp",
+            "shaft/127.stp"
+          ],
+          "neighbor_classes": [
+            "pulley",
+            "bolt_screw",
+            "pulley",
+            "nut",
+            "shaft"
+          ]
+        }
+      ]
+    },
+    "brepnet_official_tmcad": {
+      "test_macro_f1": 0.7055360905706302,
+      "cases": [
+        {
+          "uid": "bearing/55.stp",
+          "true_class": "bearing",
+          "prediction": "bearing",
+          "votes_for_prediction": 1,
+          "votes_for_truth": 1,
+          "neighbor_uids": [
+            "pulley/72.stp",
+            "nut/540.stp",
+            "shaft/260.stp",
+            "bearing/35.stp",
+            "coupling/379.stp"
+          ],
+          "neighbor_classes": [
+            "pulley",
+            "nut",
+            "shaft",
+            "bearing",
+            "coupling"
+          ]
+        },
+        {
+          "uid": "pulley/423.stp",
+          "true_class": "pulley",
+          "prediction": "flange",
+          "votes_for_prediction": 5,
+          "votes_for_truth": 0,
+          "neighbor_uids": [
+            "flange/119.stp",
+            "flange/116.stp",
+            "flange/440.stp",
+            "flange/30.stp",
+            "flange/45.stp"
+          ],
+          "neighbor_classes": [
+            "flange",
+            "flange",
+            "flange",
+            "flange",
+            "flange"
+          ]
+        },
+        {
+          "uid": "coupling/257.stp",
+          "true_class": "coupling",
+          "prediction": "bolt_screw",
+          "votes_for_prediction": 2,
+          "votes_for_truth": 1,
+          "neighbor_uids": [
+            "coupling/364.stp",
+            "bracket/471.stp",
+            "bolt_screw/bolt/501.stp",
+            "bolt_screw/screw/298.stp",
+            "bracket/625.stp"
+          ],
+          "neighbor_classes": [
+            "coupling",
+            "bracket",
+            "bolt_screw",
+            "bolt_screw",
+            "bracket"
+          ]
+        }
+      ]
+    }
+  }
+}

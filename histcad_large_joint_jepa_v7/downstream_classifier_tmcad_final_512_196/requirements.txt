@@ -1,0 +1,7 @@
+numpy
+torch
+PyYAML
+scikit-learn
+matplotlib
+Pillow
+cadquery-ocp

@@ -1,0 +1,10 @@
+{
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "preprocess": "strip_dimensions_v1",
+  "text_field": "Functional Type",
+  "train_val_nonempty": 154029,
+  "train_val_total": 154045,
+  "unique_texts": 62129,
+  "test_text_encoded": false,
+  "jepa_encoder_frozen": true
+}

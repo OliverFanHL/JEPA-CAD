@@ -1,0 +1,54 @@
+seed: 97
+paths:
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  tmcad_processed: ../downstream_classifier_tmcad/data/processed
+  feature_cache: ../downstream_classifier_tmcad_brep_views/data/processed
+  geometry_cache: ../downstream_classifier_tmcad_geometry/data/processed
+  mesh_cache: data/processed
+  output: outputs/default
+
+alternative:
+  selection: geometry_balanced_v1
+  max_step_instances: 256
+
+mesh:
+  relative_deflection: 0.01
+  max_triangles_per_part: 150000
+  max_failure_fraction: 0.10
+  progress_every: 100
+
+classifier:
+  # Both arms retain identical JEPA and 37-D geometry inputs. The second arm
+  # adds only a small linear readout of the actual STEP surface profile.
+  models: [pooled_plus_brep_view_geometry, pooled_plus_brep_view_geometry_mesh]
+  attention_heads: 8
+  hidden_width: 256
+  dropout: 0.25
+  batch_size: 48
+  num_workers: 0
+  epochs: 50
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  weight_decay: 0.0001
+  label_smoothing: 0.02
+  patience: 8
+  min_epochs: 8
+  gradient_clip: 1.0
+  device: auto
+
+# Post-hoc decision-boundary diagnostic; selected on validation only.
+# The JEPA encoder and downstream classifier weights remain unchanged.
+calibration:
+  class: pulley
+  max_logit_bias: 1.5
+  steps: 31
+  minimum_val_macro_f1_gain: 0.003
+
+# Read-only diagnostic. Uses validation queries and training-set neighbors;
+# neither labels nor test cases are used to fit or select a new model.
+hard_class_audit:
+  focus_classes: [coupling, pulley]
+  nearest_train_k: 5
+  error_cases_per_class: 8
+  correct_cases_per_class: 3
+  render_triangle_cap: 6000

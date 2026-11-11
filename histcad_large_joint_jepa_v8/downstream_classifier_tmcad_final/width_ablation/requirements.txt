@@ -1,0 +1,3 @@
+-r ../requirements.txt
+# Actual STEP visualization also needs cadquery-ocp (OCP). Install it in the
+# active CAD environment if not already present; it is not used for training.

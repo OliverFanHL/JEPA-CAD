@@ -1,0 +1,38 @@
+seed: 97
+paths:
+  v7_root: ..
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  histcad_graph_cache: ../data/processed/full_paired_graphs_v7.pt
+  tmcad_processed: ../downstream_classifier_tmcad/data/processed
+  feature_cache: data/processed
+  output: outputs/direct_readout
+
+alternative:
+  selection: geometry_balanced_v1
+  max_step_instances: 256
+
+extraction:
+  device: auto
+  graph_batch_size: 8
+  num_workers: 0
+  storage_dtype: float16
+  progress_every: 100
+
+classifier:
+  # The first model reproduces the existing two-view control. The second adds
+  # only a direct linear readout of the same frozen complementary 2048-D view.
+  models: [pooled_plus_brep_view, pooled_plus_brep_view_direct]
+  attention_heads: 8
+  hidden_width: 256
+  dropout: 0.25
+  batch_size: 48
+  num_workers: 0
+  epochs: 50
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  weight_decay: 0.0001
+  label_smoothing: 0.02
+  patience: 8
+  min_epochs: 8
+  gradient_clip: 1.0
+  device: auto

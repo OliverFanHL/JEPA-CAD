@@ -1,0 +1,407 @@
+{
+  "missing_count": 67,
+  "samples": [
+    {
+      "uid": "0005/00055524",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00005944.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00005944.json"
+    },
+    {
+      "uid": "0009/00099749",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00011679.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00011679.json"
+    },
+    {
+      "uid": "0009/00099855",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00011716.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00011716.json"
+    },
+    {
+      "uid": "0010/00102144",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00012205.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00012205.json"
+    },
+    {
+      "uid": "0010/00109041",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00013256.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00013256.json"
+    },
+    {
+      "uid": "0013/00130352",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00016041.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00016041.json"
+    },
+    {
+      "uid": "0013/00135360",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00016825.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00016825.json"
+    },
+    {
+      "uid": "0013/00136937",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00017048.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00017048.json"
+    },
+    {
+      "uid": "0015/00154573",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00019601.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00019601.json"
+    },
+    {
+      "uid": "0015/00158420",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00020057.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00020057.json"
+    },
+    {
+      "uid": "0017/00174113",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00020816.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00020816.json"
+    },
+    {
+      "uid": "0018/00186707",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00022775.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00022775.json"
+    },
+    {
+      "uid": "0019/00192778",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00023616.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00023616.json"
+    },
+    {
+      "uid": "0029/00291287",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00037120.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00037120.json"
+    },
+    {
+      "uid": "0029/00292395",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00037306.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00037306.json"
+    },
+    {
+      "uid": "0029/00295693",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00037773.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00037773.json"
+    },
+    {
+      "uid": "0029/00296831",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00037919.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00037919.json"
+    },
+    {
+      "uid": "0031/00313796",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00041229.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00041229.json"
+    },
+    {
+      "uid": "0031/00315778",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00041527.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00041527.json"
+    },
+    {
+      "uid": "0031/00317829",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00041870.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00041870.json"
+    },
+    {
+      "uid": "0032/00328438",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00043835.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00043835.json"
+    },
+    {
+      "uid": "0034/00345672",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00046355.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00046355.json"
+    },
+    {
+      "uid": "0035/00353155",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00047484.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00047484.json"
+    },
+    {
+      "uid": "0035/00359894",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00048885.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00048885.json"
+    },
+    {
+      "uid": "0036/00368145",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00050308.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00050308.json"
+    },
+    {
+      "uid": "0042/00420928",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00057889.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00057889.json"
+    },
+    {
+      "uid": "0042/00424207",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00058706.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00058706.json"
+    },
+    {
+      "uid": "0044/00440785",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00061397.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00061397.json"
+    },
+    {
+      "uid": "0044/00445534",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00062048.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00062048.json"
+    },
+    {
+      "uid": "0045/00459370",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00063964.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00063964.json"
+    },
+    {
+      "uid": "0046/00469245",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00065512.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00065512.json"
+    },
+    {
+      "uid": "0049/00497432",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00068626.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00068626.json"
+    },
+    {
+      "uid": "0049/00497433",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00068627.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00068627.json"
+    },
+    {
+      "uid": "0049/00497439",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00068632.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00068632.json"
+    },
+    {
+      "uid": "0050/00507853",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00070221.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00070221.json"
+    },
+    {
+      "uid": "0051/00516597",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00071633.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00071633.json"
+    },
+    {
+      "uid": "0054/00544894",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00076371.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00076371.json"
+    },
+    {
+      "uid": "0055/00557881",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00078226.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00078226.json"
+    },
+    {
+      "uid": "0060/00606193",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00085997.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00085997.json"
+    },
+    {
+      "uid": "0063/00630534",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00089877.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00089877.json"
+    },
+    {
+      "uid": "0063/00634411",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00090418.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00090418.json"
+    },
+    {
+      "uid": "0067/00674241",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00094548.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00094548.json"
+    },
+    {
+      "uid": "0069/00696576",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00096449.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00096449.json"
+    },
+    {
+      "uid": "0072/00728674",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00099948.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00099948.json"
+    },
+    {
+      "uid": "0074/00743449",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00102846.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00102846.json"
+    },
+    {
+      "uid": "0077/00772961",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00107555.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00107555.json"
+    },
+    {
+      "uid": "0087/00872963",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00121256.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00121256.json"
+    },
+    {
+      "uid": "0092/00922399",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00128133.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00128133.json"
+    },
+    {
+      "uid": "0096/00966316",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00133915.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00133915.json"
+    },
+    {
+      "uid": "0100/01000261",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00138406.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00138406.json"
+    },
+    {
+      "uid": "0100/01000357",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00138477.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00138477.json"
+    },
+    {
+      "uid": "0100/01000470",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00138561.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00138561.json"
+    },
+    {
+      "uid": "0100/01001989",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00139728.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00139728.json"
+    },
+    {
+      "uid": "0100/01002232",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00139927.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00139927.json"
+    },
+    {
+      "uid": "0100/01002654",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00140251.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00140251.json"
+    },
+    {
+      "uid": "0100/01003203",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00140656.embeddings",
+      "preprocessing_error": "ValueError: invalid null reference in method 'TopExp_Explorer_Init', argument 2 of type 'TopoDS_Shape const &'",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00140656.json"
+    },
+    {
+      "uid": "0100/01005102",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00142114.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00142114.json"
+    },
+    {
+      "uid": "0100/01005582",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00142486.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00142486.json"
+    },
+    {
+      "uid": "0100/01007298",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00143828.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00143828.json"
+    },
+    {
+      "uid": "0100/01007303",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00143832.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00143832.json"
+    },
+    {
+      "uid": "0100/01008100",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00144449.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00144449.json"
+    },
+    {
+      "uid": "0100/01008260",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00144571.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00144571.json"
+    },
+    {
+      "uid": "0100/01005116",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00153820.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00153820.json"
+    },
+    {
+      "uid": "0011/00114766",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00154880.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00154880.json"
+    },
+    {
+      "uid": "0017/00178377",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00155318.embeddings",
+      "preprocessing_error": "ValueError: Repeated coedge in multiple loops",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00155318.json"
+    },
+    {
+      "uid": "0100/01005050",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00161919.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00161919.json"
+    },
+    {
+      "uid": "0100/01007380",
+      "expected": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\embeddings\\00162014.embeddings",
+      "preprocessing_error": "ValueError: Open body",
+      "failure_record": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\work\\brepnet\\histcad\\steps\\temp_working\\preprocessing_failures\\00162014.json"
+    }
+  ]
+}

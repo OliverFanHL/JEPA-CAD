@@ -1,0 +1,441 @@
+{
+  "selected": 4,
+  "rendered": 4,
+  "files": {
+    "0082/00825647": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0082\\00825647.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0082__00825647.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        0.0,
+        0.0,
+        -38.0,
+        38.4598,
+        15.186399999999999,
+        0.0
+      ],
+      "status": "valid"
+    },
+    "0049/00496693": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0049\\00496693.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0049__00496693.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        0.0,
+        -12.7,
+        -20.5612,
+        21.418,
+        12.7,
+        0.0
+      ],
+      "status": "valid"
+    },
+    "0034/00346920": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0034\\00346920.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0034__00346920.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -24.643,
+        -12.7,
+        -8.7154,
+        24.643,
+        12.7,
+        8.7154
+      ],
+      "status": "valid"
+    },
+    "0050/00507631": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0050\\00507631.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0050__00507631.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -24.0467,
+        -12.7,
+        -24.0467,
+        24.0467,
+        12.7,
+        24.0467
+      ],
+      "status": "valid"
+    },
+    "0050/00508060": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0050\\00508060.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0050__00508060.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -12.8249,
+        -12.7,
+        -25.212600000000002,
+        12.8249,
+        12.7,
+        23.463800000000003
+      ],
+      "status": "valid"
+    },
+    "0029/00297714": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00297714.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0029__00297714.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -3.175,
+        -25.4,
+        -12.7,
+        3.175,
+        0.0,
+        12.7
+      ],
+      "status": "valid"
+    },
+    "0083/00832518": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0083\\00832518.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0083__00832518.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -50.0,
+        -50.0,
+        0.0,
+        50.0,
+        50.0,
+        100.0
+      ],
+      "status": "valid"
+    },
+    "0029/00295753": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00295753.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0029__00295753.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -114.04860000000001,
+        -52.2324,
+        0.0,
+        75.9514,
+        32.7676,
+        80.0
+      ],
+      "status": "valid"
+    },
+    "0019/00195835": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0019\\00195835.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0019__00195835.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -63.5,
+        -38.1,
+        0.0,
+        63.5,
+        38.1,
+        81.28
+      ],
+      "status": "valid"
+    },
+    "0087/00872396": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0087\\00872396.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0087__00872396.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -62.0,
+        -32.0,
+        0.0,
+        62.0,
+        32.0,
+        124.0
+      ],
+      "status": "valid"
+    },
+    "0092/00927701": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0092\\00927701.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0092__00927701.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -101.6,
+        0.0,
+        0.0,
+        0.0,
+        50.8,
+        101.6
+      ],
+      "status": "valid"
+    },
+    "0083/00838853": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0083\\00838853.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0083__00838853.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -50.0,
+        -50.0,
+        0.0,
+        50.0,
+        50.0,
+        100.0
+      ],
+      "status": "valid"
+    },
+    "0082/00829447": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0082\\00829447.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0082__00829447.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -222.5,
+        -100.0,
+        0.0,
+        222.5,
+        100.0,
+        3.0
+      ],
+      "status": "valid"
+    },
+    "0029/00291544": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00291544.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0029__00291544.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -100.0,
+        -76.5,
+        -1.5,
+        100.0,
+        76.5,
+        1.5
+      ],
+      "status": "valid"
+    },
+    "0029/00299092": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00299092.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0029__00299092.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -203.2,
+        -127.0,
+        -1.5875,
+        203.2,
+        127.0,
+        1.5875
+      ],
+      "status": "valid"
+    },
+    "0077/00774950": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0077\\00774950.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0077__00774950.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -150.0,
+        -100.0,
+        0.0,
+        150.0,
+        100.0,
+        5.0
+      ],
+      "status": "valid"
+    },
+    "0006/00063293": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0006\\00063293.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0006__00063293.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -76.2,
+        -1.5875,
+        -114.3,
+        76.2,
+        1.5875,
+        114.3
+      ],
+      "status": "valid"
+    },
+    "0088/00888673": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0088\\00888673.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0088__00888673.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -460.0,
+        -210.0,
+        -6.0,
+        460.0,
+        210.0,
+        6.0
+      ],
+      "status": "valid"
+    },
+    "0006/00063297": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0006\\00063297.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0006__00063297.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -152.4,
+        -1.5875,
+        -76.2,
+        152.4,
+        1.5875,
+        76.2
+      ],
+      "status": "valid"
+    },
+    "0013/00134794": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0013\\00134794.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0013__00134794.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -273.05,
+        -152.4,
+        -3.175,
+        273.05,
+        152.4,
+        3.175
+      ],
+      "status": "valid"
+    },
+    "0037/00375868": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0037\\00375868.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0037__00375868.png",
+      "triangles": 40,
+      "topological_edges_rendered": 66,
+      "bounds": [
+        -72.5774,
+        -77.5057,
+        0.0,
+        73.66,
+        76.3933,
+        76.2208
+      ],
+      "status": "valid"
+    },
+    "0033/00336411": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0033\\00336411.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0033__00336411.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -53.7667,
+        -116.543,
+        -41.4663,
+        0.0,
+        0.0,
+        58.3014
+      ],
+      "status": "valid"
+    },
+    "0006/00064779": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0006\\00064779.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0006__00064779.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -76.2,
+        -42.0053,
+        -35.0632,
+        76.2,
+        38.4754,
+        26.8269
+      ],
+      "status": "valid"
+    },
+    "0061/00616992": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0061\\00616992.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0061__00616992.png",
+      "triangles": 40,
+      "topological_edges_rendered": 68,
+      "bounds": [
+        -46.0416,
+        -50.8,
+        -96.5068,
+        55.6621,
+        50.8,
+        55.9755
+      ],
+      "status": "valid"
+    },
+    "0051/00517381": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0051\\00517381.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0051__00517381.png",
+      "triangles": 16,
+      "topological_edges_rendered": 32,
+      "bounds": [
+        -71.57520000000001,
+        -106.426,
+        -39.523000000000025,
+        75.43110000000001,
+        0.0,
+        55.669600000000095
+      ],
+      "status": "valid"
+    },
+    "0045/00457560": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0045\\00457560.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0045__00457560.png",
+      "triangles": 20,
+      "topological_edges_rendered": 36,
+      "bounds": [
+        0.0,
+        -50.8,
+        0.0,
+        50.8,
+        0.0,
+        50.8
+      ],
+      "status": "valid"
+    },
+    "0042/00422278": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0042\\00422278.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0042__00422278.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -40.6733,
+        -25.4,
+        -10.6935,
+        10.311500000000002,
+        25.4,
+        40.1005
+      ],
+      "status": "valid"
+    },
+    "0003/00037135": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0003\\00037135.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0003__00037135.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        0.0,
+        -54.3081,
+        -62.0041,
+        101.6,
+        17.4251,
+        57.3574
+      ],
+      "status": "valid"
+    },
+    "0044/00448123": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0044\\00448123.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\rendered_parts\\0044__00448123.png",
+      "triangles": 32,
+      "topological_edges_rendered": 58,
+      "bounds": [
+        -41.592,
+        -88.9,
+        -36.8477,
+        48.0122,
+        88.9,
+        37.4038
+      ],
+      "status": "valid"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+representation,family,frozen_probe_test_macro_f1,adapter_test_macro_f1,adapter_validation_macro_f1,adapter_trainable_parameters
+jepa_step_tmcad,jepa,0.45611344126669184,0.7516559937619318,0.7557603103533443,68874
+autoencoder_step_tmcad,autoencoder,0.30833363856683726,0.548850509826346,0.4992416522504034,68874
+contrastive_step_tmcad,contrastive_same_encoder,0.15349086526921177,0.24995873067293664,0.2606907340301047,68874
+random_step_tmcad,no_pretraining,0.26964881740264673,0.4151952201404262,0.44523755728996095,68874
+brepnet_official_tmcad,external_brepnet,0.4138737628383282,0.736076510497144,0.730581719635282,68874

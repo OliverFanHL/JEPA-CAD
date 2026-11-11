@@ -1,0 +1,50 @@
+seed: 97
+device: auto
+paths:
+  # Read-only upstream TMCAD split and frozen v7 STEP features.
+  manifest: ../downstream_classifier_tmcad/data/processed/manifest.json
+  frozen_views: ../downstream_classifier_tmcad_brep_views/data/processed
+  geometry_cache: ../downstream_classifier_tmcad_geometry/data/processed/geometry.npy
+  geometry_metadata: ../downstream_classifier_tmcad_geometry/data/processed/geometry_metadata.json
+  mesh_cache: ../downstream_classifier_tmcad_mesh/data/processed/mesh_profile.npy
+  mesh_metadata: ../downstream_classifier_tmcad_mesh/data/processed/mesh_profile_metadata.json
+  output: outputs/default
+
+classifier:
+  # 2048 original frozen STEP + 4*512 complementary summaries = 4096.
+  hidden_width: 256
+  attention_heads: 8
+  dropout: 0.25
+  epochs: 50
+  batch_size: 48
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  weight_decay: 0.0001
+  label_smoothing: 0.02
+  gradient_clip: 1.0
+  patience: 8
+  min_epochs: 8
+
+adapter:
+  # True physical input is 37+84=121 measured STEP fields, not 196.
+  physical_width: 96
+  fusion_width: 96
+  dropout: 0.25
+  epochs: 32
+  batch_size: 96
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.00003
+  weight_decay: 0.001
+  residual_l2: 0.01
+  label_smoothing: 0.02
+  gradient_clip: 1.0
+  patience: 7
+  min_epochs: 8
+  minimum_validation_macro_f1_gain: 0.003
+
+qualitative:
+  # Rendering affects only display; it does not alter features or metrics.
+  cases_per_class_outcome: 1
+  image_size: 300
+  max_render_triangles: 12000
+  max_render_edges: 200

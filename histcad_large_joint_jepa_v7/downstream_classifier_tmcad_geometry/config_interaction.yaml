@@ -1,0 +1,31 @@
+seed: 97
+paths:
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  tmcad_processed: ../downstream_classifier_tmcad/data/processed
+  feature_cache: ../downstream_classifier_tmcad_brep_views/data/processed
+  geometry_cache: data/processed
+  output: outputs/interaction
+
+alternative:
+  selection: geometry_balanced_v1
+  max_step_instances: 256
+
+classifier:
+  # The second arm adds only a rank-16 JEPA × geometry interaction to the
+  # existing linear geometry readout. Keep all optimization settings matched.
+  models: [pooled_plus_brep_view_geometry, pooled_plus_brep_view_geometry_interaction]
+  interaction_rank: 16
+  attention_heads: 8
+  hidden_width: 256
+  dropout: 0.25
+  batch_size: 48
+  num_workers: 0
+  epochs: 50
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  weight_decay: 0.0001
+  label_smoothing: 0.02
+  patience: 8
+  min_epochs: 8
+  gradient_clip: 1.0
+  device: auto

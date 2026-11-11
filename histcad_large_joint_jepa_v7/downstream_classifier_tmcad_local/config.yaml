@@ -1,0 +1,32 @@
+seed: 97
+paths:
+  v7_root: ..
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  histcad_graph_cache: ../data/processed/full_paired_graphs_v7.pt
+  tmcad_processed: ../downstream_classifier_tmcad/data/processed
+  feature_cache: data/processed
+  output: outputs/default
+
+extraction:
+  device: auto
+  graph_batch_size: 8
+  num_workers: 8
+  storage_dtype: float16  # float32 is supported; width and node count never change
+  progress_every: 100
+
+classifier:
+  models: [pooled_fullwidth, pooled_plus_local]
+  attention_heads: 8
+  hidden_width: 256
+  dropout: 0.25
+  batch_size: 48
+  num_workers: 0
+  epochs: 50
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  weight_decay: 0.0001
+  label_smoothing: 0.02
+  patience: 8
+  min_epochs: 8
+  gradient_clip: 1.0
+  device: auto

@@ -1,0 +1,7 @@
+numpy
+PyYAML
+scikit-learn
+torch
+matplotlib
+Pillow
+# Optional for STEP rendering: cadquery-ocp (provides OCP)

@@ -1,0 +1,7 @@
+{
+  "best_epoch": 28,
+  "best_validation_macro_f1": 0.887149425745713,
+  "baseline_validation_macro_f1": 0.857505665866789,
+  "completed_epochs": 32,
+  "test_used": false
+}

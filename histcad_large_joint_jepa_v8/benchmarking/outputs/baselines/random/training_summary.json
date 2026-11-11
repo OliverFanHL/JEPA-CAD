@@ -1,0 +1,9 @@
+{
+  "method": "random_same_architecture",
+  "trainable_parameters": 62695840,
+  "epochs_completed": 0,
+  "optimizer_steps": 0,
+  "measured_training_seconds": null,
+  "monitoring_log": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\outputs\\baselines\\random\\progress.jsonl",
+  "history": []
+}

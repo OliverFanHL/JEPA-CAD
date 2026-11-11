@@ -1,0 +1,104 @@
+{
+  "sources": {
+    "inputs": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\data\\processed\\test_frozen_inputs.npz",
+    "checkpoint": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\outputs\\default\\physical_residual\\best.pt",
+    "predictions": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\outputs\\default\\test_predictions.csv"
+  },
+  "metrics": {
+    "baseline": {
+      "accuracy": 0.886039886039886,
+      "macro_f1": 0.8656613661133165,
+      "prediction_changed": 83
+    },
+    "full": {
+      "accuracy": 0.9202279202279202,
+      "macro_f1": 0.9105947179250293,
+      "prediction_changed": 0
+    },
+    "geometry_masked": {
+      "accuracy": 0.9152421652421653,
+      "macro_f1": 0.9014072584059244,
+      "prediction_changed": 39
+    },
+    "surface_masked": {
+      "accuracy": 0.8931623931623932,
+      "macro_f1": 0.8751200991706172,
+      "prediction_changed": 62
+    },
+    "both_masked": {
+      "accuracy": 0.8853276353276354,
+      "macro_f1": 0.8650481481182378,
+      "prediction_changed": 84
+    }
+  },
+  "group_margin_effects": {
+    "geometry": {
+      "correct": {
+        "n": 1292,
+        "median": 0.05241131782531738,
+        "q25": -0.26300108432769775,
+        "q75": 0.32486116886138916,
+        "mean": 0.01512247882783413,
+        "positive_fraction": 0.5410216718266254
+      },
+      "incorrect": {
+        "n": 112,
+        "median": 0.03230249881744385,
+        "q25": -0.21473485231399536,
+        "q75": 0.3290441632270813,
+        "mean": 0.09720095247030258,
+        "positive_fraction": 0.5446428571428571
+      }
+    },
+    "surface_profile": {
+      "correct": {
+        "n": 1292,
+        "median": 0.23526692390441895,
+        "q25": -0.3347250819206238,
+        "q75": 0.8490126132965088,
+        "mean": 0.2976326048374176,
+        "positive_fraction": 0.6261609907120743
+      },
+      "incorrect": {
+        "n": 112,
+        "median": 0.23974108695983887,
+        "q25": -0.27203524112701416,
+        "q75": 0.7709592580795288,
+        "mean": 0.2634427845478058,
+        "positive_fraction": 0.6160714285714286
+      }
+    }
+  },
+  "cases": [
+    {
+      "uid": "coupling/337.stp",
+      "truth": "coupling",
+      "competitor": "gear",
+      "baseline_margin": -0.2721400260925293,
+      "residual_margin": 4.184442043304443,
+      "full_margin": 3.912301778793335,
+      "geometry_masked_margin": 3.8687357902526855,
+      "surface_masked_margin": -0.45006775856018066
+    },
+    {
+      "uid": "pulley/530.stp",
+      "truth": "pulley",
+      "competitor": "gear",
+      "baseline_margin": -1.3079948425292969,
+      "residual_margin": 3.8861498832702637,
+      "full_margin": 2.578155279159546,
+      "geometry_masked_margin": 1.7060866355895996,
+      "surface_masked_margin": -1.015000820159912
+    },
+    {
+      "uid": "coupling/257.stp",
+      "truth": "coupling",
+      "competitor": "flange",
+      "baseline_margin": -1.2608823776245117,
+      "residual_margin": -0.6892189979553223,
+      "full_margin": -1.950101375579834,
+      "geometry_masked_margin": -1.9102489948272705,
+      "surface_masked_margin": -1.4487996101379395
+    }
+  ]
+}

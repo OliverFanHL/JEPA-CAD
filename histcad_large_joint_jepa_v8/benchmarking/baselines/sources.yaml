@@ -1,0 +1,70 @@
+sources:
+  brep2shape:
+    verified_on: 2026-09-22
+    repository: https://github.com/thuml/Brep2Shape
+    implementation_status: official
+    checkpoint_status: author_linked_pretrained_checkpoint
+    license: verify_at_pinned_revision
+    limitation: no released raw-STEP to Bezier/DGL preprocessing pipeline located
+    include_as: candidate_not_active
+  uvstyle_net:
+    verified_on: 2026-09-22
+    repository: https://github.com/AutodeskAILab/UVStyle-Net
+    implementation_status: official
+    checkpoint_status: official_download_script_and_precomputed_grams
+    license: CC-BY-NC-SA-4.0
+    limitation: own-data B-Rep-to-DGL feature pipeline is documented as coming soon
+    include_as: candidate_not_active
+  brepnet:
+    verified_on: 2026-09-22
+    repository: https://github.com/AutodeskAILab/BRepNet
+    implementation_status: official
+    checkpoint_status: available_in_repository
+    checkpoint: example_files/pretrained_models/pretrained_s2.0.0_step_all_features_0519_073100.ckpt
+    license: CC-BY-NC-SA-4.0
+    limitation: segmentation-pretrained checkpoint; non-commercial share-alike license
+    include_as: active_external_supervised_transfer
+  deepcad:
+    verified_on: 2026-09-22
+    repository: https://github.com/rundiwu/DeepCAD
+    implementation_status: official
+    checkpoint_status: author_download_available
+    license: MIT
+    limitation: command-sequence inputs only; report a separate compatible shared subset
+    include_as: optional_external_pretrained_shared_subset
+  uvnet:
+    verified_on: 2026-09-22
+    repository: https://github.com/AutodeskAILab/UV-Net
+    releases: https://github.com/AutodeskAILab/UV-Net/releases
+    implementation_status: official
+    checkpoint_status: none_located
+    license: MIT
+    include_as: optional_train_from_scratch_architecture_control
+  gc_cad:
+    verified_on: 2026-09-22
+    paper: https://arxiv.org/abs/2406.08863
+    implementation_status: no_author_code_located
+    checkpoint_status: none_located
+    include_as: external_import_slot_only
+  ss_cad_cvpr2023:
+    verified_on: 2026-09-22
+    paper: https://openaccess.thecvf.com/content/CVPR2023/html/Jones_Self-Supervised_Representation_Learning_for_CAD_CVPR_2023_paper.html
+    implementation_status: no_author_code_located
+    checkpoint_status: none_located
+    include_as: excluded_until_reproducible
+  dualbrep:
+    verified_on: 2026-09-22
+    repository: https://github.com/AutodeskAILab/DualBrep
+    implementation_status: official_inference_pipeline
+    checkpoint_status: author_hosted_vae_checkpoints
+    license: verify_at_pinned_revision
+    limitation: raw STEP path requires a costly C++ Voronoi pipeline and sampled implicit fields; not a graph-representation peer
+    include_as: secondary_candidate_not_active
+  autobrep:
+    verified_on: 2026-09-22
+    repository: https://github.com/AutodeskAILab/AutoBrep
+    implementation_status: official
+    checkpoint_status: author_hosted_pretrained_checkpoints
+    license: MIT
+    limitation: decoder-only generative model without a documented canonical solid embedding
+    include_as: excluded_from_main_representation_table

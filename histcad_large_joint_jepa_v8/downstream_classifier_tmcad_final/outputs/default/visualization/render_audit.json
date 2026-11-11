@@ -1,0 +1,1275 @@
+{
+  "source": "Held-out TMCAD test; actual imported STEP solids",
+  "requested": 33,
+  "valid": 33,
+  "invalid": 0,
+  "cases": [
+    {
+      "uid": "bearing/28.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bearing\\28.stp",
+      "true_class": "bearing",
+      "baseline_prediction": "gear",
+      "final_prediction": "bearing",
+      "baseline_confidence": 0.7681480050086975,
+      "final_confidence": 0.49555879831314087,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\ff99db9773a4a7a0_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\ff99db9773a4a7a0_view2.png"
+      ],
+      "bounds": [
+        -25.60000010000027,
+        -180.4,
+        -180.4,
+        25.600000100000265,
+        180.4,
+        180.4
+      ],
+      "triangles_in_step_tessellation": 17538,
+      "triangles_rendered": 12000,
+      "topological_edges": 1168,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\ff99db9773a4a7a0.png"
+    },
+    {
+      "uid": "bearing/592.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bearing\\592.stp",
+      "true_class": "bearing",
+      "baseline_prediction": "bracket",
+      "final_prediction": "bracket",
+      "baseline_confidence": 0.9411146640777588,
+      "final_confidence": 0.9316194653511047,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\062fa6724a64ab4a_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\062fa6724a64ab4a_view2.png"
+      ],
+      "bounds": [
+        -17.000000000000004,
+        -11.000000000000005,
+        -15.0,
+        17.00000000000001,
+        11.000000000000009,
+        15.0
+      ],
+      "triangles_in_step_tessellation": 1088,
+      "triangles_rendered": 1088,
+      "topological_edges": 180,
+      "edges_rendered": 180,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\062fa6724a64ab4a.png"
+    },
+    {
+      "uid": "bearing/769.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bearing\\769.stp",
+      "true_class": "bearing",
+      "baseline_prediction": "bearing",
+      "final_prediction": "bearing",
+      "baseline_confidence": 0.9987626075744629,
+      "final_confidence": 0.9996558427810669,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\b10e2f2c5fca4ba8_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\b10e2f2c5fca4ba8_view2.png"
+      ],
+      "bounds": [
+        0.0,
+        -9.5,
+        -9.5,
+        5.0,
+        9.5,
+        9.500000000000007
+      ],
+      "triangles_in_step_tessellation": 11376,
+      "triangles_rendered": 11376,
+      "topological_edges": 144,
+      "edges_rendered": 144,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\b10e2f2c5fca4ba8.png"
+    },
+    {
+      "uid": "bolt_screw/screw/331.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bolt_screw\\screw\\331.stp",
+      "true_class": "bolt_screw",
+      "baseline_prediction": "nut",
+      "final_prediction": "bolt_screw",
+      "baseline_confidence": 0.7312304377555847,
+      "final_confidence": 0.7732926607131958,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\a78a301fb40874ca_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\a78a301fb40874ca_view2.png"
+      ],
+      "bounds": [
+        -3.000000099999993,
+        -1.0000000437988776e-07,
+        -10.0000001,
+        3.000000099999993,
+        6.0000000999999905,
+        6.1756155744774214e-15
+      ],
+      "triangles_in_step_tessellation": 2992,
+      "triangles_rendered": 2992,
+      "topological_edges": 182,
+      "edges_rendered": 182,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\a78a301fb40874ca.png"
+    },
+    {
+      "uid": "bolt_screw/bolt/809.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bolt_screw\\bolt\\809.stp",
+      "true_class": "bolt_screw",
+      "baseline_prediction": "bolt_screw",
+      "final_prediction": "nut",
+      "baseline_confidence": 0.5300314426422119,
+      "final_confidence": 0.5931816101074219,
+      "outcome": "worsened",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\907a0c537e393264_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\907a0c537e393264_view2.png"
+      ],
+      "bounds": [
+        -1.0000001007862332e-07,
+        -8.0000001,
+        -7.99938276900029,
+        13.500000100000001,
+        8.00222715570893,
+        7.99938276900097
+      ],
+      "triangles_in_step_tessellation": 14869,
+      "triangles_rendered": 12000,
+      "topological_edges": 2944,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\907a0c537e393264.png"
+    },
+    {
+      "uid": "bolt_screw/bolt/763.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bolt_screw\\bolt\\763.stp",
+      "true_class": "bolt_screw",
+      "baseline_prediction": "gear",
+      "final_prediction": "gear",
+      "baseline_confidence": 0.9449562430381775,
+      "final_confidence": 0.771401047706604,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\22248f7db744a0cd_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\22248f7db744a0cd_view2.png"
+      ],
+      "bounds": [
+        -9.525000100000002,
+        -9.52500009999999,
+        -9.5250001,
+        9.52500010000001,
+        9.525000100000048,
+        25.400000100000003
+      ],
+      "triangles_in_step_tessellation": 23496,
+      "triangles_rendered": 12000,
+      "topological_edges": 12382,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\22248f7db744a0cd.png"
+    },
+    {
+      "uid": "bolt_screw/bolt/80.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bolt_screw\\bolt\\80.stp",
+      "true_class": "bolt_screw",
+      "baseline_prediction": "bolt_screw",
+      "final_prediction": "bolt_screw",
+      "baseline_confidence": 0.9989976286888123,
+      "final_confidence": 0.9956309795379639,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\8f9d8d945bc602c4_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\8f9d8d945bc602c4_view2.png"
+      ],
+      "bounds": [
+        0.0,
+        -8.0,
+        -8.0,
+        99.99999999999999,
+        8.0,
+        8.0
+      ],
+      "triangles_in_step_tessellation": 1816,
+      "triangles_rendered": 1816,
+      "topological_edges": 114,
+      "edges_rendered": 114,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\8f9d8d945bc602c4.png"
+    },
+    {
+      "uid": "bracket/1052.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bracket\\1052.stp",
+      "true_class": "bracket",
+      "baseline_prediction": "shaft",
+      "final_prediction": "bracket",
+      "baseline_confidence": 0.3854005038738251,
+      "final_confidence": 0.7668002247810364,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\a75389f9da15b75b_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\a75389f9da15b75b_view2.png"
+      ],
+      "bounds": [
+        -6.0720000999999995,
+        -16.177132684175483,
+        -16.347992181094103,
+        115.57000000000001,
+        65.4043828598657,
+        16.347992181094106
+      ],
+      "triangles_in_step_tessellation": 4512,
+      "triangles_rendered": 4512,
+      "topological_edges": 536,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\a75389f9da15b75b.png"
+    },
+    {
+      "uid": "bracket/313.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bracket\\313.stp",
+      "true_class": "bracket",
+      "baseline_prediction": "spring",
+      "final_prediction": "spring",
+      "baseline_confidence": 0.8579629063606262,
+      "final_confidence": 0.6419792771339417,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\778acba6e26d0763_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\778acba6e26d0763_view2.png"
+      ],
+      "bounds": [
+        4077.5011121607076,
+        405.8741799,
+        1250.6999997138525,
+        4165.077100210122,
+        515.2173501,
+        1266.6545006400006
+      ],
+      "triangles_in_step_tessellation": 878,
+      "triangles_rendered": 878,
+      "topological_edges": 148,
+      "edges_rendered": 148,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\778acba6e26d0763.png"
+    },
+    {
+      "uid": "bracket/289.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\bracket\\289.stp",
+      "true_class": "bracket",
+      "baseline_prediction": "bracket",
+      "final_prediction": "bracket",
+      "baseline_confidence": 0.9999368190765381,
+      "final_confidence": 0.9999656081199646,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\f5c79af59ec8437f_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\f5c79af59ec8437f_view2.png"
+      ],
+      "bounds": [
+        -1.2,
+        -61.213203435596384,
+        -17.450000000000045,
+        21.213203435596476,
+        40.0,
+        17.450000000000045
+      ],
+      "triangles_in_step_tessellation": 416,
+      "triangles_rendered": 416,
+      "topological_edges": 164,
+      "edges_rendered": 164,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\f5c79af59ec8437f.png"
+    },
+    {
+      "uid": "coupling/337.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\337.stp",
+      "true_class": "coupling",
+      "baseline_prediction": "gear",
+      "final_prediction": "coupling",
+      "baseline_confidence": 0.3401784598827362,
+      "final_confidence": 0.890823483467102,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\e42fcb5b3da05f5a_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\e42fcb5b3da05f5a_view2.png"
+      ],
+      "bounds": [
+        -12.700000100000004,
+        -12.700000106353269,
+        -22.8600001,
+        12.700000100000002,
+        12.700000106353272,
+        8.890000102761896
+      ],
+      "triangles_in_step_tessellation": 7360,
+      "triangles_rendered": 7360,
+      "topological_edges": 800,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\e42fcb5b3da05f5a.png"
+    },
+    {
+      "uid": "coupling/5.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\5.stp",
+      "true_class": "coupling",
+      "baseline_prediction": "flange",
+      "final_prediction": "flange",
+      "baseline_confidence": 0.759269654750824,
+      "final_confidence": 0.7808725237846375,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\310c328b48a1a81d_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\310c328b48a1a81d_view2.png"
+      ],
+      "bounds": [
+        -32.481129512410696,
+        -138.8055291619637,
+        -110.0000001,
+        172.51887068758973,
+        81.19447056108073,
+        110.0000001
+      ],
+      "triangles_in_step_tessellation": 18430,
+      "triangles_rendered": 12000,
+      "topological_edges": 1924,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\310c328b48a1a81d.png"
+    },
+    {
+      "uid": "coupling/107.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\107.stp",
+      "true_class": "coupling",
+      "baseline_prediction": "coupling",
+      "final_prediction": "coupling",
+      "baseline_confidence": 0.9937615990638733,
+      "final_confidence": 0.9993066787719727,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\111d5443f289b10a_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\111d5443f289b10a_view2.png"
+      ],
+      "bounds": [
+        -84.5000001,
+        -85.0000001,
+        -85.0000001,
+        84.5000001,
+        85.0000001,
+        85.0000001
+      ],
+      "triangles_in_step_tessellation": 38464,
+      "triangles_rendered": 12000,
+      "topological_edges": 2150,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\111d5443f289b10a.png"
+    },
+    {
+      "uid": "flange/826.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\flange\\826.stp",
+      "true_class": "flange",
+      "baseline_prediction": "gear",
+      "final_prediction": "flange",
+      "baseline_confidence": 0.33458778262138367,
+      "final_confidence": 0.4849504828453064,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\0085dd8512107ace_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\0085dd8512107ace_view2.png"
+      ],
+      "bounds": [
+        -76.1500001,
+        -3.3306690738754696e-16,
+        -76.1500001,
+        76.1500001,
+        19.800000100000023,
+        76.15000010196019
+      ],
+      "triangles_in_step_tessellation": 6752,
+      "triangles_rendered": 6752,
+      "topological_edges": 1294,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\0085dd8512107ace.png"
+    },
+    {
+      "uid": "flange/832.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\flange\\832.stp",
+      "true_class": "flange",
+      "baseline_prediction": "flange",
+      "final_prediction": "pulley",
+      "baseline_confidence": 0.6329087018966675,
+      "final_confidence": 0.3475639522075653,
+      "outcome": "worsened",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\ec59f30b568c632e_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\ec59f30b568c632e_view2.png"
+      ],
+      "bounds": [
+        0.0,
+        -40.0,
+        -40.0,
+        46.2,
+        40.0,
+        40.0
+      ],
+      "triangles_in_step_tessellation": 6358,
+      "triangles_rendered": 6358,
+      "topological_edges": 378,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\ec59f30b568c632e.png"
+    },
+    {
+      "uid": "flange/367.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\flange\\367.stp",
+      "true_class": "flange",
+      "baseline_prediction": "bolt_screw",
+      "final_prediction": "bolt_screw",
+      "baseline_confidence": 0.8511807322502136,
+      "final_confidence": 0.7112160921096802,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\1543d0d1b06be89a_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\1543d0d1b06be89a_view2.png"
+      ],
+      "bounds": [
+        -6.661338147750939e-16,
+        -85.67502006439999,
+        -85.67502006439999,
+        70.485,
+        85.67502006439999,
+        85.67502006439999
+      ],
+      "triangles_in_step_tessellation": 4840,
+      "triangles_rendered": 4840,
+      "topological_edges": 463,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\1543d0d1b06be89a.png"
+    },
+    {
+      "uid": "flange/244.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\flange\\244.stp",
+      "true_class": "flange",
+      "baseline_prediction": "flange",
+      "final_prediction": "flange",
+      "baseline_confidence": 0.999710738658905,
+      "final_confidence": 0.9996430277824402,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\005601fff10917b8_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\005601fff10917b8_view2.png"
+      ],
+      "bounds": [
+        -92.5,
+        -3.0,
+        -92.5,
+        92.5,
+        20.0,
+        92.5
+      ],
+      "triangles_in_step_tessellation": 1616,
+      "triangles_rendered": 1616,
+      "topological_edges": 118,
+      "edges_rendered": 118,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\005601fff10917b8.png"
+    },
+    {
+      "uid": "gear/567.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\gear\\567.stp",
+      "true_class": "gear",
+      "baseline_prediction": "shaft",
+      "final_prediction": "gear",
+      "baseline_confidence": 0.36164966225624084,
+      "final_confidence": 0.7671425938606262,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\076de9cc848f0f01_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\076de9cc848f0f01_view2.png"
+      ],
+      "bounds": [
+        -276.0003597194533,
+        -275.90582810708185,
+        -80.00000000000017,
+        276.0003597194533,
+        275.90582810708185,
+        80.00000000000017
+      ],
+      "triangles_in_step_tessellation": 18868,
+      "triangles_rendered": 12000,
+      "topological_edges": 5668,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\076de9cc848f0f01.png"
+    },
+    {
+      "uid": "gear/585.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\gear\\585.stp",
+      "true_class": "gear",
+      "baseline_prediction": "gear",
+      "final_prediction": "bracket",
+      "baseline_confidence": 0.3841552436351776,
+      "final_confidence": 0.3443980813026428,
+      "outcome": "worsened",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\37e14310824a96b1_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\37e14310824a96b1_view2.png"
+      ],
+      "bounds": [
+        -1e-07,
+        -22.500000100000005,
+        -64.59197587438202,
+        17.00000010000001,
+        68.88335987226864,
+        64.59197587438236
+      ],
+      "triangles_in_step_tessellation": 26456,
+      "triangles_rendered": 12000,
+      "topological_edges": 2852,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\37e14310824a96b1.png"
+    },
+    {
+      "uid": "gear/800.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\gear\\800.stp",
+      "true_class": "gear",
+      "baseline_prediction": "bolt_screw",
+      "final_prediction": "bolt_screw",
+      "baseline_confidence": 0.9670814871788025,
+      "final_confidence": 0.9508968591690063,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\84672d49e8e3e866_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\84672d49e8e3e866_view2.png"
+      ],
+      "bounds": [
+        -1.7500000000000002,
+        -2.03,
+        -2.03,
+        9.5250001,
+        2.03,
+        2.03
+      ],
+      "triangles_in_step_tessellation": 1234,
+      "triangles_rendered": 1234,
+      "topological_edges": 242,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\84672d49e8e3e866.png"
+    },
+    {
+      "uid": "gear/666.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\gear\\666.stp",
+      "true_class": "gear",
+      "baseline_prediction": "gear",
+      "final_prediction": "gear",
+      "baseline_confidence": 0.9989212155342102,
+      "final_confidence": 0.9994933009147644,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\0e8cdb1578cb4ae8_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\0e8cdb1578cb4ae8_view2.png"
+      ],
+      "bounds": [
+        -39.000000099970265,
+        -39.0000000999703,
+        -30.0000001,
+        39.000000099970286,
+        39.00000009997027,
+        30.0000001
+      ],
+      "triangles_in_step_tessellation": 4300,
+      "triangles_rendered": 4300,
+      "topological_edges": 1250,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\0e8cdb1578cb4ae8.png"
+    },
+    {
+      "uid": "nut/7.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\nut\\7.stp",
+      "true_class": "nut",
+      "baseline_prediction": "bolt_screw",
+      "final_prediction": "nut",
+      "baseline_confidence": 0.8386021256446838,
+      "final_confidence": 0.47797513008117676,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\56535cce6e5f573e_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\56535cce6e5f573e_view2.png"
+      ],
+      "bounds": [
+        -8.000000100000003,
+        -9.237604407034015,
+        -4.0000001,
+        8.000000100000003,
+        9.237604407034015,
+        11.5
+      ],
+      "triangles_in_step_tessellation": 5229,
+      "triangles_rendered": 5229,
+      "topological_edges": 490,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\56535cce6e5f573e.png"
+    },
+    {
+      "uid": "nut/665.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\nut\\665.stp",
+      "true_class": "nut",
+      "baseline_prediction": "gear",
+      "final_prediction": "gear",
+      "baseline_confidence": 0.9782506823539734,
+      "final_confidence": 0.963498055934906,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\74edcc0438896ec3_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\74edcc0438896ec3_view2.png"
+      ],
+      "bounds": [
+        -9.999999600319711e-08,
+        -14.748989953180835,
+        -14.750000099999985,
+        11.500000000000014,
+        14.748989953180834,
+        14.750000099999985
+      ],
+      "triangles_in_step_tessellation": 5926,
+      "triangles_rendered": 5926,
+      "topological_edges": 2870,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\74edcc0438896ec3.png"
+    },
+    {
+      "uid": "nut/191.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\nut\\191.stp",
+      "true_class": "nut",
+      "baseline_prediction": "nut",
+      "final_prediction": "nut",
+      "baseline_confidence": 0.9990909695625305,
+      "final_confidence": 0.9983005523681641,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\7fcbb10994c7d77e_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\7fcbb10994c7d77e_view2.png"
+      ],
+      "bounds": [
+        -10.392304945413265,
+        -5.400167902359589,
+        -9.000000100000005,
+        10.392304945413265,
+        5.400167902359589,
+        9.0000001
+      ],
+      "triangles_in_step_tessellation": 1540,
+      "triangles_rendered": 1540,
+      "topological_edges": 120,
+      "edges_rendered": 120,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\7fcbb10994c7d77e.png"
+    },
+    {
+      "uid": "pulley/530.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\pulley\\530.stp",
+      "true_class": "pulley",
+      "baseline_prediction": "gear",
+      "final_prediction": "pulley",
+      "baseline_confidence": 0.6058118343353271,
+      "final_confidence": 0.8887056708335876,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\e5b6ae52821df06e_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\e5b6ae52821df06e_view2.png"
+      ],
+      "bounds": [
+        -22.0000001,
+        -22.0000001,
+        -15.5000001,
+        22.0000001,
+        22.0000001,
+        1.5000001
+      ],
+      "triangles_in_step_tessellation": 17498,
+      "triangles_rendered": 12000,
+      "topological_edges": 2152,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\e5b6ae52821df06e.png"
+    },
+    {
+      "uid": "pulley/457.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\pulley\\457.stp",
+      "true_class": "pulley",
+      "baseline_prediction": "pulley",
+      "final_prediction": "coupling",
+      "baseline_confidence": 0.5015779733657837,
+      "final_confidence": 0.4909447431564331,
+      "outcome": "worsened",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\aa0ba19ea3ddb682_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\aa0ba19ea3ddb682_view2.png"
+      ],
+      "bounds": [
+        -2.527707732518969,
+        -8.12385274661102,
+        -10.332595588998359,
+        162.972292267481,
+        5.87614745338898,
+        7.667404411001645
+      ],
+      "triangles_in_step_tessellation": 128444,
+      "triangles_rendered": 12000,
+      "topological_edges": 9084,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\aa0ba19ea3ddb682.png"
+    },
+    {
+      "uid": "pulley/475.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\pulley\\475.stp",
+      "true_class": "pulley",
+      "baseline_prediction": "bearing",
+      "final_prediction": "bearing",
+      "baseline_confidence": 0.9519863724708557,
+      "final_confidence": 0.9453495144844055,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\1fb051f0c485c359_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\1fb051f0c485c359_view2.png"
+      ],
+      "bounds": [
+        -50.0000001,
+        -50.0000001,
+        -31.5000001,
+        50.0000001,
+        50.0000001,
+        1.5000001
+      ],
+      "triangles_in_step_tessellation": 38540,
+      "triangles_rendered": 12000,
+      "topological_edges": 3252,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\1fb051f0c485c359.png"
+    },
+    {
+      "uid": "pulley/246.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\pulley\\246.stp",
+      "true_class": "pulley",
+      "baseline_prediction": "pulley",
+      "final_prediction": "pulley",
+      "baseline_confidence": 0.9986857175827026,
+      "final_confidence": 0.9958023428916931,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\8efd379c84dccbfe_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\8efd379c84dccbfe_view2.png"
+      ],
+      "bounds": [
+        -90.00000000000001,
+        -90.00000000000001,
+        0.0,
+        90.00000000000001,
+        90.00000000000001,
+        28.0
+      ],
+      "triangles_in_step_tessellation": 864,
+      "triangles_rendered": 864,
+      "topological_edges": 88,
+      "edges_rendered": 88,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\8efd379c84dccbfe.png"
+    },
+    {
+      "uid": "shaft/521.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\shaft\\521.stp",
+      "true_class": "shaft",
+      "baseline_prediction": "flange",
+      "final_prediction": "shaft",
+      "baseline_confidence": 0.4696934223175049,
+      "final_confidence": 0.871555745601654,
+      "outcome": "corrected",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\eb9fc989445d4e53_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\eb9fc989445d4e53_view2.png"
+      ],
+      "bounds": [
+        -8.8,
+        -12.631629056,
+        -80.0,
+        8.8,
+        12.283722997,
+        70.0
+      ],
+      "triangles_in_step_tessellation": 1340,
+      "triangles_rendered": 1340,
+      "topological_edges": 170,
+      "edges_rendered": 170,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\eb9fc989445d4e53.png"
+    },
+    {
+      "uid": "shaft/751.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\shaft\\751.stp",
+      "true_class": "shaft",
+      "baseline_prediction": "gear",
+      "final_prediction": "gear",
+      "baseline_confidence": 0.9884465336799622,
+      "final_confidence": 0.9971656799316406,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\bbd6a334f22c3cac_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\bbd6a334f22c3cac_view2.png"
+      ],
+      "bounds": [
+        -177.0,
+        -39.6875827623221,
+        -39.9544714905021,
+        177.0,
+        39.68758276232207,
+        39.9544714905021
+      ],
+      "triangles_in_step_tessellation": 2700,
+      "triangles_rendered": 2700,
+      "topological_edges": 742,
+      "edges_rendered": 200,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\bbd6a334f22c3cac.png"
+    },
+    {
+      "uid": "shaft/656.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\shaft\\656.stp",
+      "true_class": "shaft",
+      "baseline_prediction": "shaft",
+      "final_prediction": "shaft",
+      "baseline_confidence": 0.9995684027671814,
+      "final_confidence": 0.9997701048851013,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\49d615dd8d2cfca8_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\49d615dd8d2cfca8_view2.png"
+      ],
+      "bounds": [
+        -270.0,
+        0.0,
+        -35.0,
+        270.0,
+        103.510860703,
+        35.0
+      ],
+      "triangles_in_step_tessellation": 336,
+      "triangles_rendered": 336,
+      "topological_edges": 54,
+      "edges_rendered": 54,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\49d615dd8d2cfca8.png"
+    },
+    {
+      "uid": "spring/323.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\spring\\323.stp",
+      "true_class": "spring",
+      "baseline_prediction": "bolt_screw",
+      "final_prediction": "bolt_screw",
+      "baseline_confidence": 0.9161878228187561,
+      "final_confidence": 0.7187319993972778,
+      "outcome": "still_wrong",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\c0ef93c52f3c2fa4_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\c0ef93c52f3c2fa4_view2.png"
+      ],
+      "bounds": [
+        -4.000000100000004,
+        -6.658482438,
+        -11.137499904,
+        4.0156942991009315,
+        4.142000229,
+        82.281886949
+      ],
+      "triangles_in_step_tessellation": 24748,
+      "triangles_rendered": 12000,
+      "topological_edges": 126,
+      "edges_rendered": 126,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\c0ef93c52f3c2fa4.png"
+    },
+    {
+      "uid": "spring/428.stp",
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\spring\\428.stp",
+      "true_class": "spring",
+      "baseline_prediction": "spring",
+      "final_prediction": "spring",
+      "baseline_confidence": 0.999728262424469,
+      "final_confidence": 0.9998030066490173,
+      "outcome": "still_correct",
+      "status": "valid",
+      "views": [
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\326e34ca04006fc5_view1.png",
+        "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\parts\\326e34ca04006fc5_view2.png"
+      ],
+      "bounds": [
+        -16.500000100000005,
+        -16.499885117940483,
+        -1.5000001000000003,
+        16.500000100000005,
+        16.499885117940373,
+        116.50000010000008
+      ],
+      "triangles_in_step_tessellation": 24908,
+      "triangles_rendered": 12000,
+      "topological_edges": 12,
+      "edges_rendered": 12,
+      "view_angles": [
+        [
+          24,
+          -48
+        ],
+        [
+          24,
+          132
+        ]
+      ],
+      "card_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\cards\\326e34ca04006fc5.png"
+    }
+  ],
+  "metric_chart": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\metric_comparison.png",
+  "class_sheets": [
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_bearing.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_bolt_screw.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_bracket.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_coupling.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_flange.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_gear.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_nut.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_pulley.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_shaft.png",
+    "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_final\\outputs\\default\\visualization\\class_spring.png"
+  ]
+}

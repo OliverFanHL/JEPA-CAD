@@ -1,0 +1,163 @@
+{
+  "evaluation_only_fields": [
+    "Geometric Feature",
+    "Modeling Process",
+    "NLT"
+  ],
+  "nonempty": {
+    "Geometric Feature": 8086,
+    "Modeling Process": 8086,
+    "NLT": 8086
+  },
+  "metrics": {
+    "direct_jepa": {
+      "Geometric Feature_token_jaccard_at_1": 0.3745245635509491,
+      "Modeling Process_token_jaccard_at_1": 0.420395165681839,
+      "NLT_token_jaccard_at_1": 0.8994793891906738,
+      "Geometric Feature_text_embedding_cosine_at_1": 0.7530227899551392
+    },
+    "existing_geometry_adapter": {
+      "Geometric Feature_token_jaccard_at_1": 0.3639092743396759,
+      "Modeling Process_token_jaccard_at_1": 0.41269373893737793,
+      "NLT_token_jaccard_at_1": 0.8859108090400696,
+      "Geometric Feature_text_embedding_cosine_at_1": 0.7469973564147949
+    },
+    "semantic_only": {
+      "Geometric Feature_token_jaccard_at_1": 0.4038309156894684,
+      "Modeling Process_token_jaccard_at_1": 0.41772976517677307,
+      "NLT_token_jaccard_at_1": 0.863818347454071,
+      "Geometric Feature_text_embedding_cosine_at_1": 0.7719820141792297
+    },
+    "semantic_plus_geometry": {
+      "Geometric Feature_token_jaccard_at_1": 0.4088868498802185,
+      "Modeling Process_token_jaccard_at_1": 0.42663252353668213,
+      "NLT_token_jaccard_at_1": 0.8812276124954224,
+      "Geometric Feature_text_embedding_cosine_at_1": 0.7746173739433289
+    },
+    "direct_jepa_plus_semantic": {
+      "Geometric Feature_token_jaccard_at_1": 0.394854336977005,
+      "Modeling Process_token_jaccard_at_1": 0.4254787266254425,
+      "NLT_token_jaccard_at_1": 0.9040010571479797,
+      "Geometric Feature_text_embedding_cosine_at_1": 0.7676354050636292
+    },
+    "existing_geometry_adapter_plus_semantic": {
+      "Geometric Feature_token_jaccard_at_1": 0.3782285153865814,
+      "Modeling Process_token_jaccard_at_1": 0.41872578859329224,
+      "NLT_token_jaccard_at_1": 0.8914466500282288,
+      "Geometric Feature_text_embedding_cosine_at_1": 0.7575375437736511
+    }
+  },
+  "paired_vs_direct": {
+    "existing_geometry_adapter": {
+      "Geometric Feature_token_jaccard_at_1": {
+        "delta": -0.010615285485982895,
+        "ci95_low": -0.014114047400653362,
+        "ci95_high": -0.0069752903655171394
+      },
+      "Modeling Process_token_jaccard_at_1": {
+        "delta": -0.00770146306604147,
+        "ci95_low": -0.009607436135411263,
+        "ci95_high": -0.005631108768284321
+      },
+      "NLT_token_jaccard_at_1": {
+        "delta": -0.013568656519055367,
+        "ci95_low": -0.015634028241038322,
+        "ci95_high": -0.011681096628308296
+      },
+      "Geometric Feature_text_embedding_cosine_at_1": {
+        "delta": -0.006025425158441067,
+        "ci95_low": -0.008809786289930344,
+        "ci95_high": -0.0033560211304575205
+      }
+    },
+    "semantic_only": {
+      "Geometric Feature_token_jaccard_at_1": {
+        "delta": 0.029306350275874138,
+        "ci95_low": 0.025127653032541275,
+        "ci95_high": 0.0339486263692379
+      },
+      "Modeling Process_token_jaccard_at_1": {
+        "delta": -0.002665449632331729,
+        "ci95_low": -0.004885721020400524,
+        "ci95_high": -0.0002982356818392873
+      },
+      "NLT_token_jaccard_at_1": {
+        "delta": -0.03566111996769905,
+        "ci95_low": -0.03820527344942093,
+        "ci95_high": -0.033182255923748016
+      },
+      "Geometric Feature_text_embedding_cosine_at_1": {
+        "delta": 0.01895919255912304,
+        "ci95_low": 0.016280552372336388,
+        "ci95_high": 0.02177175134420395
+      }
+    },
+    "semantic_plus_geometry": {
+      "Geometric Feature_token_jaccard_at_1": {
+        "delta": 0.0343623049557209,
+        "ci95_low": 0.030117684975266457,
+        "ci95_high": 0.03837926685810089
+      },
+      "Modeling Process_token_jaccard_at_1": {
+        "delta": 0.006237285677343607,
+        "ci95_low": 0.004193045664578676,
+        "ci95_high": 0.008442318998277187
+      },
+      "NLT_token_jaccard_at_1": {
+        "delta": -0.018251795321702957,
+        "ci95_low": -0.020504174754023552,
+        "ci95_high": -0.016042560338974
+      },
+      "Geometric Feature_text_embedding_cosine_at_1": {
+        "delta": 0.021594533696770668,
+        "ci95_low": 0.01865319348871708,
+        "ci95_high": 0.024271318688988686
+      }
+    },
+    "direct_jepa_plus_semantic": {
+      "Geometric Feature_token_jaccard_at_1": {
+        "delta": 0.02032977156341076,
+        "ci95_low": 0.017627498134970665,
+        "ci95_high": 0.023035824298858643
+      },
+      "Modeling Process_token_jaccard_at_1": {
+        "delta": 0.005083534400910139,
+        "ci95_low": 0.0037881312891840935,
+        "ci95_high": 0.006501613650470972
+      },
+      "NLT_token_jaccard_at_1": {
+        "delta": 0.004521659575402737,
+        "ci95_low": 0.0031052432022988796,
+        "ci95_high": 0.005936822388321161
+      },
+      "Geometric Feature_text_embedding_cosine_at_1": {
+        "delta": 0.014612640254199505,
+        "ci95_low": 0.012737767770886421,
+        "ci95_high": 0.016606878489255905
+      }
+    },
+    "existing_geometry_adapter_plus_semantic": {
+      "Geometric Feature_token_jaccard_at_1": {
+        "delta": 0.0037039555609226227,
+        "ci95_low": 0.00031862675677984953,
+        "ci95_high": 0.00721064954996109
+      },
+      "Modeling Process_token_jaccard_at_1": {
+        "delta": -0.0016694426303729415,
+        "ci95_low": -0.0036662770435214043,
+        "ci95_high": 0.00019804653129540384
+      },
+      "NLT_token_jaccard_at_1": {
+        "delta": -0.008032845333218575,
+        "ci95_low": -0.010046212002635002,
+        "ci95_high": -0.006091449875384569
+      },
+      "Geometric Feature_text_embedding_cosine_at_1": {
+        "delta": 0.004514708183705807,
+        "ci95_low": 0.0018346353899687529,
+        "ci95_high": 0.0069496240466833115
+      }
+    }
+  },
+  "caveat": "Geometric Feature and Modeling Process are held out of training, but are annotations of the same CAD parts, not independent human relevance judgments; NLT contains extensive repeated and dimensional text."
+}

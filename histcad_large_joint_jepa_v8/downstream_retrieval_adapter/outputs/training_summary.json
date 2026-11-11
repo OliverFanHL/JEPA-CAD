@@ -1,0 +1,318 @@
+{
+  "source_representation": "v7 joint 4096-D from best.pt; frozen",
+  "embedding_dim": 4096,
+  "adapter_trainable_parameters": 4664351,
+  "best_epoch": 14,
+  "best_validation_loss": 0.050689248979324475,
+  "epochs_completed": 16,
+  "train_samples": 145915,
+  "validation_samples": 8130,
+  "test_samples_accessed_during_training": 0,
+  "functional_labels_used_for_adapter_training": false,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.20273393553338553,
+        "retrieval": 0.057800949666355,
+        "dimension": 0.08429525402913753,
+        "feature_count": 0.2781227604992557,
+        "final_operation": 0.31967309822508116,
+        "anchor": 0.26231952993885466
+      },
+      "validation": {
+        "loss": 0.10470801289193332,
+        "retrieval": 0.04192313957901206,
+        "dimension": 0.029788328960421495,
+        "feature_count": 0.089112633257173,
+        "final_operation": 0.14740324136801064,
+        "anchor": 0.24826652090996504
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.08705749780005008,
+        "retrieval": 0.03439420403242765,
+        "dimension": 0.026598030051804687,
+        "feature_count": 0.06098015260180099,
+        "final_operation": 0.12195006932475065,
+        "anchor": 0.23849488868002305
+      },
+      "validation": {
+        "loss": 0.0794839684967883,
+        "retrieval": 0.03673036032705568,
+        "dimension": 0.019708641280885786,
+        "feature_count": 0.038006423448678106,
+        "final_operation": 0.1061695822281763,
+        "anchor": 0.22545771300792694
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.07019773579872492,
+        "retrieval": 0.02958156238228344,
+        "dimension": 0.020103396040697892,
+        "feature_count": 0.03324869582756308,
+        "final_operation": 0.0971744803483026,
+        "anchor": 0.22001996352745776
+      },
+      "validation": {
+        "loss": 0.06827117246575654,
+        "retrieval": 0.03309765853919089,
+        "dimension": 0.01587594627198996,
+        "feature_count": 0.022187978000147268,
+        "final_operation": 0.09030166230513714,
+        "anchor": 0.20724188117310405
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "loss": 0.06086648551649169,
+        "retrieval": 0.026174517933753107,
+        "dimension": 0.016493408647447562,
+        "feature_count": 0.021052638822431236,
+        "final_operation": 0.0853848966982281,
+        "anchor": 0.20959264287038853
+      },
+      "validation": {
+        "loss": 0.06512723356718197,
+        "retrieval": 0.03318556743033696,
+        "dimension": 0.012933451122080442,
+        "feature_count": 0.014475367046543397,
+        "final_operation": 0.08557986794039607,
+        "anchor": 0.20933308894746006
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "loss": 0.054146149656490276,
+        "retrieval": 0.023349369000725186,
+        "dimension": 0.014136470453977062,
+        "feature_count": 0.013617796876279866,
+        "final_operation": 0.07736199271227968,
+        "anchor": 0.20163152291063677
+      },
+      "validation": {
+        "loss": 0.05976962501881644,
+        "retrieval": 0.03001474689517636,
+        "dimension": 0.01160721569613088,
+        "feature_count": 0.010279170255671488,
+        "final_operation": 0.08156194561161101,
+        "anchor": 0.2035020391922444
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "loss": 0.04972860686350287,
+        "retrieval": 0.021380257724147093,
+        "dimension": 0.012728707944941626,
+        "feature_count": 0.009068618513431334,
+        "final_operation": 0.07206340333479538,
+        "anchor": 0.1962838215916826
+      },
+      "validation": {
+        "loss": 0.05767470330465585,
+        "retrieval": 0.029723984174779616,
+        "dimension": 0.010967529713525437,
+        "feature_count": 0.010374281848271494,
+        "final_operation": 0.07666405622148886,
+        "anchor": 0.18822405952960253
+      }
+    },
+    {
+      "epoch": 7,
+      "train": {
+        "loss": 0.045397487295824185,
+        "retrieval": 0.018997040205724996,
+        "dimension": 0.011717120965272842,
+        "feature_count": 0.006539624753528634,
+        "final_operation": 0.06624557377051628,
+        "anchor": 0.19248212170705462
+      },
+      "validation": {
+        "loss": 0.0564602111116983,
+        "retrieval": 0.028466522693634033,
+        "dimension": 0.0101928993317415,
+        "feature_count": 0.006693602886116423,
+        "final_operation": 0.08086513010493945,
+        "anchor": 0.19526855880394578
+      }
+    },
+    {
+      "epoch": 8,
+      "train": {
+        "loss": 0.04261953719123675,
+        "retrieval": 0.017622754906238824,
+        "dimension": 0.010994369650194258,
+        "feature_count": 0.005252194217316349,
+        "final_operation": 0.06155273327930716,
+        "anchor": 0.18957715444920356
+      },
+      "validation": {
+        "loss": 0.054639603855321184,
+        "retrieval": 0.029168690256483387,
+        "dimension": 0.009151616402959917,
+        "feature_count": 0.0065108378084914875,
+        "final_operation": 0.07132779314997606,
+        "anchor": 0.18438619142398238
+      }
+    },
+    {
+      "epoch": 9,
+      "train": {
+        "loss": 0.03996385052113941,
+        "retrieval": 0.01613328047219272,
+        "dimension": 0.010451075261491433,
+        "feature_count": 0.004258896619502226,
+        "final_operation": 0.05734100547504791,
+        "anchor": 0.18730092994999467
+      },
+      "validation": {
+        "loss": 0.05480829221778549,
+        "retrieval": 0.029509128478821367,
+        "dimension": 0.009157952779787593,
+        "feature_count": 0.004923289196995029,
+        "final_operation": 0.07103480923979077,
+        "anchor": 0.18652942962944508
+      }
+    },
+    {
+      "epoch": 10,
+      "train": {
+        "loss": 0.037916304311600695,
+        "retrieval": 0.015132908309450405,
+        "dimension": 0.009977537012462945,
+        "feature_count": 0.0035516460492018317,
+        "final_operation": 0.05329920413062434,
+        "anchor": 0.18533998736948298
+      },
+      "validation": {
+        "loss": 0.05224988562986255,
+        "retrieval": 0.028374335168336984,
+        "dimension": 0.008538544316252228,
+        "feature_count": 0.0051107789372508705,
+        "final_operation": 0.06494120752904564,
+        "anchor": 0.18196958978660405
+      }
+    },
+    {
+      "epoch": 11,
+      "train": {
+        "loss": 0.03605127157153268,
+        "retrieval": 0.013994769985060485,
+        "dimension": 0.009626412804630634,
+        "feature_count": 0.0032722423570240816,
+        "final_operation": 0.050443922826742524,
+        "anchor": 0.1837173979664058
+      },
+      "validation": {
+        "loss": 0.052332793711684644,
+        "retrieval": 0.028521727421320975,
+        "dimension": 0.008336425911693368,
+        "feature_count": 0.006863733043701359,
+        "final_operation": 0.06351991455812822,
+        "anchor": 0.1817061109468341
+      }
+    },
+    {
+      "epoch": 12,
+      "train": {
+        "loss": 0.03411952531324667,
+        "retrieval": 0.013022067414988812,
+        "dimension": 0.009258425973453804,
+        "feature_count": 0.002825272934926927,
+        "final_operation": 0.046338839965194396,
+        "anchor": 0.18187254879035447
+      },
+      "validation": {
+        "loss": 0.05203246115706861,
+        "retrieval": 0.028291685397562105,
+        "dimension": 0.007898976436990779,
+        "feature_count": 0.004124357275713919,
+        "final_operation": 0.06937311304500327,
+        "anchor": 0.175333337392658
+      }
+    },
+    {
+      "epoch": 13,
+      "train": {
+        "loss": 0.03288264178360502,
+        "retrieval": 0.012532842823859762,
+        "dimension": 0.008987044995617971,
+        "feature_count": 0.0024489452882813854,
+        "final_operation": 0.0428770943724534,
+        "anchor": 0.1811474010740456
+      },
+      "validation": {
+        "loss": 0.053592501586535946,
+        "retrieval": 0.028317305972450413,
+        "dimension": 0.008103275278699584,
+        "feature_count": 0.0040600559383392465,
+        "final_operation": 0.07419835274049547,
+        "anchor": 0.18969592219218612
+      }
+    },
+    {
+      "epoch": 14,
+      "train": {
+        "loss": 0.03134225582736626,
+        "retrieval": 0.011650695527593295,
+        "dimension": 0.008717842250980698,
+        "feature_count": 0.00235127816641787,
+        "final_operation": 0.04003334150143099,
+        "anchor": 0.17949891418480038
+      },
+      "validation": {
+        "loss": 0.050689248979324475,
+        "retrieval": 0.027707783585356083,
+        "dimension": 0.007608958174387226,
+        "feature_count": 0.0034093323317847535,
+        "final_operation": 0.06321047662640922,
+        "anchor": 0.18368028197437525
+      }
+    },
+    {
+      "epoch": 15,
+      "train": {
+        "loss": 0.030229793724260833,
+        "retrieval": 0.011272543506990923,
+        "dimension": 0.008451989350284924,
+        "feature_count": 0.002128726598541681,
+        "final_operation": 0.036877951519808876,
+        "anchor": 0.1776050670235826
+      },
+      "validation": {
+        "loss": 0.052977022220147774,
+        "retrieval": 0.028799790947232395,
+        "dimension": 0.007725721206952585,
+        "feature_count": 0.005064213909236059,
+        "final_operation": 0.07017245754468604,
+        "anchor": 0.18057737895287573
+      }
+    },
+    {
+      "epoch": 16,
+      "train": {
+        "loss": 0.029221038489292066,
+        "retrieval": 0.010834871131412096,
+        "dimension": 0.008270928804893373,
+        "feature_count": 0.0021866698832781637,
+        "final_operation": 0.034061895294744,
+        "anchor": 0.17626835507781882
+      },
+      "validation": {
+        "loss": 0.05218773448723368,
+        "retrieval": 0.029604399293020833,
+        "dimension": 0.007275103362189839,
+        "feature_count": 0.003634992635625167,
+        "final_operation": 0.06494291110357153,
+        "anchor": 0.1731819505803287
+      }
+    }
+  ]
+}

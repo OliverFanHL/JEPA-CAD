@@ -1,0 +1,23 @@
+seed: 97
+paths:
+  representations: ../outputs/full_dataset_4096/representations.pt
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  graph_cache: ../data/processed/full_paired_graphs_v7.pt
+  output_dir: outputs/attention_role_tokens_32ep
+  taxonomy: taxonomy.json
+model:
+  token_width: 256
+  attention_heads: 8
+  attention_layers: 2
+  feedforward_width: 768
+  dropout: 0.10
+training:
+  epochs: 32
+  batch_size: 1024
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.00003
+  warmup_epochs: 1
+  weight_decay: 0.0001
+  gradient_clip: 1.0
+  device: auto
+  mixed_precision: true

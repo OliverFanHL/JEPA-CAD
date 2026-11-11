@@ -1,0 +1,116 @@
+{
+  "method": "midpoint integrated gradients",
+  "steps": 96,
+  "baseline": "per-feature training-set mean",
+  "class_pair": "true class versus strongest non-true control class",
+  "groups": [
+    "Typed entities",
+    "B-rep instances",
+    "Connectivity",
+    "Global STEP",
+    "Alternate view",
+    "Geometry",
+    "Surface profile"
+  ],
+  "sources": {
+    "config": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\config.yaml",
+    "control_checkpoint": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_mesh\\outputs\\default\\pooled_plus_brep_view_geometry_mesh\\best.pt",
+    "residual_checkpoint": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\outputs\\default\\physical_residual\\best.pt",
+    "predictions": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\outputs\\default\\test_predictions.csv"
+  },
+  "cases": [
+    {
+      "uid": "coupling/337.stp",
+      "true_class": "coupling",
+      "competitor": "gear",
+      "control_prediction": "gear",
+      "residual_prediction": "coupling",
+      "control_margin": -0.2721402645111084,
+      "residual_margin": 3.912301540374756,
+      "reference_control_margin": 1.292069911956787,
+      "reference_residual_margin": 1.367004156112671,
+      "control_group_attribution": [
+        0.16330952942371368,
+        -0.8933349847793579,
+        -1.068570852279663,
+        -0.08909398317337036,
+        -1.5750861167907715,
+        -0.13708974421024323,
+        2.0355818271636963
+      ],
+      "residual_group_attribution": [
+        0.16330952942371368,
+        -0.8933349847793579,
+        -1.068570852279663,
+        -0.08909398317337036,
+        -1.5750861167907715,
+        -0.22853420674800873,
+        6.236560821533203
+      ],
+      "control_completeness_error": -7.414817810058594e-05,
+      "residual_completeness_error": -4.717707633972168e-05
+    },
+    {
+      "uid": "pulley/530.stp",
+      "true_class": "pulley",
+      "competitor": "gear",
+      "control_prediction": "gear",
+      "residual_prediction": "pulley",
+      "control_margin": -1.3079957962036133,
+      "residual_margin": 2.578153610229492,
+      "reference_control_margin": 0.18569278717041016,
+      "reference_residual_margin": 0.23167473077774048,
+      "control_group_attribution": [
+        -2.197230339050293,
+        0.42103204131126404,
+        -1.5277392864227295,
+        0.14438337087631226,
+        0.276500403881073,
+        -0.056368738412857056,
+        1.4457851648330688
+      ],
+      "residual_group_attribution": [
+        -2.197230339050293,
+        0.42103204131126404,
+        -1.5277392864227295,
+        0.14438337087631226,
+        0.276500403881073,
+        0.5667175650596619,
+        4.662891864776611
+      ],
+      "control_completeness_error": 5.120038986206055e-05,
+      "residual_completeness_error": 7.674098014831543e-05
+    },
+    {
+      "uid": "coupling/257.stp",
+      "true_class": "coupling",
+      "competitor": "flange",
+      "control_prediction": "flange",
+      "residual_prediction": "flange",
+      "control_margin": -1.2608838081359863,
+      "residual_margin": -1.9501030445098877,
+      "reference_control_margin": 0.860241174697876,
+      "reference_residual_margin": 0.9017118215560913,
+      "control_group_attribution": [
+        -1.685499906539917,
+        0.8156147003173828,
+        -0.07125754654407501,
+        -1.3424298763275146,
+        -0.11457711458206177,
+        -0.3392535448074341,
+        0.6162039041519165
+      ],
+      "residual_group_attribution": [
+        -1.685499906539917,
+        0.8156147003173828,
+        -0.07125754654407501,
+        -1.3424298763275146,
+        -0.11457711458206177,
+        -0.4714956283569336,
+        0.017756134271621704
+      ],
+      "control_completeness_error": -7.440149784088135e-05,
+      "residual_completeness_error": -7.437169551849365e-05
+    }
+  ]
+}

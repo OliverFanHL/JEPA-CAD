@@ -1,0 +1,32 @@
+seed: 431
+paths:
+  representations: ../outputs/full_dataset_4096/representations.pt
+  annotations: ../../HistCAD dataset/annotations/histcad_annotations.csv
+  existing_adapter_representations: ../downstream_retrieval_adapter/outputs/adapted_representations.pt
+  existing_adapter_evaluation: ../downstream_retrieval_adapter/outputs/evaluation.json
+  output_dir: outputs
+text_teacher:
+  model_id: sentence-transformers/all-MiniLM-L6-v2
+  preprocess: raw
+  batch_size: 256
+  max_seq_length: 128
+model:
+  input_dim: 4096
+  hidden_dim: 512
+  output_dim: 384
+  dropout: 0.10
+training:
+  epochs: 20
+  patience: 2
+  batch_size: 512
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  semantic_pair_weight: 0.2
+  dimension_weight: 0.5
+  feature_count_weight: 0.15
+  operation_weight: 0.15
+evaluation:
+  retrieval_chunk_size: 512
+  fusion_weights: [0.25, 0.5, 1.0]
+  max_dimension_mae_relative_increase: 0.10
+  max_dimension_recall_absolute_drop: 0.05

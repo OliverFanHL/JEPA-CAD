@@ -1,0 +1,1370 @@
+{
+  "protocol": "same held-out HistCAD test bank, direct cosine, self excluded",
+  "representation_sources": {
+    "JCPR": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\outputs\\full_dataset_4096\\representations.pt",
+    "Graph autoencoder": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_retrieval_adapter\\outputs\\baseline_representations.pt",
+    "BRepNet transfer": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\brepnet_histcad.pt"
+  },
+  "cases": [
+    {
+      "query_uid": "0040/00402080",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0036/00360700",
+          "standardized_dimensional_mae": 0.08624988049268723,
+          "cosine_similarity": 0.9638112187385559
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0007/00074863",
+          "standardized_dimensional_mae": 0.3009927570819855,
+          "cosine_similarity": 0.9732009768486023
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0050/00502643",
+          "standardized_dimensional_mae": 0.21092066168785095,
+          "cosine_similarity": 0.9999939799308777
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0040/00402080",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0040\\00402080.step",
+          "step_sha256": "270745a27c51c710ca8a4b868f3d70092660af9f535bf0a5c4e00aca7efd9777",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_query.png",
+          "image_sha256": "c6491be14affcd51c8a7bd29f17f041c8e465eb07a030b228e678e33c2701049",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0040\\00402080.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_query_raw_view2.png"
+            ],
+            "bounds": [
+              0.0,
+              -19.0,
+              0.0,
+              919.0,
+              0.0,
+              55.0
+            ],
+            "triangles_in_step_tessellation": 12,
+            "triangles_rendered": 12,
+            "topological_edges": 24,
+            "edges_rendered": 24,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0036/00360700",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0036\\00360700.step",
+          "step_sha256": "79728b6e1bbeaabb19e9d8f49e607dd7d85ab53bf49af1438e98d50b474c7636",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_jcpr.png",
+          "image_sha256": "3ebcb6e21c8d3f015c12ec1c33058889ffb4763eac05fa372869f3e78a5f424f",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0036\\00360700.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              0.0,
+              -18.0,
+              0.0,
+              750.0,
+              0.0,
+              20.0
+            ],
+            "triangles_in_step_tessellation": 12,
+            "triangles_rendered": 12,
+            "topological_edges": 24,
+            "edges_rendered": 24,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0007/00074863",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0007\\00074863.step",
+          "step_sha256": "eda75ebb15793228557a4cc73a92dfedf265a25155600e8e87c916aaef75f9b4",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_graph_autoencoder.png",
+          "image_sha256": "30c06107a3de3e7fe2604ab3f50ae38046cfd39869dbb9459d1d12bc82eed36d",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0007\\00074863.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              0.0,
+              0.0,
+              -4.0,
+              994.0,
+              100.0,
+              0.0
+            ],
+            "triangles_in_step_tessellation": 12,
+            "triangles_rendered": 12,
+            "topological_edges": 24,
+            "edges_rendered": 24,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0050/00502643",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0050\\00502643.step",
+          "step_sha256": "23afe98d9e9ed0873e5d07bce904695e44e8ae7e5d1fbe3947850f3b276d103c",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_brepnet_transfer.png",
+          "image_sha256": "c20c86e129b44ea8fd9ede1a2b00e66bceabbd3b8b345945782816e8bbba4184",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0050\\00502643.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_1_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              -245.9789,
+              -25.4,
+              0.0,
+              363.6211,
+              0.0,
+              25.4
+            ],
+            "triangles_in_step_tessellation": 12,
+            "triangles_rendered": 12,
+            "topological_edges": 24,
+            "edges_rendered": 24,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "query_uid": "0048/00480829",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0025/00259902",
+          "standardized_dimensional_mae": 0.38133594393730164,
+          "cosine_similarity": 0.628638744354248
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0048/00480817",
+          "standardized_dimensional_mae": 0.036398109048604965,
+          "cosine_similarity": 0.9191271066665649
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0028/00284823",
+          "standardized_dimensional_mae": 0.26657426357269287,
+          "cosine_similarity": 0.9980824589729309
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0048/00480829",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480829.step",
+          "step_sha256": "729bbffed4a7cfccd57cc7947045d4b7bc369b0da132df620ec624ce02c6bbc0",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_query.png",
+          "image_sha256": "6645d43bdd209b9c2ae8ec2f1688c390a6307d2b445e472534aecfc41fdb3693",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480829.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_query_raw_view2.png"
+            ],
+            "bounds": [
+              0.0,
+              -38.10000000000001,
+              0.0,
+              25.4,
+              8.881784197001252e-16,
+              25.4
+            ],
+            "triangles_in_step_tessellation": 24,
+            "triangles_rendered": 24,
+            "topological_edges": 46,
+            "edges_rendered": 46,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0025/00259902",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0025\\00259902.step",
+          "step_sha256": "80a724cf455228c5cf126cbb64445a8e8868f6fbd84ceb189eca2f2d283ca568",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_jcpr.png",
+          "image_sha256": "b50e968d361681c5be3ef6873123d163ceef3f8c91722c455c1f45822df471da",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0025\\00259902.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              0.0,
+              -38.1,
+              0.0,
+              12.7,
+              0.0,
+              25.4
+            ],
+            "triangles_in_step_tessellation": 28,
+            "triangles_rendered": 28,
+            "topological_edges": 48,
+            "edges_rendered": 48,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0048/00480817",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480817.step",
+          "step_sha256": "c23090779749e2410eca54c452ab8bc0aefc7c22949809c370188b7846a20400",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_graph_autoencoder.png",
+          "image_sha256": "78acd269dd668f7adb2f14ff361372fcaa141ff25d83481f6059b2f797935112",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480817.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              -25.4,
+              -38.1,
+              0.0,
+              0.0,
+              0.0,
+              25.4
+            ],
+            "triangles_in_step_tessellation": 32,
+            "triangles_rendered": 32,
+            "topological_edges": 54,
+            "edges_rendered": 54,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0028/00284823",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0028\\00284823.step",
+          "step_sha256": "94ea07109d0063721340e4bcf2c8d4eaf076cc36e29e704b97fac392930ce877",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_brepnet_transfer.png",
+          "image_sha256": "e790328df32fa86491d8f8debb5c809d78731571a14a4c21091b3a80f74f2358",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0028\\00284823.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_2_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              0.0,
+              0.0,
+              0.0,
+              40.0,
+              30.0,
+              30.0
+            ],
+            "triangles_in_step_tessellation": 24,
+            "triangles_rendered": 24,
+            "topological_edges": 42,
+            "edges_rendered": 42,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "query_uid": "0081/00813092",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0029/00296052",
+          "standardized_dimensional_mae": 0.6785330772399902,
+          "cosine_similarity": 0.7849867343902588
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0086/00862575",
+          "standardized_dimensional_mae": 0.4533121883869171,
+          "cosine_similarity": 0.9274231791496277
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0010/00106038",
+          "standardized_dimensional_mae": 0.3737942576408386,
+          "cosine_similarity": 0.9998644590377808
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0081/00813092",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00813092.step",
+          "step_sha256": "59953babaf12f55d8eae1c8a06f065a1523165089a9271156dac59a223154fa8",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_query.png",
+          "image_sha256": "cc8f2dd4df3a3fef9b8b77aea02b71057bfd285e286222fc408b0e3e7a2ae3a0",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00813092.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_query_raw_view2.png"
+            ],
+            "bounds": [
+              -64.0,
+              -50.0,
+              0.0,
+              64.0,
+              50.0,
+              4.0
+            ],
+            "triangles_in_step_tessellation": 60,
+            "triangles_rendered": 60,
+            "topological_edges": 96,
+            "edges_rendered": 96,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0029/00296052",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00296052.step",
+          "step_sha256": "111084e16650a8ab5c70f872772b02a4969de4f9f094c58ac75172c53d872164",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_jcpr.png",
+          "image_sha256": "8f276e87c95ecb075513a809dedc43528f00a4c47f4f8b5fdc91603478265640",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00296052.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              -800.0,
+              -397.5,
+              0.0,
+              800.0,
+              397.5,
+              30.0
+            ],
+            "triangles_in_step_tessellation": 60,
+            "triangles_rendered": 60,
+            "topological_edges": 96,
+            "edges_rendered": 96,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0086/00862575",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0086\\00862575.step",
+          "step_sha256": "e0161b63f8302cde9672d02451308df4ad561e0614696cf5adf567c4d3b44ced",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_graph_autoencoder.png",
+          "image_sha256": "f0ade4afb7a382f9db433c4ed34ebc2402393b8fabfe3dde86997502835c698f",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0086\\00862575.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              -250.0,
+              -5.0,
+              -55.0,
+              250.0,
+              0.0,
+              50.0
+            ],
+            "triangles_in_step_tessellation": 60,
+            "triangles_rendered": 60,
+            "topological_edges": 96,
+            "edges_rendered": 96,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0010/00106038",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0010\\00106038.step",
+          "step_sha256": "48e7879c927a5d62396121aaddd9681a2c5f7a958553aa048362755ff5c9ed0d",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_brepnet_transfer.png",
+          "image_sha256": "83ae2e9f8f96b9b176fbb063c301b28871504df131ebfab39a6f1bda9ac1c664",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0010\\00106038.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_3_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              -47.4472,
+              -53.7972,
+              0.0,
+              47.4472,
+              2.9972,
+              2.9972
+            ],
+            "triangles_in_step_tessellation": 76,
+            "triangles_rendered": 76,
+            "topological_edges": 120,
+            "edges_rendered": 120,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "query_uid": "0009/00097910",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0009/00097911",
+          "standardized_dimensional_mae": 0.16739244759082794,
+          "cosine_similarity": 0.6953125
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0100/01000504",
+          "standardized_dimensional_mae": 0.5131478905677795,
+          "cosine_similarity": 0.9018890857696533
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0011/00116692",
+          "standardized_dimensional_mae": 0.6764377951622009,
+          "cosine_similarity": 0.993915319442749
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0009/00097910",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0009\\00097910.step",
+          "step_sha256": "b963d88a82894fe13a6e84d746a735085a7401fc57f18193bbb7e307d8ade7ae",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_query.png",
+          "image_sha256": "b4edef83f614785903482fb8bb8b59a20c7763e9510f9863334671e0c3ba11c2",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0009\\00097910.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_query_raw_view2.png"
+            ],
+            "bounds": [
+              -24.0,
+              -10.0,
+              0.0,
+              0.0,
+              0.0,
+              21.0
+            ],
+            "triangles_in_step_tessellation": 624,
+            "triangles_rendered": 624,
+            "topological_edges": 84,
+            "edges_rendered": 84,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0009/00097911",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0009\\00097911.step",
+          "step_sha256": "2cea9a967cc7acfa11d6a9927da99349d7b67e399e6b10ba25f4616b50524272",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_jcpr.png",
+          "image_sha256": "e88ff81017c0def447cc9ba9f4aa3ee249e4a636ec15cbae3ff0074b1fcdd891",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0009\\00097911.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              -13.0,
+              -10.0,
+              0.0,
+              0.0,
+              0.0,
+              21.0
+            ],
+            "triangles_in_step_tessellation": 460,
+            "triangles_rendered": 460,
+            "topological_edges": 54,
+            "edges_rendered": 54,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0100/01000504",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01000504.step",
+          "step_sha256": "47c54831371ea8296f0cd1a28549f482a710575a297dae7633075b2425dada08",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_graph_autoencoder.png",
+          "image_sha256": "a47efde0600f0f0a52d28d7fde9e554808377042e00e88ff82729ccff35f736a",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01000504.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              -0.40000000000000013,
+              -0.15,
+              -0.40000000000000013,
+              1.3000000000000003,
+              2.6,
+              1.3000000000000003
+            ],
+            "triangles_in_step_tessellation": 332,
+            "triangles_rendered": 332,
+            "topological_edges": 84,
+            "edges_rendered": 84,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0011/00116692",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0011\\00116692.step",
+          "step_sha256": "749a59135388560cf0a35d8d93db493823172aec0b20d827b5422c294a5c29a5",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_brepnet_transfer.png",
+          "image_sha256": "654b4f255d8070c890712694517465a8621d420c1b6f4fad27724b002b577a1f",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0011\\00116692.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_4_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              -24.030300000000004,
+              -25.4,
+              -12.8344,
+              36.045500000000004,
+              0.0,
+              91.2189
+            ],
+            "triangles_in_step_tessellation": 452,
+            "triangles_rendered": 452,
+            "topological_edges": 42,
+            "edges_rendered": 42,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "query_uid": "0041/00412375",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0003/00038702",
+          "standardized_dimensional_mae": 0.015347420237958431,
+          "cosine_similarity": 0.9989900588989258
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0081/00811478",
+          "standardized_dimensional_mae": 0.15247274935245514,
+          "cosine_similarity": 0.9988969564437866
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0096/00968873",
+          "standardized_dimensional_mae": 0.2105632722377777,
+          "cosine_similarity": 0.9999889135360718
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0041/00412375",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0041\\00412375.step",
+          "step_sha256": "3daefd33879d05576e2545a03cd6376b076651816c95a5d19370a7bc2f389c41",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_query.png",
+          "image_sha256": "c166aa2565fdefe32327c458a026c07298dc3e6db731c1f5bdb12d40ccb3c178",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0041\\00412375.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_query_raw_view2.png"
+            ],
+            "bounds": [
+              -15.86776358240704,
+              -3.048,
+              -9.519807437948757,
+              52.3943751238616,
+              0.0,
+              123.829578823788
+            ],
+            "triangles_in_step_tessellation": 1004,
+            "triangles_rendered": 1004,
+            "topological_edges": 102,
+            "edges_rendered": 102,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0003/00038702",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0003\\00038702.step",
+          "step_sha256": "c6e0873d6e3b204643e4f9c9aca981314afd2c6b900af734623db7219a6184f1",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_jcpr.png",
+          "image_sha256": "a5188eeb40645a5760cc2ed376d7534989f2c4f9817a44b70e250e3bb0b80bc8",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0003\\00038702.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              -15.87527257687149,
+              -3.048,
+              -9.52497240288496,
+              52.3875389801602,
+              0.0,
+              123.82435027633193
+            ],
+            "triangles_in_step_tessellation": 1000,
+            "triangles_rendered": 1000,
+            "topological_edges": 102,
+            "edges_rendered": 102,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0081/00811478",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00811478.step",
+          "step_sha256": "b369bd67bfe483304eb85ec179c248e3022b7e77e8573d8880a719b8c301ee9a",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_graph_autoencoder.png",
+          "image_sha256": "fd629c47faf7b12e1bff71239ddcd0b0740593172c5834890635011338ab6eec",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00811478.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              -15.875272581837836,
+              -3.048,
+              -9.524972402911143,
+              52.387538980151405,
+              0.0,
+              123.82435027638194
+            ],
+            "triangles_in_step_tessellation": 1000,
+            "triangles_rendered": 1000,
+            "topological_edges": 102,
+            "edges_rendered": 102,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0096/00968873",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0096\\00968873.step",
+          "step_sha256": "d69af09ecdb6601d2de18eb340db9d6d57860d342f165061041810b305d2871e",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_brepnet_transfer.png",
+          "image_sha256": "326f30a253fd0cf9cf255865ec2cfec36f409572ace767ffb0adc9fb1bee9749",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0096\\00968873.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_5_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              -15.876528889123058,
+              -3.048,
+              -8.890011826717444,
+              52.3874768389129,
+              0.0,
+              123.82512631111722
+            ],
+            "triangles_in_step_tessellation": 1004,
+            "triangles_rendered": 1004,
+            "topological_edges": 102,
+            "edges_rendered": 102,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "query_uid": "0046/00462789",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0036/00364602",
+          "standardized_dimensional_mae": 0.14758145809173584,
+          "cosine_similarity": 0.8965094089508057
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0023/00234600",
+          "standardized_dimensional_mae": 0.5906810760498047,
+          "cosine_similarity": 0.9419113397598267
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0031/00311111",
+          "standardized_dimensional_mae": 0.6352070569992065,
+          "cosine_similarity": 0.9992150664329529
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0046/00462789",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0046\\00462789.step",
+          "step_sha256": "fb29e4f0dfb4901f38140844b4166286f5d7401845a8076fd9022f6684cec848",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_query.png",
+          "image_sha256": "21e2cc57956b98e6e80799add0d90ad6d4a287e05cd2bc935140ede2458eb136",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0046\\00462789.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_query_raw_view2.png"
+            ],
+            "bounds": [
+              -25.0,
+              -25.0,
+              0.0,
+              25.0,
+              25.0,
+              40.0
+            ],
+            "triangles_in_step_tessellation": 720,
+            "triangles_rendered": 720,
+            "topological_edges": 30,
+            "edges_rendered": 30,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0036/00364602",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0036\\00364602.step",
+          "step_sha256": "fef5cb47a0c9839f507b9e76eb3806afded6fa2a91a86b42797f80590eb80c87",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_jcpr.png",
+          "image_sha256": "2ac5730c1e1dd5aebcee5f1ebef838505eba7be2bc1a518bede5484758164cbe",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0036\\00364602.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              -40.0,
+              -40.0,
+              0.0,
+              40.0,
+              40.0,
+              30.0
+            ],
+            "triangles_in_step_tessellation": 576,
+            "triangles_rendered": 576,
+            "topological_edges": 24,
+            "edges_rendered": 24,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0023/00234600",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0023\\00234600.step",
+          "step_sha256": "a826d17d7a740413f4aeeb23c93b22b96fe55da4c920adcacdbcc7636175c2a7",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_graph_autoencoder.png",
+          "image_sha256": "2afac5299206fbfe2df22660ef79e971e93d5b4ec44b82fc6018cdbb6ca4d86c",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0023\\00234600.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              -12.72,
+              -12.72,
+              0.0,
+              12.72,
+              12.72,
+              154.3
+            ],
+            "triangles_in_step_tessellation": 716,
+            "triangles_rendered": 716,
+            "topological_edges": 30,
+            "edges_rendered": 30,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0031/00311111",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0031\\00311111.step",
+          "step_sha256": "b2663bd00be12a3b2eec3d866ba378ccfa3809393da449f876fc44ffef55c0de",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_brepnet_transfer.png",
+          "image_sha256": "1daf032eb801f4fdec9d5ef9a593aa8b5c361f6bdaa9573215d7a9cb2c7d5777",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0031\\00311111.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_6_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              -7.0,
+              -7.0,
+              0.0,
+              7.0,
+              7.0,
+              6.0
+            ],
+            "triangles_in_step_tessellation": 432,
+            "triangles_rendered": 432,
+            "topological_edges": 18,
+            "edges_rendered": 18,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "query_uid": "0091/00910640",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0022/00220862",
+          "standardized_dimensional_mae": 0.0697922632098198,
+          "cosine_similarity": 0.76873779296875
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0067/00678768",
+          "standardized_dimensional_mae": 0.22792883217334747,
+          "cosine_similarity": 0.939848780632019
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0095/00958474",
+          "standardized_dimensional_mae": 0.5480558276176453,
+          "cosine_similarity": 0.9977424740791321
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0091/00910640",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0091\\00910640.step",
+          "step_sha256": "139fc7651a7a2c1c3bf29f23f3f9018941d89728904e41f3a38c882cb47ce0be",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_query.png",
+          "image_sha256": "065e6c6da02db8eeb577884948aa8203403ca29025612be120c06e098d8672e7",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0091\\00910640.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_query_raw_view2.png"
+            ],
+            "bounds": [
+              -71.97919999999999,
+              -55.280199999999994,
+              0.0,
+              110.56039999999999,
+              55.280199999999994,
+              61.722
+            ],
+            "triangles_in_step_tessellation": 154,
+            "triangles_rendered": 154,
+            "topological_edges": 30,
+            "edges_rendered": 30,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0022/00220862",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0022\\00220862.step",
+          "step_sha256": "8acda22cc4dc8b1ff7035825e13b730d6efd72ed03b3bab937672b13ba641cd8",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_jcpr.png",
+          "image_sha256": "c18ae9c58a199e29dedfbc3ec6d0b859be97172f23cf9bd5e5fbd5e86eb7f236",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0022\\00220862.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              -52.1855,
+              -107.56129999999999,
+              0.0,
+              52.1855,
+              55.9955,
+              50.8
+            ],
+            "triangles_in_step_tessellation": 168,
+            "triangles_rendered": 168,
+            "topological_edges": 42,
+            "edges_rendered": 42,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0067/00678768",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0067\\00678768.step",
+          "step_sha256": "46f64cf592295bef63790a2c682de2654796f224c0a16310f2e164aa43ee5c22",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_graph_autoencoder.png",
+          "image_sha256": "030fd0162122dcf013b451621cf2181d7b763f2d39bf79cdbd90916dae0bc5cb",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0067\\00678768.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              -80.9389,
+              -51.9858,
+              0.0,
+              80.9389,
+              51.9858,
+              101.6
+            ],
+            "triangles_in_step_tessellation": 300,
+            "triangles_rendered": 300,
+            "topological_edges": 36,
+            "edges_rendered": 36,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0095/00958474",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0095\\00958474.step",
+          "step_sha256": "bf74c415438c2587bd52ce857d24d36a2433040066654390e69a166d137669f5",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_brepnet_transfer.png",
+          "image_sha256": "3ffa64484f1774be424fcaaee929d507eff6a07ae29b21964a3d3fa38d89c3dd",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0095\\00958474.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_7_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              -50.8,
+              -50.8,
+              0.0,
+              50.8,
+              50.8,
+              101.6
+            ],
+            "triangles_in_step_tessellation": 300,
+            "triangles_rendered": 300,
+            "topological_edges": 36,
+            "edges_rendered": 36,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "query_uid": "0007/00079665",
+      "candidates": {
+        "JCPR": {
+          "neighbor_uid": "0057/00573991",
+          "standardized_dimensional_mae": 0.02944852039217949,
+          "cosine_similarity": 0.9855604767799377
+        },
+        "Graph autoencoder": {
+          "neighbor_uid": "0046/00462160",
+          "standardized_dimensional_mae": 0.14402392506599426,
+          "cosine_similarity": 0.9898372292518616
+        },
+        "BRepNet transfer": {
+          "neighbor_uid": "0091/00913969",
+          "standardized_dimensional_mae": 0.5469270944595337,
+          "cosine_similarity": 0.9999416470527649
+        }
+      },
+      "assets": {
+        "query": {
+          "uid": "0007/00079665",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0007\\00079665.step",
+          "step_sha256": "482b62ec4fb83f7458c67ae2188eb70df3e6fd31d4c2a629e045819365097cc0",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_query.png",
+          "image_sha256": "3b5d0996681bf38a112cf245d1f01bd15a72030f9270a60cb4a3feb60621db53",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0007\\00079665.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_query_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_query_raw_view2.png"
+            ],
+            "bounds": [
+              -25.0444,
+              -1.9812,
+              -25.0444,
+              25.0444,
+              0.0,
+              25.0444
+            ],
+            "triangles_in_step_tessellation": 288,
+            "triangles_rendered": 288,
+            "topological_edges": 12,
+            "edges_rendered": 12,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "jcpr": {
+          "uid": "0057/00573991",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0057\\00573991.step",
+          "step_sha256": "a09a5f98e1af256ce362de2f453aeafb7168396356360830084d0ae3bc93abfb",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_jcpr.png",
+          "image_sha256": "da890fdfee72bb5090c067cdf9f2be3c1aec69171369e93eb92ccd4470e6047b",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0057\\00573991.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_jcpr_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_jcpr_raw_view2.png"
+            ],
+            "bounds": [
+              -25.4,
+              -3.175,
+              -25.4,
+              25.4,
+              0.0,
+              25.4
+            ],
+            "triangles_in_step_tessellation": 288,
+            "triangles_rendered": 288,
+            "topological_edges": 12,
+            "edges_rendered": 12,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "graph_autoencoder": {
+          "uid": "0046/00462160",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0046\\00462160.step",
+          "step_sha256": "0f9ae9d21597d3a773f2629670b77e78fed1f8b85761e73e1f1034b16ef817d1",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_graph_autoencoder.png",
+          "image_sha256": "891820b205a03e0a3419a74c9fd9261fcaf36b752a231117e4fadc3860009f84",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0046\\00462160.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_graph_autoencoder_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_graph_autoencoder_raw_view2.png"
+            ],
+            "bounds": [
+              -19.05,
+              -4.7625,
+              -19.05,
+              19.05,
+              4.7625,
+              19.05
+            ],
+            "triangles_in_step_tessellation": 288,
+            "triangles_rendered": 288,
+            "topological_edges": 12,
+            "edges_rendered": 12,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        },
+        "brepnet_transfer": {
+          "uid": "0091/00913969",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0091\\00913969.step",
+          "step_sha256": "9e365bd53ec22719fe372b0d126f6f3c644e00677c5f5bcbec08cdfaa66f6c5e",
+          "image": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_brepnet_transfer.png",
+          "image_sha256": "6fb379c27b1e1bc7f809f41f5ef9dd8c995fcd70f7e185197c68c378c39dd359",
+          "render": {
+            "status": "valid",
+            "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0091\\00913969.step",
+            "views": [
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_brepnet_transfer_raw_view1.png",
+              "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\matched_retrieval_8_brepnet_transfer_raw_view2.png"
+            ],
+            "bounds": [
+              -38.07,
+              -8.0,
+              14.21,
+              11.93,
+              0.0,
+              64.21000000000001
+            ],
+            "triangles_in_step_tessellation": 288,
+            "triangles_rendered": 288,
+            "topological_edges": 12,
+            "edges_rendered": 12,
+            "view_angles": [
+              [
+                24,
+                -48
+              ],
+              [
+                24,
+                132
+              ]
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

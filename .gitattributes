@@ -1,0 +1,6 @@
+# Preserve saved result/source bytes for the integrity manifest.
+* -text -whitespace
+*.pt binary
+*.npz binary
+*.png binary
+*.pdf binary

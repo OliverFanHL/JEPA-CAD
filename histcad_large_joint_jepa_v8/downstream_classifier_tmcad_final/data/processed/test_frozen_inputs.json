@@ -1,0 +1,22 @@
+{
+  "format": "tmcad_final_physical_residual_inputs_v1",
+  "baseline_checkpoint_sha256": "fa192870448f1843df408f71609d4d68ffcb79dd6d13e8be943e1f4efd61800e",
+  "manifest_sha256": "b70ebf11865c81ec99d345ad368d89536cac58c9de7f04a2e02bc6cb1d4899a3",
+  "frozen_view_metadata_sha256": "ff1e7d596432dc2bd1d49d13bf409fe782e349446965755e3a5ffdfad3d1a12e",
+  "geometry_cache_sha256": "c4e6e2695558dfc14468b6aaf87a8b582b5358202f63a330d01a7f97fd9dc388",
+  "mesh_cache_sha256": "e78c225237866525993bcae7888592e7cb9b20f2f2a34b0b39743e68ab9437a0",
+  "split": "test",
+  "sample_count": 1404,
+  "classes": [
+    "bearing",
+    "bolt_screw",
+    "bracket",
+    "coupling",
+    "flange",
+    "gear",
+    "nut",
+    "pulley",
+    "shaft",
+    "spring"
+  ]
+}

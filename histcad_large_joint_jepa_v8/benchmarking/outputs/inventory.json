@@ -1,0 +1,240 @@
+{
+  "config": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\config.yaml",
+  "ready": 12,
+  "active_required": 12,
+  "missing_required": [],
+  "required_artifacts": [],
+  "missing_required_artifacts": [],
+  "representations": [
+    {
+      "name": "jepa_joint",
+      "family": "jepa",
+      "dataset": "histcad",
+      "available": true,
+      "required": true,
+      "reuse": true,
+      "tasks": [
+        "frozen",
+        "retrieval",
+        "semantic"
+      ],
+      "comparability": "exact HistCAD cache and split; 4096-D joint representation",
+      "prepare": null,
+      "rows": 162064,
+      "source_rows": 162131,
+      "dimensions": 4096
+    },
+    {
+      "name": "graph_autoencoder_joint",
+      "family": "autoencoder",
+      "dataset": "histcad",
+      "available": true,
+      "required": true,
+      "reuse": true,
+      "tasks": [
+        "frozen",
+        "retrieval",
+        "semantic"
+      ],
+      "comparability": "completed same-input/same-encoder 4096-D reconstruction baseline",
+      "prepare": null,
+      "rows": 162064,
+      "source_rows": 162131,
+      "dimensions": 4096
+    },
+    {
+      "name": "pca_graph_statistics",
+      "family": "classical",
+      "dataset": "histcad",
+      "available": true,
+      "required": true,
+      "reuse": true,
+      "tasks": [
+        "frozen",
+        "retrieval",
+        "semantic"
+      ],
+      "comparability": "train-split PCA of standardized input graph statistics",
+      "prepare": null,
+      "rows": 162064,
+      "source_rows": 162131,
+      "dimensions": 256
+    },
+    {
+      "name": "input_graph_statistics",
+      "family": "nonlearned",
+      "dataset": "histcad",
+      "available": true,
+      "required": true,
+      "reuse": true,
+      "tasks": [
+        "frozen",
+        "retrieval",
+        "semantic"
+      ],
+      "comparability": "deterministic graph-statistics control",
+      "prepare": null,
+      "rows": 162064,
+      "source_rows": 162131,
+      "dimensions": 421
+    },
+    {
+      "name": "contrastive_joint",
+      "family": "contrastive_same_encoder",
+      "dataset": "histcad",
+      "available": true,
+      "required": true,
+      "reuse": false,
+      "tasks": [
+        "frozen",
+        "retrieval",
+        "semantic"
+      ],
+      "comparability": "same cache/encoder/width; NT-Xent objective; not a GC-CAD reproduction",
+      "prepare": "python baselines/contrastive/train.py",
+      "rows": 162064,
+      "source_rows": 162131,
+      "dimensions": 4096
+    },
+    {
+      "name": "random_joint",
+      "family": "no_pretraining",
+      "dataset": "histcad",
+      "available": true,
+      "required": true,
+      "reuse": false,
+      "tasks": [
+        "frozen",
+        "retrieval",
+        "semantic"
+      ],
+      "comparability": "identical randomly initialized encoder; no representation training",
+      "prepare": "python baselines/contrastive/train.py --random-only",
+      "rows": 162064,
+      "source_rows": 162131,
+      "dimensions": 4096
+    },
+    {
+      "name": "brepnet_official_histcad",
+      "family": "external_brepnet",
+      "dataset": "histcad",
+      "available": true,
+      "required": true,
+      "reuse": false,
+      "tasks": [
+        "frozen",
+        "retrieval",
+        "semantic"
+      ],
+      "comparability": "official segmentation-pretrained checkpoint and preprocessing; different architecture/objective",
+      "prepare": "python baselines/external/prepare_brepnet.py histcad --external-python <brepnet-python>",
+      "rows": 162064,
+      "source_rows": 162064,
+      "dimensions": 168
+    },
+    {
+      "name": "jepa_step_tmcad",
+      "family": "jepa",
+      "dataset": "tmcad",
+      "available": true,
+      "required": true,
+      "reuse": true,
+      "tasks": [
+        "frozen",
+        "classification"
+      ],
+      "comparability": "existing frozen 2048-D JEPA STEP branch on exact TMCAD split",
+      "prepare": null,
+      "rows": 7252,
+      "source_rows": 9312,
+      "dimensions": 2048
+    },
+    {
+      "name": "autoencoder_step_tmcad",
+      "family": "autoencoder",
+      "dataset": "tmcad",
+      "available": true,
+      "required": true,
+      "reuse": false,
+      "tasks": [
+        "frozen",
+        "classification"
+      ],
+      "comparability": "same TMCAD STEP graphs passed through HistCAD-pretrained AE STEP encoder",
+      "prepare": "python baselines/extract_tmcad.py autoencoder",
+      "rows": 7252,
+      "source_rows": 9312,
+      "dimensions": 2048
+    },
+    {
+      "name": "contrastive_step_tmcad",
+      "family": "contrastive_same_encoder",
+      "dataset": "tmcad",
+      "available": true,
+      "required": true,
+      "reuse": false,
+      "tasks": [
+        "frozen",
+        "classification"
+      ],
+      "comparability": "same TMCAD STEP graphs passed through controlled contrastive STEP encoder",
+      "prepare": "python baselines/extract_tmcad.py contrastive",
+      "rows": 7252,
+      "source_rows": 9312,
+      "dimensions": 2048
+    },
+    {
+      "name": "random_step_tmcad",
+      "family": "no_pretraining",
+      "dataset": "tmcad",
+      "available": true,
+      "required": true,
+      "reuse": false,
+      "tasks": [
+        "frozen",
+        "classification"
+      ],
+      "comparability": "same STEP architecture with seeded random initialization",
+      "prepare": "python baselines/extract_tmcad.py random",
+      "rows": 7252,
+      "source_rows": 9312,
+      "dimensions": 2048
+    },
+    {
+      "name": "brepnet_official_tmcad",
+      "family": "external_brepnet",
+      "dataset": "tmcad",
+      "available": true,
+      "required": true,
+      "reuse": false,
+      "tasks": [
+        "frozen",
+        "classification"
+      ],
+      "comparability": "official segmentation-pretrained BRepNet; different input preprocessing/objective",
+      "prepare": "python baselines/external/prepare_brepnet.py tmcad --external-python <brepnet-python>",
+      "rows": 7252,
+      "source_rows": 7252,
+      "dimensions": 168
+    }
+  ],
+  "shared_coverage": {
+    "histcad": {
+      "dataset": "histcad",
+      "source_rows": 162131,
+      "included_rows": 162064,
+      "omitted_rows": 67,
+      "artifact": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\brepnet_histcad.pt",
+      "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\brepnet_histcad.coverage.json"
+    },
+    "tmcad": {
+      "dataset": "tmcad",
+      "source_rows": 9312,
+      "included_rows": 7252,
+      "omitted_rows": 2060,
+      "artifact": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\brepnet_tmcad.pt",
+      "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\benchmarking\\external\\brepnet_tmcad.coverage.json"
+    }
+  },
+  "rule": "Existing compatible artifacts are reused. Every active representation is required for the complete benchmark; preparation commands are reported for missing artifacts."
+}

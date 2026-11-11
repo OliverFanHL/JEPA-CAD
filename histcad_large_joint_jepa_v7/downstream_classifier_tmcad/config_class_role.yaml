@@ -1,0 +1,51 @@
+seed: 97
+paths:
+  dataset_root: ../../TMCAD
+  v7_root: ..
+  checkpoint: ../outputs/full_dataset_4096/best.pt
+  histcad_graph_cache: ../data/processed/full_paired_graphs_v7.pt
+  processed_dir: data/processed
+  output_dir: outputs/class_role_attention
+
+dataset:
+  classes: [bearing, bolt_screw, bracket, coupling, flange, gear, nut, pulley, shaft, spring]
+  extensions: [.stp, .step]
+  max_file_mb: 128
+  max_step_instances: 256
+  min_step_entities: 1
+  min_brep_candidates: 1
+  min_entity_parse_fraction: 0.95
+  split_fractions: {train: 0.70, val: 0.15, test: 0.15}
+  warn_unknown_type_fraction: 0.20
+
+extraction:
+  device: auto
+  batch_size: 8
+  num_workers: 8
+  progress_every_batches: 50
+
+classifier:
+  # The existing run already uses inverse-sqrt class weights and validation
+  # macro-F1 selection. Minority classes overlap several other shapes, so no
+  # minority duplication or unverified STEP-space augmentation is introduced.
+  models: [attention_class_role]
+  token_width: 256
+  attention_heads: 8
+  attention_layers: 2
+  feedforward_width: 768
+  dropout: 0.20
+  epochs: 100
+  batch_size: 128
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  weight_decay: 0.0001
+  label_smoothing: 0.02
+  patience: 8
+  min_epochs: 8
+  gradient_clip: 1.0
+  device: auto
+
+qualitative:
+  cases_per_class: 1
+  render_after_evaluation: true
+  image_size: 260

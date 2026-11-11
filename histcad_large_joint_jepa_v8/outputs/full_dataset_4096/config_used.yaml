@@ -1,0 +1,80 @@
+seed: 97
+
+paths:
+  dataset_root: ../HistCAD dataset
+  cache_path: data/processed/full_paired_graphs_v7.pt
+  output_dir: outputs/full_dataset_4096
+
+protocol:
+  training_samples: all_valid_train_split
+  split: deterministic_sha1_90_5_5
+  validation_samples: all_valid_validation_split
+  test_samples: all_valid_test_split
+  functional_labels: evaluation_only
+
+preprocessing:
+  validation_workers: 8
+  monitor_every_samples: 5000
+  # The uncapped full-data audit found p75=195, p90=373, p95=599 B-Rep
+  # candidates. 256 fully retains 82.7% of parts versus 55.8% at v6's 128 cap.
+  max_step_instances: 256
+  max_parametric_nodes: null
+
+model:
+  # Four role-aware summaries + one explicit global/history token.
+  parametric_node_dim: 512
+  parametric_pooling_slots: 4
+  parametric_output_dim: 2560
+  parametric_depth: 4
+  # Three role-aware summaries + one explicit global/type token.
+  step_node_dim: 512
+  step_pooling_slots: 3
+  step_output_dim: 2048
+  step_depth: 4
+  attention_heads: 8
+  joint_hidden_dim: 4096
+  embedding_dim: 4096
+  dropout: 0.10
+  max_features: 128
+
+training:
+  device: auto
+  batch_size: 8
+  gradient_accumulation_steps: 4
+  mixed_precision: true
+  representation_storage_dtype: float16
+  epochs: 20
+  patience: 10
+  minimum_validation_improvement: 0.00001
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  warmup_steps: 1000
+  weight_decay: 0.0001
+  mask_ratio: 0.30
+  temperature: 0.10
+  ema_start: 0.996
+  ema_end: 0.9999
+  gradient_clip: 2.0
+  num_workers: 0
+  monitor_every_steps: 1000
+  correlation_block_size: 128
+  correlation_permutations: 16
+  loss_weights:
+    joint_jepa: 1.00
+    parametric_jepa: 0.25
+    step_jepa: 0.25
+    cross_source_alignment: 0.50
+    dimension: 0.75
+    joint_variance: 0.50
+    joint_covariance: 0.05
+    branch_variance: 0.10
+    branch_covariance: 0.01
+    slot_diversity: 0.02
+    near_duplicate: 0.05
+
+evaluation:
+  retrieval_chunk_size: 512
+  tie_tolerance: 0.0000001
+  near_tie_tolerance: 0.0001
+  examples: 100
+  optional_baselines: {}

@@ -1,0 +1,346 @@
+seed: 431
+
+paths:
+  histcad_cache: ../data/processed/full_paired_graphs_v7.pt
+  jepa_representations: ../outputs/full_dataset_4096/representations.pt
+  output_dir: outputs
+
+# Saved supervised controls are included in classification reports when present,
+# but are not needed to run the representation benchmark.
+required_artifacts: []
+
+# Each BRepNet coverage file lists samples rejected by the official extractor.
+# All representations for a dataset are evaluated on the same retained UIDs.
+shared_coverage:
+  histcad:
+    file: external/brepnet_histcad.coverage.json
+  tmcad:
+    file: external/brepnet_tmcad.coverage.json
+
+# This is the active, fully materializable comparison set. Every representation is required for a
+# complete run. Published candidates without an official raw-input pipeline stay in sources.yaml.
+representations:
+  - name: jepa_joint
+    family: jepa
+    dataset: histcad
+    format: histcad_pt
+    artifact: ../outputs/full_dataset_4096/representations.pt
+    storage: embeddings
+    key: joint
+    required: true
+    reuse: true
+    tasks: [frozen, retrieval, semantic]
+    comparability: exact HistCAD cache and split; 4096-D joint representation
+
+  - name: graph_autoencoder_joint
+    family: autoencoder
+    dataset: histcad
+    format: histcad_aligned_pt
+    artifact: ../downstream_retrieval_adapter/outputs/baseline_representations.pt
+    reference_artifact: ../outputs/full_dataset_4096/representations.pt
+    storage: embeddings
+    key: graph_autoencoder_joint
+    required: true
+    reuse: true
+    tasks: [frozen, retrieval, semantic]
+    comparability: completed same-input/same-encoder 4096-D reconstruction baseline
+
+  - name: pca_graph_statistics
+    family: classical
+    dataset: histcad
+    format: histcad_aligned_pt
+    artifact: ../downstream_retrieval_adapter/outputs/baseline_representations.pt
+    reference_artifact: ../outputs/full_dataset_4096/representations.pt
+    storage: embeddings
+    key: pca_graph_statistics
+    required: true
+    reuse: true
+    tasks: [frozen, retrieval, semantic]
+    comparability: train-split PCA of standardized input graph statistics
+
+  - name: input_graph_statistics
+    family: nonlearned
+    dataset: histcad
+    format: histcad_aligned_pt
+    artifact: ../downstream_retrieval_adapter/outputs/baseline_representations.pt
+    reference_artifact: ../outputs/full_dataset_4096/representations.pt
+    storage: embeddings
+    key: input_graph_statistics
+    required: true
+    reuse: true
+    tasks: [frozen, retrieval, semantic]
+    comparability: deterministic graph-statistics control
+
+  - name: contrastive_joint
+    family: contrastive_same_encoder
+    dataset: histcad
+    format: generic_pt
+    artifact: outputs/baselines/contrastive/representations.pt
+    storage: embeddings
+    key: contrastive_joint
+    required: true
+    reuse: false
+    prepare: python baselines/contrastive/train.py
+    tasks: [frozen, retrieval, semantic]
+    comparability: same cache/encoder/width; NT-Xent objective; not a GC-CAD reproduction
+
+  - name: random_joint
+    family: no_pretraining
+    dataset: histcad
+    format: generic_pt
+    artifact: outputs/baselines/random/representations.pt
+    storage: embeddings
+    key: random_joint
+    required: true
+    reuse: false
+    prepare: python baselines/contrastive/train.py --random-only
+    tasks: [frozen, retrieval, semantic]
+    comparability: identical randomly initialized encoder; no representation training
+
+  - name: brepnet_official_histcad
+    family: external_brepnet
+    dataset: histcad
+    format: generic_pt
+    artifact: external/brepnet_histcad.pt
+    storage: embeddings
+    key: brepnet_official
+    required: true
+    reuse: false
+    prepare: python baselines/external/prepare_brepnet.py histcad --external-python <brepnet-python>
+    tasks: [frozen, retrieval, semantic]
+    comparability: official segmentation-pretrained checkpoint and preprocessing; different architecture/objective
+
+  - name: jepa_step_tmcad
+    family: jepa
+    dataset: tmcad
+    format: tmcad_npy
+    metadata: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_brep_views/data/processed/metadata.json
+    array: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_brep_views/data/processed/pooled.npy
+    required: true
+    reuse: true
+    tasks: [frozen, classification]
+    comparability: existing frozen 2048-D JEPA STEP branch on exact TMCAD split
+
+  - name: autoencoder_step_tmcad
+    family: autoencoder
+    dataset: tmcad
+    format: generic_pt
+    artifact: outputs/baselines/tmcad/autoencoder_step.pt
+    storage: embeddings
+    key: autoencoder_step
+    required: true
+    reuse: false
+    prepare: python baselines/extract_tmcad.py autoencoder
+    tasks: [frozen, classification]
+    comparability: same TMCAD STEP graphs passed through HistCAD-pretrained AE STEP encoder
+
+  - name: contrastive_step_tmcad
+    family: contrastive_same_encoder
+    dataset: tmcad
+    format: generic_pt
+    artifact: outputs/baselines/tmcad/contrastive_step.pt
+    storage: embeddings
+    key: contrastive_step
+    required: true
+    reuse: false
+    prepare: python baselines/extract_tmcad.py contrastive
+    tasks: [frozen, classification]
+    comparability: same TMCAD STEP graphs passed through controlled contrastive STEP encoder
+
+  - name: random_step_tmcad
+    family: no_pretraining
+    dataset: tmcad
+    format: generic_pt
+    artifact: outputs/baselines/tmcad/random_step.pt
+    storage: embeddings
+    key: random_step
+    required: true
+    reuse: false
+    prepare: python baselines/extract_tmcad.py random
+    tasks: [frozen, classification]
+    comparability: same STEP architecture with seeded random initialization
+
+  - name: brepnet_official_tmcad
+    family: external_brepnet
+    dataset: tmcad
+    format: generic_pt
+    artifact: external/brepnet_tmcad.pt
+    storage: embeddings
+    key: brepnet_official
+    required: true
+    reuse: false
+    prepare: python baselines/external/prepare_brepnet.py tmcad --external-python <brepnet-python>
+    tasks: [frozen, classification]
+    comparability: official segmentation-pretrained BRepNet; different input preprocessing/objective
+
+frozen_representation:
+  common_width: 256
+  diagnostic_max_rows: 4096
+  retrieval_chunk_size: 256
+  knn_k: 5
+  knn_chunk_size: 256
+  datasets:
+    histcad:
+      label: final_operation
+      minimum_train_class_count: 25
+      retrieval_labels: [operation_signature, final_operation, feature_count, functional_type]
+      target: dimensions
+    tmcad:
+      label: class
+      minimum_train_class_count: 2
+      retrieval_labels: [class]
+      target: null
+  probe: &probe_training
+    device: auto
+    epochs: 40
+    patience: 7
+    batch_size: 512
+    learning_rate: 0.001
+    weight_decay: 0.0001
+    label_smoothing: 0.0
+    gradient_clip: 1.0
+    minimum_improvement: 0.0001
+    hidden_dim: 256
+    dropout: 0.10
+
+tmcad_classification:
+  common_width: 256
+  knn_k: 5
+  knn_chunk_size: 256
+  training: *probe_training
+  existing_control_results:
+    - ../downstream_classifier_tmcad_final/outputs/default/evaluation.json
+    - ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_mesh/outputs/default/pooled_plus_brep_view_geometry_mesh/evaluation.json
+    - outputs/baselines/tmcad_supervised_from_scratch/evaluation.json
+
+tmcad_supervised_from_scratch:
+  manifest: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad/data/processed/manifest.json
+  prepared_graphs: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad/data/processed
+  output_dir: outputs/baselines/tmcad_supervised_from_scratch
+  device: auto
+  epochs: 32
+  patience: 7
+  batch_size: 16
+  num_workers: 0
+  hidden_dim: 256
+  dropout: 0.25
+  learning_rate: 0.0003
+  weight_decay: 0.001
+  label_smoothing: 0.02
+  gradient_clip: 1.0
+  minimum_improvement: 0.0001
+
+tmcad_embedding_extraction:
+  manifest: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad/data/processed/manifest.json
+  prepared_graphs: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad/data/processed
+  device: auto
+  batch_size: 32
+  num_workers: 0
+  progress_every: 1000
+  checkpoints:
+    autoencoder: ../downstream_retrieval_adapter/outputs/best_graph_autoencoder.pt
+    contrastive: outputs/baselines/contrastive/best.pt
+  outputs:
+    autoencoder: outputs/baselines/tmcad/autoencoder_step.pt
+    contrastive: outputs/baselines/tmcad/contrastive_step.pt
+    random: outputs/baselines/tmcad/random_step.pt
+
+retrieval_adaptation:
+  common_width: 256
+  target: dimensions
+  retrieval_labels: [operation_signature, feature_sequence, final_operation, feature_count_bucket,
+                     primitive_profile, dominant_constraint, functional_type,
+                     canonical_functional_type]
+  chunk_size: 256
+  training:
+    device: auto
+    epochs: 16
+    patience: 3
+    batch_size: 512
+    learning_rate: 0.0003
+    weight_decay: 0.0001
+    hidden_dim: 512
+    dropout: 0.10
+    temperature: 0.08
+    positives_per_query: 1
+    positive_projections: 6
+    positive_window: 8
+    negatives_per_query: 3
+    contrastive_weight: 1.0
+    target_weight: 0.5
+    anchor_weight: 0.05
+    gradient_clip: 2.0
+    minimum_improvement: 0.00001
+
+semantic_retrieval:
+  common_width: 256
+  teacher_targets: ../downstream_semantic_study/outputs_clean/functional_text_teacher.pt
+  geometry_target: dimensions
+  retrieval_labels: [functional_type, canonical_functional_type, operation_signature,
+                     feature_count, primitive_profile]
+  primary_metric: function_at_1_eligible
+  chunk_size: 256
+  training:
+    device: auto
+    epochs: 40
+    patience: 4
+    batch_size: 512
+    learning_rate: 0.0005
+    weight_decay: 0.0001
+    hidden_dim: 512
+    dropout: 0.10
+    relational_weight: 0.2
+    gradient_clip: 1.0
+    minimum_improvement: 0.00001
+
+baseline_training:
+  contrastive:
+    device: auto
+    epochs: 20
+    patience: 7
+    batch_size: 8
+    extraction_batch_size: 16
+    num_workers: 0
+    prefetch_factor: 2
+    monitor_every_steps: 1000
+    mixed_precision: true
+    learning_rate: 0.0002
+    weight_decay: 0.0001
+    mask_ratio: 0.10
+    temperature: 0.10
+    gradient_clip: 2.0
+    minimum_improvement: 0.00001
+
+efficiency_sources:
+  jepa:
+    representations: [jepa_joint, jepa_step_tmcad]
+    training_summary: ../outputs/full_dataset_4096/training_summary.json
+    metrics_csv: ../outputs/full_dataset_4096/training_metrics.csv
+    checkpoint: ../outputs/full_dataset_4096/best.pt
+    parameter_keys: [online_trainable_parameters, ema_frozen_parameters]
+  graph_autoencoder:
+    representations: [graph_autoencoder_joint, autoencoder_step_tmcad]
+    training_summary: ../downstream_retrieval_adapter/outputs/baseline_training_summary.json
+    checkpoint: ../downstream_retrieval_adapter/outputs/best_graph_autoencoder.pt
+    training_batch_size: 16
+    parameter_keys: [trainable_parameters]
+  contrastive:
+    representations: [contrastive_joint, contrastive_step_tmcad]
+    training_summary: outputs/baselines/contrastive/training_summary.json
+    checkpoint: outputs/baselines/contrastive/best.pt
+    parameter_keys: [trainable_parameters]
+  random:
+    representations: [random_joint, random_step_tmcad]
+    training_summary: outputs/baselines/random/training_summary.json
+    training_status: no_training
+    parameter_keys: [trainable_parameters]
+  pca_graph_statistics:
+    representations: [pca_graph_statistics]
+    training_status: train_split_fit_not_timed
+  input_graph_statistics:
+    representations: [input_graph_statistics]
+    training_status: no_training
+  brepnet_official:
+    representations: [brepnet_official_histcad, brepnet_official_tmcad]
+    checkpoint: external_sources/BRepNet/example_files/pretrained_models/pretrained_s2.0.0_extended_step_uv_net_features_0816_183419.ckpt
+    training_status: external_pretrained_not_timed

@@ -1,0 +1,96 @@
+{
+  "protocol": "forward_only_existing_models_v1",
+  "dataset": "histcad",
+  "split": "test",
+  "covered_rows": 128,
+  "batch_size": 8,
+  "warmup_batches": 2,
+  "repeats": 3,
+  "excludes": [
+    "checkpoint loading",
+    "graph collation",
+    "host-to-device transfer"
+  ],
+  "methods": {
+    "jepa": {
+      "embedding_seconds_per_sample": 0.0021320796873472623,
+      "checkpoint_bytes": 1938955953,
+      "checkpoint_mtime_ns": 1789598406275163400,
+      "device": "cuda",
+      "samples": 128
+    },
+    "graph_autoencoder": {
+      "embedding_seconds_per_sample": 0.0019611466147277192,
+      "checkpoint_bytes": 269371763,
+      "checkpoint_mtime_ns": 1789986995488657500,
+      "device": "cuda",
+      "samples": 128
+    },
+    "contrastive": {
+      "embedding_seconds_per_sample": 0.0016750593749748077,
+      "checkpoint_bytes": 250833217,
+      "checkpoint_mtime_ns": 1790105121658461600,
+      "device": "cuda",
+      "samples": 128
+    },
+    "random": {
+      "embedding_seconds_per_sample": 0.0016827854168847505,
+      "checkpoint_bytes": null,
+      "checkpoint_mtime_ns": null,
+      "device": "cuda",
+      "samples": 128
+    },
+    "input_graph_statistics": {
+      "embedding_seconds_per_sample": 8.37130209371632e-05,
+      "checkpoint_bytes": null,
+      "checkpoint_mtime_ns": null,
+      "device": "cpu",
+      "samples": 128
+    },
+    "pca_graph_statistics": {
+      "embedding_seconds_per_sample": 7.046067730698269e-05,
+      "checkpoint_bytes": null,
+      "checkpoint_mtime_ns": null,
+      "device": "cpu",
+      "samples": 128
+    },
+    "brepnet_official_tmcad": {
+      "embedding_seconds_per_sample": 0.051782379427083323,
+      "checkpoint_bytes": 22191553,
+      "checkpoint_mtime_ns": 1790278732111711500,
+      "parameters": 1844088,
+      "device": "cpu",
+      "samples": 128,
+      "batch_size": 8,
+      "warmup_batches": 2,
+      "repeats": 3,
+      "dataset": "tmcad",
+      "protocol": "official_encoder_plus_mean_max_face_pooling_v1",
+      "excludes": [
+        "STEP preprocessing",
+        "checkpoint loading",
+        "data collation",
+        "host-to-device transfer"
+      ]
+    },
+    "brepnet_official": {
+      "embedding_seconds_per_sample": 0.004771539843750001,
+      "checkpoint_bytes": 22191553,
+      "checkpoint_mtime_ns": 1790278732111711500,
+      "parameters": 1844088,
+      "device": "cpu",
+      "samples": 128,
+      "batch_size": 8,
+      "warmup_batches": 2,
+      "repeats": 3,
+      "dataset": "histcad",
+      "protocol": "official_encoder_plus_mean_max_face_pooling_v1",
+      "excludes": [
+        "STEP preprocessing",
+        "checkpoint loading",
+        "data collation",
+        "host-to-device transfer"
+      ]
+    }
+  }
+}

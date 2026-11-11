@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.idea/
+.env
+.env.*
+*.stp
+*.step
+*.stl
+*.obj
+*.ply
+*.iges
+*.igs
+*.zip
+*.sqlite
+*.db
+# Download source datasets separately; retain selected split/provenance records.
+/HistCAD dataset/
+/TMCAD/
+**/data/processed/*.pt
+**/data/processed/*.npy
+**/data/processed/*.npz
+!histcad_large_joint_jepa_v8/downstream_classifier_tmcad_final/data/processed/*_frozen_inputs.npz

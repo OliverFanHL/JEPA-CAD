@@ -1,0 +1,561 @@
+{
+  "selection": {
+    "retrieval_cases": [
+      3,
+      6
+    ],
+    "classification_uids": [
+      "coupling/337.stp",
+      "pulley/530.stp",
+      "coupling/257.stp"
+    ]
+  },
+  "records": [
+    {
+      "uid": "0081/00813092",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00813092.step",
+      "source_sha256": "59953babaf12f55d8eae1c8a06f065a1523165089a9271156dac59a223154fa8",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_retrieval_adapter\\outputs\\qualitative_manifest.csv",
+        "case": "3",
+        "role": "query",
+        "direct": {
+          "case": "3",
+          "representation": "Direct v7 joint",
+          "query_uid": "0081/00813092",
+          "rank": "1",
+          "neighbor_uid": "0029/00296052",
+          "cosine_similarity": "0.7849864959716797",
+          "dimension_mae": "0.6785330772399902",
+          "feature_count_match": "False",
+          "history_match": "False",
+          "functional_match": "False"
+        },
+        "adapted": {
+          "case": "3",
+          "representation": "Adapted v7 joint",
+          "query_uid": "0081/00813092",
+          "rank": "1",
+          "neighbor_uid": "0077/00778371",
+          "cosine_similarity": "0.8788520693778992",
+          "dimension_mae": "0.10371149331331253",
+          "feature_count_match": "True",
+          "history_match": "True",
+          "functional_match": "False"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_query.png",
+      "asset_sha256": "11aa2dc5af51c84f826ca3aae269d85052b8968b547e8f01421bcd86e45cf258",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00813092.step",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_query_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_query_raw_view2.png"
+        ],
+        "bounds": [
+          -64.0,
+          -50.0,
+          0.0,
+          64.0,
+          50.0,
+          4.0
+        ],
+        "triangles_in_step_tessellation": 60,
+        "triangles_rendered": 60,
+        "topological_edges": 96,
+        "edges_rendered": 96,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "0029/00296052",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00296052.step",
+      "source_sha256": "111084e16650a8ab5c70f872772b02a4969de4f9f094c58ac75172c53d872164",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_retrieval_adapter\\outputs\\qualitative_manifest.csv",
+        "case": "3",
+        "role": "direct",
+        "direct": {
+          "case": "3",
+          "representation": "Direct v7 joint",
+          "query_uid": "0081/00813092",
+          "rank": "1",
+          "neighbor_uid": "0029/00296052",
+          "cosine_similarity": "0.7849864959716797",
+          "dimension_mae": "0.6785330772399902",
+          "feature_count_match": "False",
+          "history_match": "False",
+          "functional_match": "False"
+        },
+        "adapted": {
+          "case": "3",
+          "representation": "Adapted v7 joint",
+          "query_uid": "0081/00813092",
+          "rank": "1",
+          "neighbor_uid": "0077/00778371",
+          "cosine_similarity": "0.8788520693778992",
+          "dimension_mae": "0.10371149331331253",
+          "feature_count_match": "True",
+          "history_match": "True",
+          "functional_match": "False"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_direct.png",
+      "asset_sha256": "ed39a31e4238cc649998c69de8d5c55a269d20157ff812ff6e2a35bdc6bf0cbf",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00296052.step",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_direct_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_direct_raw_view2.png"
+        ],
+        "bounds": [
+          -800.0,
+          -397.5,
+          0.0,
+          800.0,
+          397.5,
+          30.0
+        ],
+        "triangles_in_step_tessellation": 60,
+        "triangles_rendered": 60,
+        "topological_edges": 96,
+        "edges_rendered": 96,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "0077/00778371",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0077\\00778371.step",
+      "source_sha256": "ce3eeb8038cda6661f4802ffddc19985e174cab9bbd76cbefd32a59c7f19e2b2",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_retrieval_adapter\\outputs\\qualitative_manifest.csv",
+        "case": "3",
+        "role": "adapted",
+        "direct": {
+          "case": "3",
+          "representation": "Direct v7 joint",
+          "query_uid": "0081/00813092",
+          "rank": "1",
+          "neighbor_uid": "0029/00296052",
+          "cosine_similarity": "0.7849864959716797",
+          "dimension_mae": "0.6785330772399902",
+          "feature_count_match": "False",
+          "history_match": "False",
+          "functional_match": "False"
+        },
+        "adapted": {
+          "case": "3",
+          "representation": "Adapted v7 joint",
+          "query_uid": "0081/00813092",
+          "rank": "1",
+          "neighbor_uid": "0077/00778371",
+          "cosine_similarity": "0.8788520693778992",
+          "dimension_mae": "0.10371149331331253",
+          "feature_count_match": "True",
+          "history_match": "True",
+          "functional_match": "False"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_adapted.png",
+      "asset_sha256": "9059d97bb8dcdc77449d878a2d2757b43c7ca64abef16fbdd41099cbcbfc993f",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0077\\00778371.step",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_adapted_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_3_adapted_raw_view2.png"
+        ],
+        "bounds": [
+          -44.0,
+          -60.0,
+          0.0,
+          44.0,
+          60.0,
+          5.0
+        ],
+        "triangles_in_step_tessellation": 52,
+        "triangles_rendered": 52,
+        "topological_edges": 72,
+        "edges_rendered": 72,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "0048/00480829",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480829.step",
+      "source_sha256": "729bbffed4a7cfccd57cc7947045d4b7bc369b0da132df620ec624ce02c6bbc0",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_retrieval_adapter\\outputs\\qualitative_manifest.csv",
+        "case": "6",
+        "role": "query",
+        "direct": {
+          "case": "6",
+          "representation": "Direct v7 joint",
+          "query_uid": "0048/00480829",
+          "rank": "1",
+          "neighbor_uid": "0025/00259902",
+          "cosine_similarity": "0.628638744354248",
+          "dimension_mae": "0.38133594393730164",
+          "feature_count_match": "False",
+          "history_match": "False",
+          "functional_match": "False"
+        },
+        "adapted": {
+          "case": "6",
+          "representation": "Adapted v7 joint",
+          "query_uid": "0048/00480829",
+          "rank": "1",
+          "neighbor_uid": "0048/00480817",
+          "cosine_similarity": "0.8778513073921204",
+          "dimension_mae": "0.036398109048604965",
+          "feature_count_match": "True",
+          "history_match": "True",
+          "functional_match": "False"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_query.png",
+      "asset_sha256": "cb0c635ee1815c116267455c1412feaf34c8b359585470c338339ec3ecfccf3b",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480829.step",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_query_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_query_raw_view2.png"
+        ],
+        "bounds": [
+          0.0,
+          -38.10000000000001,
+          0.0,
+          25.4,
+          8.881784197001252e-16,
+          25.4
+        ],
+        "triangles_in_step_tessellation": 24,
+        "triangles_rendered": 24,
+        "topological_edges": 46,
+        "edges_rendered": 46,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "0025/00259902",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0025\\00259902.step",
+      "source_sha256": "80a724cf455228c5cf126cbb64445a8e8868f6fbd84ceb189eca2f2d283ca568",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_retrieval_adapter\\outputs\\qualitative_manifest.csv",
+        "case": "6",
+        "role": "direct",
+        "direct": {
+          "case": "6",
+          "representation": "Direct v7 joint",
+          "query_uid": "0048/00480829",
+          "rank": "1",
+          "neighbor_uid": "0025/00259902",
+          "cosine_similarity": "0.628638744354248",
+          "dimension_mae": "0.38133594393730164",
+          "feature_count_match": "False",
+          "history_match": "False",
+          "functional_match": "False"
+        },
+        "adapted": {
+          "case": "6",
+          "representation": "Adapted v7 joint",
+          "query_uid": "0048/00480829",
+          "rank": "1",
+          "neighbor_uid": "0048/00480817",
+          "cosine_similarity": "0.8778513073921204",
+          "dimension_mae": "0.036398109048604965",
+          "feature_count_match": "True",
+          "history_match": "True",
+          "functional_match": "False"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_direct.png",
+      "asset_sha256": "c83832a18ea44f2c38900d65474ca6d3dc45e5efcf221ce43181818230a56e6e",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0025\\00259902.step",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_direct_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_direct_raw_view2.png"
+        ],
+        "bounds": [
+          0.0,
+          -38.1,
+          0.0,
+          12.7,
+          0.0,
+          25.4
+        ],
+        "triangles_in_step_tessellation": 28,
+        "triangles_rendered": 28,
+        "topological_edges": 48,
+        "edges_rendered": 48,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "0048/00480817",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480817.step",
+      "source_sha256": "c23090779749e2410eca54c452ab8bc0aefc7c22949809c370188b7846a20400",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_retrieval_adapter\\outputs\\qualitative_manifest.csv",
+        "case": "6",
+        "role": "adapted",
+        "direct": {
+          "case": "6",
+          "representation": "Direct v7 joint",
+          "query_uid": "0048/00480829",
+          "rank": "1",
+          "neighbor_uid": "0025/00259902",
+          "cosine_similarity": "0.628638744354248",
+          "dimension_mae": "0.38133594393730164",
+          "feature_count_match": "False",
+          "history_match": "False",
+          "functional_match": "False"
+        },
+        "adapted": {
+          "case": "6",
+          "representation": "Adapted v7 joint",
+          "query_uid": "0048/00480829",
+          "rank": "1",
+          "neighbor_uid": "0048/00480817",
+          "cosine_similarity": "0.8778513073921204",
+          "dimension_mae": "0.036398109048604965",
+          "feature_count_match": "True",
+          "history_match": "True",
+          "functional_match": "False"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_adapted.png",
+      "asset_sha256": "c558eed6a725ad2a9c18fc421fb6822022bfbbc94d724b1feeb3ea0bf235b6aa",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480817.step",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_adapted_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\retrieval_6_adapted_raw_view2.png"
+        ],
+        "bounds": [
+          -25.4,
+          -38.1,
+          0.0,
+          0.0,
+          0.0,
+          25.4
+        ],
+        "triangles_in_step_tessellation": 32,
+        "triangles_rendered": 32,
+        "topological_edges": 54,
+        "edges_rendered": 54,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "coupling/337.stp",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\337.stp",
+      "source_sha256": "019472c330782ca4b93b4d9b73538f8189c8904ec31a0216fadfc91e0a624bc0",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\outputs\\default\\test_predictions.csv",
+        "prediction": {
+          "uid": "coupling/337.stp",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\337.stp",
+          "true_class": "coupling",
+          "baseline_prediction": "gear",
+          "final_prediction": "coupling",
+          "baseline_confidence": "0.3401784598827362",
+          "final_confidence": "0.890823483467102",
+          "outcome": "corrected"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\coupling_337.png",
+      "asset_sha256": "7394dd7839b7e8259a13cdeeacbe14ab85dba5b35bdd2d3d052b3af01ba79a6d",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\337.stp",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\coupling_337_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\coupling_337_raw_view2.png"
+        ],
+        "bounds": [
+          -12.700000100000004,
+          -12.700000106353269,
+          -22.8600001,
+          12.700000100000002,
+          12.700000106353272,
+          8.890000102761896
+        ],
+        "triangles_in_step_tessellation": 7360,
+        "triangles_rendered": 7360,
+        "topological_edges": 800,
+        "edges_rendered": 350,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "pulley/530.stp",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\pulley\\530.stp",
+      "source_sha256": "5884e878ba19c5d3a3ef4773b6b98008c6af25c873f7ad3d0ee85ba6a566ab86",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\outputs\\default\\test_predictions.csv",
+        "prediction": {
+          "uid": "pulley/530.stp",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\pulley\\530.stp",
+          "true_class": "pulley",
+          "baseline_prediction": "gear",
+          "final_prediction": "pulley",
+          "baseline_confidence": "0.6058118343353271",
+          "final_confidence": "0.8887056708335876",
+          "outcome": "corrected"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\pulley_530.png",
+      "asset_sha256": "305cf1218303b0ae2b6d20b1fa2fbb4d4611484c4edc52ebb3998ed078483d3c",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\pulley\\530.stp",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\pulley_530_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\pulley_530_raw_view2.png"
+        ],
+        "bounds": [
+          -22.0000001,
+          -22.0000001,
+          -15.5000001,
+          22.0000001,
+          22.0000001,
+          1.5000001
+        ],
+        "triangles_in_step_tessellation": 17498,
+        "triangles_rendered": 17498,
+        "topological_edges": 2152,
+        "edges_rendered": 350,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    },
+    {
+      "uid": "coupling/257.stp",
+      "source": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\257.stp",
+      "source_sha256": "d8512301aea320a8d3cb5fc6628b2327625b1ba3c3e1c8eb188e8decc7c099a9",
+      "result_source": {
+        "file": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\downstream_classifier_tmcad_final\\outputs\\default\\test_predictions.csv",
+        "prediction": {
+          "uid": "coupling/257.stp",
+          "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\257.stp",
+          "true_class": "coupling",
+          "baseline_prediction": "flange",
+          "final_prediction": "flange",
+          "baseline_confidence": "0.38653564453125",
+          "final_confidence": "0.43327999114990234",
+          "outcome": "still_wrong"
+        }
+      },
+      "asset": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\coupling_257.png",
+      "asset_sha256": "87f110a467bb10569f6832fc2f9108629786622145ba6f3715b2baf6637bbaa2",
+      "render": {
+        "status": "valid",
+        "step_path": "D:\\Postdoc\\research\\jepa_cad\\TMCAD\\coupling\\257.stp",
+        "views": [
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\coupling_257_raw_view1.png",
+          "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v8\\manuscript_latest\\figures\\qualitative_assets\\coupling_257_raw_view2.png"
+        ],
+        "bounds": [
+          -70.00000010000001,
+          -70.00000010000001,
+          -9.999999911182158e-08,
+          70.00000010000001,
+          70.00000010000001,
+          74.00000010000001
+        ],
+        "triangles_in_step_tessellation": 7264,
+        "triangles_rendered": 7264,
+        "topological_edges": 382,
+        "edges_rendered": 350,
+        "view_angles": [
+          [
+            24,
+            -48
+          ],
+          [
+            24,
+            132
+          ]
+        ]
+      }
+    }
+  ]
+}

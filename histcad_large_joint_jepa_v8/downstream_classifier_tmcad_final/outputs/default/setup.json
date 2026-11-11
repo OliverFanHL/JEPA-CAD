@@ -1,0 +1,231 @@
+{
+  "architecture": "physical_residual",
+  "train_count": 6522,
+  "val_count": 1386,
+  "train_class_counts": {
+    "bearing": 522,
+    "bolt_screw": 1405,
+    "bracket": 734,
+    "coupling": 317,
+    "flange": 652,
+    "gear": 647,
+    "nut": 623,
+    "pulley": 359,
+    "shaft": 583,
+    "spring": 680
+  },
+  "baseline_validation": {
+    "samples": 1386,
+    "accuracy": 0.8831168831168831,
+    "balanced_accuracy": 0.8540618883238877,
+    "macro_f1": 0.857505665866789,
+    "weighted_f1": 0.8824420724294488,
+    "top_3_accuracy": 0.9682539682539683,
+    "confusion_matrix": [
+      [
+        93,
+        0,
+        6,
+        7,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        286,
+        3,
+        0,
+        0,
+        2,
+        5,
+        1,
+        2,
+        0
+      ],
+      [
+        5,
+        4,
+        137,
+        2,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        3,
+        2,
+        3,
+        56,
+        1,
+        4,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        4,
+        1,
+        126,
+        2,
+        0,
+        3,
+        4,
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        1,
+        0,
+        119,
+        2,
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        6,
+        1,
+        1,
+        0,
+        1,
+        122,
+        0,
+        0,
+        1
+      ],
+      [
+        9,
+        0,
+        4,
+        8,
+        0,
+        5,
+        1,
+        43,
+        3,
+        0
+      ],
+      [
+        4,
+        4,
+        4,
+        2,
+        2,
+        5,
+        1,
+        0,
+        103,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        139
+      ]
+    ],
+    "class_order": [
+      "bearing",
+      "bolt_screw",
+      "bracket",
+      "coupling",
+      "flange",
+      "gear",
+      "nut",
+      "pulley",
+      "shaft",
+      "spring"
+    ],
+    "per_class": {
+      "bearing": {
+        "precision": 0.7948717948717948,
+        "recall": 0.8454545454545455,
+        "f1": 0.8193832599118943,
+        "support": 110
+      },
+      "bolt_screw": {
+        "precision": 0.9315960912052117,
+        "recall": 0.9565217391304348,
+        "f1": 0.9438943894389439,
+        "support": 299
+      },
+      "bracket": {
+        "precision": 0.8253012048192772,
+        "recall": 0.8896103896103896,
+        "f1": 0.85625,
+        "support": 154
+      },
+      "coupling": {
+        "precision": 0.7088607594936709,
+        "recall": 0.7777777777777778,
+        "f1": 0.7417218543046358,
+        "support": 72
+      },
+      "flange": {
+        "precision": 0.9767441860465116,
+        "recall": 0.8873239436619719,
+        "f1": 0.9298892988929889,
+        "support": 142
+      },
+      "gear": {
+        "precision": 0.8263888888888888,
+        "recall": 0.9015151515151515,
+        "f1": 0.8623188405797102,
+        "support": 132
+      },
+      "nut": {
+        "precision": 0.9242424242424242,
+        "recall": 0.9172932330827067,
+        "f1": 0.9207547169811321,
+        "support": 133
+      },
+      "pulley": {
+        "precision": 0.8269230769230769,
+        "recall": 0.589041095890411,
+        "f1": 0.688,
+        "support": 73
+      },
+      "shaft": {
+        "precision": 0.865546218487395,
+        "recall": 0.8174603174603174,
+        "f1": 0.8408163265306122,
+        "support": 126
+      },
+      "spring": {
+        "precision": 0.9858156028368794,
+        "recall": 0.9586206896551724,
+        "f1": 0.972027972027972,
+        "support": 145
+      }
+    }
+  },
+  "frozen_baseline_checkpoint": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_classifier_tmcad_mesh\\outputs\\default\\pooled_plus_brep_view_geometry_mesh\\best.pt",
+  "provenance": {
+    "format": "tmcad_final_physical_residual_inputs_v1",
+    "baseline_checkpoint_sha256": "fa192870448f1843df408f71609d4d68ffcb79dd6d13e8be943e1f4efd61800e",
+    "manifest_sha256": "b70ebf11865c81ec99d345ad368d89536cac58c9de7f04a2e02bc6cb1d4899a3",
+    "frozen_view_metadata_sha256": "ff1e7d596432dc2bd1d49d13bf409fe782e349446965755e3a5ffdfad3d1a12e",
+    "geometry_cache_sha256": "c4e6e2695558dfc14468b6aaf87a8b582b5358202f63a330d01a7f97fd9dc388",
+    "mesh_cache_sha256": "e78c225237866525993bcae7888592e7cb9b20f2f2a34b0b39743e68ab9437a0"
+  },
+  "selection": "Best epoch by validation macro-F1; no test rows used in training"
+}

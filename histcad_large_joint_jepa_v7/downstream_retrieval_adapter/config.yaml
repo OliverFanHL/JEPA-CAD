@@ -1,0 +1,73 @@
+seed: 431
+paths:
+  cache: ../data/processed/full_paired_graphs_v7.pt
+  representations: ../outputs/full_dataset_4096/representations.pt
+  source_checkpoint: ../outputs/full_dataset_4096/best.pt
+  output_dir: outputs
+
+model:
+  input_dim: 4096
+  tokens: 32
+  attention_heads: 8
+  mlp_hidden_dim: 1024
+  dropout: 0.10
+
+training:
+  device: auto
+  epochs: 16
+  patience: 3
+  batch_size: 128
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  negatives_per_query: 3
+  temperature: 0.08
+  positive_projections: 6
+  positive_window: 8
+  positive_feature_penalty: 0.15
+  positive_operation_penalty: 0.15
+  monitor_every_steps: 100
+  loss_weights:
+    retrieval: 1.00
+    dimension: 0.50
+    feature_count: 0.15
+    final_operation: 0.15
+    anchor: 0.05
+
+evaluation:
+  retrieval_chunk_size: 512
+  dimension_reference_neighbors: 10
+  qualitative_cases: 6
+  neighbors_per_case: 3
+
+# Controlled representation baselines. The graph autoencoder sees the same input
+# graphs and split as JEPA, uses the same encoder widths and 4096-D representation,
+# but is selected by validation reconstruction loss rather than JEPA loss.
+baselines:
+  descriptor:
+    step_entity_hash_bins: 256
+    minimum_std: 0.0001
+    pca_dim: 256
+    pca_power_iterations: 4
+  model:
+    decoder_hidden_dim: 1024
+  training:
+    device: auto
+    epochs: 6
+    patience: 5
+    batch_size: 16
+    learning_rate: 0.0002
+    weight_decay: 0.0001
+    gradient_clip: 2.0
+    minimum_validation_improvement: 0.00001
+    num_workers: 0
+    monitor_every_steps: 1000
+
+semantic_probe:
+  min_train_token_frequency: 500
+  epochs: 5
+  batch_size: 1024
+  learning_rate: 0.001
+  max_positive_weight: 10.0
+  fusion_weights: [0.0, 0.25, 0.5, 1.0, 2.0]
+  max_dimension_mae_relative_increase: 0.10
+  max_history_accuracy_drop: 0.03

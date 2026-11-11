@@ -1,0 +1,1792 @@
+{
+  "renderer": "OpenCASCADE STEP import + B-Rep triangulation + topological edges",
+  "cases": 6,
+  "unique_step_files_attempted": 179,
+  "valid": 97,
+  "invalid": 82,
+  "files": {
+    "0033/00336172": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (132,) + inhomogeneous part."
+    },
+    "0063/00634378": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (204,) + inhomogeneous part."
+    },
+    "0082/00826734": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (96,) + inhomogeneous part."
+    },
+    "0013/00131781": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (48,) + inhomogeneous part."
+    },
+    "0023/00233205": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (30,) + inhomogeneous part."
+    },
+    "0043/00438869": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (86,) + inhomogeneous part."
+    },
+    "0046/00460163": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (60,) + inhomogeneous part."
+    },
+    "0074/00744885": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (48,) + inhomogeneous part."
+    },
+    "0089/00890149": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0089\\00890149.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0089__00890149.png",
+      "triangles": 96,
+      "topological_edges_rendered": 144,
+      "bounds": [
+        -150.0,
+        -150.0,
+        0.0,
+        150.0,
+        150.0,
+        300.0
+      ],
+      "status": "valid"
+    },
+    "0071/00710948": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0071\\00710948.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0071__00710948.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -736.5999999999999,
+        -457.2,
+        0.0,
+        736.6,
+        457.2,
+        1066.8000000000002
+      ],
+      "status": "valid"
+    },
+    "0032/00320429": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (60,) + inhomogeneous part."
+    },
+    "0082/00821803": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (56,) + inhomogeneous part."
+    },
+    "0055/00551408": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0055\\00551408.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0055__00551408.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -101.6,
+        -6.35,
+        -66.67500000000001,
+        101.6,
+        0.0,
+        69.85
+      ],
+      "status": "valid"
+    },
+    "0011/00110912": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0011\\00110912.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0011__00110912.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -101.6,
+        0.0,
+        0.0,
+        0.0,
+        63.5,
+        44.45
+      ],
+      "status": "valid"
+    },
+    "0042/00424774": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0042\\00424774.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0042__00424774.png",
+      "triangles": 92,
+      "topological_edges_rendered": 144,
+      "bounds": [
+        -112.776,
+        -44.704,
+        0.0,
+        0.0,
+        0.0,
+        112.776
+      ],
+      "status": "valid"
+    },
+    "0067/00673874": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0067\\00673874.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0067__00673874.png",
+      "triangles": 92,
+      "topological_edges_rendered": 144,
+      "bounds": [
+        0.0,
+        -9000.0,
+        0.0,
+        6000.0,
+        0.0,
+        1350.0
+      ],
+      "status": "valid"
+    },
+    "0033/00339459": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0033\\00339459.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0033__00339459.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -10.0,
+        -5.2132,
+        0.0,
+        0.0,
+        -0.7412,
+        8.6
+      ],
+      "status": "valid"
+    },
+    "0007/00079512": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0007\\00079512.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0007__00079512.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -22.5,
+        -88.0,
+        0.0,
+        22.5,
+        0.0,
+        31.0
+      ],
+      "status": "valid"
+    },
+    "0100/01001599": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01001599.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0100__01001599.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -3.5684,
+        0.0,
+        -10.697400000000002,
+        0.9024000000000005,
+        45.72,
+        4.8601
+      ],
+      "status": "valid"
+    },
+    "0100/01008297": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (42,) + inhomogeneous part."
+    },
+    "0009/00092600": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0009\\00092600.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0009__00092600.png",
+      "triangles": 26,
+      "topological_edges_rendered": 46,
+      "bounds": [
+        -20.0,
+        -40.0,
+        0.0,
+        19.2186,
+        0.0,
+        40.0
+      ],
+      "status": "valid"
+    },
+    "0025/00259942": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0025\\00259942.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0025__00259942.png",
+      "triangles": 60,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -52.3875,
+        -26.9875,
+        0.0,
+        50.800000000000004,
+        26.987500000000004,
+        12.7
+      ],
+      "status": "valid"
+    },
+    "0072/00723774": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0072\\00723774.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0072__00723774.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -99.75,
+        -52.45,
+        0.0,
+        99.75,
+        52.45,
+        6.8999999999999995
+      ],
+      "status": "valid"
+    },
+    "0028/00280189": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0028\\00280189.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0028__00280189.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        0.0,
+        -57.15,
+        0.0,
+        19.05,
+        0.0,
+        38.1
+      ],
+      "status": "valid"
+    },
+    "0091/00910873": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0091\\00910873.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0091__00910873.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -62.4453,
+        -13.6281,
+        0.0,
+        58.2047,
+        59.396899999999995,
+        20.955
+      ],
+      "status": "valid"
+    },
+    "0013/00137666": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0013\\00137666.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0013__00137666.png",
+      "triangles": 76,
+      "topological_edges_rendered": 120,
+      "bounds": [
+        -35.2621,
+        -74.9326,
+        0.0,
+        66.3379,
+        26.6674,
+        4.445
+      ],
+      "status": "valid"
+    },
+    "0099/00997167": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0099\\00997167.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0099__00997167.png",
+      "triangles": 40,
+      "topological_edges_rendered": 66,
+      "bounds": [
+        -40.2151,
+        -66.6136,
+        0.0,
+        59.7849,
+        33.38640000000001,
+        8.0
+      ],
+      "status": "valid"
+    },
+    "0100/01009814": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (116,) + inhomogeneous part."
+    },
+    "0027/00278670": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (36,) + inhomogeneous part."
+    },
+    "0074/00745602": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0074\\00745602.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0074__00745602.png",
+      "triangles": 38,
+      "topological_edges_rendered": 64,
+      "bounds": [
+        0.0,
+        -31.75,
+        0.0,
+        50.800000000000026,
+        0.0,
+        31.75000000000002
+      ],
+      "status": "valid"
+    },
+    "0028/00280151": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (60,) + inhomogeneous part."
+    },
+    "0081/00815920": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00815920.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0081__00815920.png",
+      "triangles": 20,
+      "topological_edges_rendered": 36,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        45.0,
+        80.0,
+        30.0
+      ],
+      "status": "valid"
+    },
+    "0009/00093442": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0009\\00093442.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0009__00093442.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        0.0,
+        -63.5,
+        -7.62,
+        12.7,
+        0.0,
+        0.0
+      ],
+      "status": "valid"
+    },
+    "0007/00077860": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (36,) + inhomogeneous part."
+    },
+    "0034/00341381": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0034\\00341381.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0034__00341381.png",
+      "triangles": 52,
+      "topological_edges_rendered": 102,
+      "bounds": [
+        -336.5859,
+        -96.2405,
+        0.0,
+        833.4699,
+        152.0324,
+        40.0
+      ],
+      "status": "valid"
+    },
+    "0036/00361910": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0036\\00361910.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0036__00361910.png",
+      "triangles": 68,
+      "topological_edges_rendered": 132,
+      "bounds": [
+        -698.5,
+        -342.9,
+        0.0,
+        698.5,
+        342.9,
+        50.8
+      ],
+      "status": "valid"
+    },
+    "0036/00362455": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0036\\00362455.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0036__00362455.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -457.2,
+        -457.2,
+        0.0,
+        457.2,
+        457.2,
+        38.1
+      ],
+      "status": "valid"
+    },
+    "0036/00369845": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0036\\00369845.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0036__00369845.png",
+      "triangles": 72,
+      "topological_edges_rendered": 144,
+      "bounds": [
+        -1828.8,
+        -713.5047,
+        0.0,
+        1202.4865,
+        299.6811,
+        881.4738
+      ],
+      "status": "valid"
+    },
+    "0061/00618452": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0061\\00618452.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0061__00618452.png",
+      "triangles": 116,
+      "topological_edges_rendered": 168,
+      "bounds": [
+        -25.400000000000002,
+        -50.9862,
+        0.0,
+        19.050000000000008,
+        44.2638,
+        6.35
+      ],
+      "status": "valid"
+    },
+    "0059/00594120": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (84,) + inhomogeneous part."
+    },
+    "0007/00076233": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0007\\00076233.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0007__00076233.png",
+      "triangles": 76,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -25.0,
+        -25.0,
+        0.0,
+        25.0,
+        25.0,
+        1.8
+      ],
+      "status": "valid"
+    },
+    "0098/00985665": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0098\\00985665.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0098__00985665.png",
+      "triangles": 32,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -83.126,
+        -51.2643,
+        0.0,
+        96.874,
+        48.7357,
+        10.0
+      ],
+      "status": "valid"
+    },
+    "0086/00864870": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0086\\00864870.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0086__00864870.png",
+      "triangles": 52,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -100.0,
+        -50.0,
+        0.0,
+        100.0,
+        50.0,
+        3.0
+      ],
+      "status": "valid"
+    },
+    "0029/00296052": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00296052.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0029__00296052.png",
+      "triangles": 60,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -800.0,
+        -397.5,
+        0.0,
+        800.0,
+        397.5,
+        30.0
+      ],
+      "status": "valid"
+    },
+    "0081/00813092": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0081\\00813092.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0081__00813092.png",
+      "triangles": 60,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -64.0,
+        -50.0,
+        0.0,
+        64.0,
+        50.0,
+        4.0
+      ],
+      "status": "valid"
+    },
+    "0077/00778371": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0077\\00778371.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0077__00778371.png",
+      "triangles": 52,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -44.0,
+        -60.0,
+        0.0,
+        44.0,
+        60.0,
+        5.0
+      ],
+      "status": "valid"
+    },
+    "0032/00329432": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0032\\00329432.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0032__00329432.png",
+      "triangles": 12,
+      "topological_edges_rendered": 24,
+      "bounds": [
+        -273.05,
+        -228.6,
+        0.0,
+        273.05,
+        228.6,
+        19.05
+      ],
+      "status": "valid"
+    },
+    "0010/00100842": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0010\\00100842.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0010__00100842.png",
+      "triangles": 20,
+      "topological_edges_rendered": 36,
+      "bounds": [
+        0.0,
+        -5.684341886080802e-14,
+        0.0,
+        914.4,
+        609.6,
+        12.7
+      ],
+      "status": "valid"
+    },
+    "0050/00509626": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (96,) + inhomogeneous part."
+    },
+    "0027/00271153": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0027\\00271153.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0027__00271153.png",
+      "triangles": 24,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -50.8,
+        -50.8,
+        0.0,
+        0.0,
+        0.0,
+        50.8
+      ],
+      "status": "valid"
+    },
+    "0030/00306497": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (84,) + inhomogeneous part."
+    },
+    "0056/00569561": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0056\\00569561.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0056__00569561.png",
+      "triangles": 220,
+      "topological_edges_rendered": 336,
+      "bounds": [
+        -366.9873,
+        -58.42,
+        -178.6329,
+        366.9873,
+        0.0,
+        178.63290000000003
+      ],
+      "status": "valid"
+    },
+    "0006/00067561": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (132,) + inhomogeneous part."
+    },
+    "0032/00325671": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0032\\00325671.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0032__00325671.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -24.25,
+        -23.625,
+        0.0,
+        24.25,
+        23.625,
+        3.2
+      ],
+      "status": "valid"
+    },
+    "0060/00601070": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0060\\00601070.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0060__00601070.png",
+      "triangles": 40,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -74.0943,
+        -77.4666,
+        0.0,
+        75.5088,
+        73.1186,
+        10.0
+      ],
+      "status": "valid"
+    },
+    "0036/00361476": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (66,) + inhomogeneous part."
+    },
+    "0049/00490258": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (54,) + inhomogeneous part."
+    },
+    "0023/00231357": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (54,) + inhomogeneous part."
+    },
+    "0044/00444575": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0044\\00444575.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0044__00444575.png",
+      "triangles": 188,
+      "topological_edges_rendered": 288,
+      "bounds": [
+        -11.2347348871708,
+        -11.2347348871708,
+        0.0,
+        11.2347,
+        11.2347,
+        96.0
+      ],
+      "status": "valid"
+    },
+    "0044/00442108": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (198,) + inhomogeneous part."
+    },
+    "0061/00616658": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (6,) + inhomogeneous part."
+    },
+    "0061/00616992": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0061\\00616992.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0061__00616992.png",
+      "triangles": 40,
+      "topological_edges_rendered": 68,
+      "bounds": [
+        -46.0416,
+        -50.8,
+        -96.5068,
+        55.6621,
+        50.8,
+        55.9755
+      ],
+      "status": "valid"
+    },
+    "0035/00359290": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0035\\00359290.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0035__00359290.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -12.7,
+        -4.440892098500626e-15,
+        -3.552713678800501e-15,
+        25.4,
+        69.85,
+        31.750000000000004
+      ],
+      "status": "valid"
+    },
+    "0100/01007534": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01007534.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0100__01007534.png",
+      "triangles": 40,
+      "topological_edges_rendered": 66,
+      "bounds": [
+        139.7,
+        101.6,
+        0.0,
+        266.7,
+        197.6495,
+        91.44
+      ],
+      "status": "valid"
+    },
+    "0100/01009025": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01009025.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0100__01009025.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -169.9,
+        960.0,
+        -191.1406,
+        188.5176,
+        1010.0,
+        191.1406
+      ],
+      "status": "valid"
+    },
+    "0057/00573650": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0057\\00573650.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0057__00573650.png",
+      "triangles": 20,
+      "topological_edges_rendered": 36,
+      "bounds": [
+        -191.3521,
+        -219.3616,
+        0.0,
+        181.0664,
+        139.2721,
+        17.272
+      ],
+      "status": "valid"
+    },
+    "0074/00746497": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0074\\00746497.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0074__00746497.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -12.7,
+        -1.7763568394002505e-15,
+        -3.552713678800501e-15,
+        25.4,
+        69.85000000000001,
+        25.400000000000002
+      ],
+      "status": "valid"
+    },
+    "0062/00628173": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (48,) + inhomogeneous part."
+    },
+    "0063/00637373": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (12,) + inhomogeneous part."
+    },
+    "0013/00136617": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (36,) + inhomogeneous part."
+    },
+    "0100/01004926": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (78,) + inhomogeneous part."
+    },
+    "0062/00625889": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (18,) + inhomogeneous part."
+    },
+    "0011/00118722": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (66,) + inhomogeneous part."
+    },
+    "0080/00802408": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0080\\00802408.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0080__00802408.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -156.51389999999998,
+        -25.0,
+        -153.0457,
+        163.48610000000002,
+        0.0,
+        76.95430000000002
+      ],
+      "status": "valid"
+    },
+    "0055/00551057": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0055\\00551057.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0055__00551057.png",
+      "triangles": 108,
+      "topological_edges_rendered": 188,
+      "bounds": [
+        -38.10000000000001,
+        -19.05,
+        -38.10000000000003,
+        228.6,
+        0.0,
+        177.8
+      ],
+      "status": "valid"
+    },
+    "0010/00105471": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (108,) + inhomogeneous part."
+    },
+    "0049/00493846": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (84,) + inhomogeneous part."
+    },
+    "0088/00880651": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0088\\00880651.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0088__00880651.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -2285.7980000000002,
+        -1293.9798,
+        0.0,
+        2159.2021,
+        2135.020200000001,
+        2108.2
+      ],
+      "status": "valid"
+    },
+    "0017/00176880": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0017\\00176880.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0017__00176880.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -47.625,
+        -34.925,
+        0.0,
+        47.625,
+        41.275,
+        25.4
+      ],
+      "status": "valid"
+    },
+    "0045/00454234": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (240,) + inhomogeneous part."
+    },
+    "0033/00333517": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (48,) + inhomogeneous part."
+    },
+    "0005/00057516": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (72,) + inhomogeneous part."
+    },
+    "0086/00860301": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (54,) + inhomogeneous part."
+    },
+    "0010/00102479": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (138,) + inhomogeneous part."
+    },
+    "0062/00622289": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0062\\00622289.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0062__00622289.png",
+      "triangles": 24,
+      "topological_edges_rendered": 42,
+      "bounds": [
+        0.0,
+        -152.4,
+        -98.2612,
+        6.35,
+        76.2,
+        83.0466
+      ],
+      "status": "valid"
+    },
+    "0100/01009810": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01009810.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0100__01009810.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        0.0,
+        0.0,
+        -110.0,
+        15.0,
+        100.0001,
+        10.0001
+      ],
+      "status": "valid"
+    },
+    "0100/01009899": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01009899.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0100__01009899.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -0.25,
+        0.0,
+        -2.5,
+        0.25,
+        3.0,
+        2.5
+      ],
+      "status": "valid"
+    },
+    "0100/01005563": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_fusion360_0100\\0100\\01005563.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0100__01005563.png",
+      "triangles": 20,
+      "topological_edges_rendered": 36,
+      "bounds": [
+        0.0,
+        0.0,
+        -8.2,
+        1.4,
+        1.2,
+        0.0
+      ],
+      "status": "valid"
+    },
+    "0004/00047564": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (54,) + inhomogeneous part."
+    },
+    "0089/00890314": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0089\\00890314.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0089__00890314.png",
+      "triangles": 128,
+      "topological_edges_rendered": 192,
+      "bounds": [
+        -37.5,
+        -1425.0,
+        -664.2162999999999,
+        2900.0,
+        1162.1288,
+        2250.0
+      ],
+      "status": "valid"
+    },
+    "0088/00885872": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0088\\00885872.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0088__00885872.png",
+      "triangles": 84,
+      "topological_edges_rendered": 168,
+      "bounds": [
+        0.0,
+        -5.0,
+        0.0,
+        180.0,
+        0.0,
+        180.0
+      ],
+      "status": "valid"
+    },
+    "0097/00977239": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0097\\00977239.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0097__00977239.png",
+      "triangles": 60,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -2.5863755581667647e-12,
+        -2.7746133279353002,
+        0.0,
+        412.278457366994,
+        171.327418823242,
+        250.0
+      ],
+      "status": "valid"
+    },
+    "0075/00757974": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0075\\00757974.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0075__00757974.png",
+      "triangles": 144,
+      "topological_edges_rendered": 228,
+      "bounds": [
+        -3.0,
+        -9.5,
+        -100.0,
+        55.2289,
+        57.9875,
+        0.0
+      ],
+      "status": "valid"
+    },
+    "0019/00191768": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (192,) + inhomogeneous part."
+    },
+    "0076/00764656": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0076\\00764656.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0076__00764656.png",
+      "triangles": 40,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -30.0,
+        0.0,
+        -77.0,
+        240.0,
+        200.0,
+        111.0
+      ],
+      "status": "valid"
+    },
+    "0018/00180784": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (108,) + inhomogeneous part."
+    },
+    "0052/00525480": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (60,) + inhomogeneous part."
+    },
+    "0024/00241514": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (96,) + inhomogeneous part."
+    },
+    "0038/00380129": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (54,) + inhomogeneous part."
+    },
+    "0018/00180834": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (60,) + inhomogeneous part."
+    },
+    "0027/00273269": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0027\\00273269.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0027__00273269.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        -1.7763568394002505e-15,
+        -10.0,
+        0.0,
+        100.0,
+        0.0,
+        45.0
+      ],
+      "status": "valid"
+    },
+    "0085/00852016": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0085\\00852016.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0085__00852016.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        0.0,
+        -50.0,
+        -10.0,
+        68.5,
+        0.0,
+        44.0
+      ],
+      "status": "valid"
+    },
+    "0027/00271368": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0027\\00271368.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0027__00271368.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        0.0,
+        -10.0,
+        0.0,
+        90.0,
+        0.0,
+        30.0
+      ],
+      "status": "valid"
+    },
+    "0072/00725992": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (76,) + inhomogeneous part."
+    },
+    "0088/00884398": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0088\\00884398.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0088__00884398.png",
+      "triangles": 624,
+      "topological_edges_rendered": 1026,
+      "bounds": [
+        -29.4792,
+        -44.08890000000001,
+        0.0,
+        29.5848,
+        29.9508,
+        4.572
+      ],
+      "status": "valid"
+    },
+    "0020/00200786": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0020\\00200786.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0020__00200786.png",
+      "triangles": 1028,
+      "topological_edges_rendered": 1542,
+      "bounds": [
+        -26.6169,
+        -35.957,
+        0.0,
+        41.2414,
+        39.175200000000004,
+        7.62
+      ],
+      "status": "valid"
+    },
+    "0078/00785754": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (762,) + inhomogeneous part."
+    },
+    "0085/00852878": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (60,) + inhomogeneous part."
+    },
+    "0100/01001733": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (12,) + inhomogeneous part."
+    },
+    "0014/00144963": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (24,) + inhomogeneous part."
+    },
+    "0054/00545689": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (138,) + inhomogeneous part."
+    },
+    "0011/00115027": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (498,) + inhomogeneous part."
+    },
+    "0084/00847384": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (108,) + inhomogeneous part."
+    },
+    "0100/01002139": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (288,) + inhomogeneous part."
+    },
+    "0100/01000068": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (36,) + inhomogeneous part."
+    },
+    "0049/00494016": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (30,) + inhomogeneous part."
+    },
+    "0053/00539789": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (48,) + inhomogeneous part."
+    },
+    "0100/01008041": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (38,) + inhomogeneous part."
+    },
+    "0076/00763346": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (120,) + inhomogeneous part."
+    },
+    "0023/00233039": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (270,) + inhomogeneous part."
+    },
+    "0100/01008172": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (78,) + inhomogeneous part."
+    },
+    "0040/00400626": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0040\\00400626.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0040__00400626.png",
+      "triangles": 60,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -500.0,
+        -500.0,
+        -685.0,
+        500.0,
+        500.0,
+        25.0
+      ],
+      "status": "valid"
+    },
+    "0061/00617673": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0061\\00617673.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0061__00617673.png",
+      "triangles": 48,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -50.8,
+        -254.273,
+        -330.2,
+        558.8,
+        380.727,
+        330.2
+      ],
+      "status": "valid"
+    },
+    "0050/00507779": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0050\\00507779.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0050__00507779.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -222.1984,
+        -762.0,
+        -261.366,
+        222.1984,
+        0.0,
+        261.366
+      ],
+      "status": "valid"
+    },
+    "0011/00112871": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0011\\00112871.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0011__00112871.png",
+      "triangles": 48,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        0.0,
+        0.0,
+        -470.0,
+        1100.0,
+        450.0,
+        15.0
+      ],
+      "status": "valid"
+    },
+    "0093/00932403": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0093\\00932403.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0093__00932403.png",
+      "triangles": 48,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -355.6,
+        -266.70000000000005,
+        0.0,
+        355.6,
+        266.70000000000005,
+        692.1500000000001
+      ],
+      "status": "valid"
+    },
+    "0048/00482078": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00482078.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0048__00482078.png",
+      "triangles": 32,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -227.3675,
+        -135.255,
+        0.0,
+        52.0325,
+        169.545,
+        825.5
+      ],
+      "status": "valid"
+    },
+    "0085/00851774": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0085\\00851774.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0085__00851774.png",
+      "triangles": 60,
+      "topological_edges_rendered": 96,
+      "bounds": [
+        -209.54999999999998,
+        -82.55000000000001,
+        0.0,
+        209.54999999999998,
+        82.55000000000001,
+        88.9
+      ],
+      "status": "valid"
+    },
+    "0086/00861690": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0086\\00861690.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0086__00861690.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -66.67500000000001,
+        -38.1,
+        0.0,
+        66.67500000000001,
+        38.1,
+        158.75
+      ],
+      "status": "valid"
+    },
+    "0055/00556669": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0055\\00556669.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0055__00556669.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        0.0,
+        0.0,
+        0.0,
+        12.0,
+        200.0,
+        90.0
+      ],
+      "status": "valid"
+    },
+    "0055/00556720": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0055\\00556720.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0055__00556720.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -6.0,
+        0.0,
+        0.0,
+        6.0,
+        190.0,
+        90.0
+      ],
+      "status": "valid"
+    },
+    "0076/00762078": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0076\\00762078.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0076__00762078.png",
+      "triangles": 52,
+      "topological_edges_rendered": 84,
+      "bounds": [
+        -102.0,
+        0.0,
+        0.0,
+        102.0,
+        204.0,
+        85.0
+      ],
+      "status": "valid"
+    },
+    "0030/00307426": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (66,) + inhomogeneous part."
+    },
+    "0006/00064120": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (144,) + inhomogeneous part."
+    },
+    "0073/00731374": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0073\\00731374.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0073__00731374.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -609.6,
+        -228.6,
+        0.0,
+        609.6,
+        228.6,
+        101.6
+      ],
+      "status": "valid"
+    },
+    "0032/00320603": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (30,) + inhomogeneous part."
+    },
+    "0034/00340170": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (36,) + inhomogeneous part."
+    },
+    "0100/01007585": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (42,) + inhomogeneous part."
+    },
+    "0039/00399630": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (6,) + inhomogeneous part."
+    },
+    "0095/00951664": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0095\\00951664.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0095__00951664.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        0.0,
+        -200.025,
+        -381.67100000000005,
+        390.52500000000003,
+        200.025,
+        381.0
+      ],
+      "status": "valid"
+    },
+    "0027/00274519": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0027\\00274519.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0027__00274519.png",
+      "triangles": 40,
+      "topological_edges_rendered": 66,
+      "bounds": [
+        0.0,
+        -23.3074,
+        -23.9033,
+        6.0,
+        20.6926,
+        32.0967
+      ],
+      "status": "valid"
+    },
+    "0071/00717058": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0071\\00717058.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0071__00717058.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -112.5,
+        -90.0,
+        0.0,
+        112.5,
+        90.0,
+        30.0
+      ],
+      "status": "valid"
+    },
+    "0049/00492975": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0049\\00492975.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0049__00492975.png",
+      "triangles": 140,
+      "topological_edges_rendered": 180,
+      "bounds": [
+        0.0,
+        -80.23360000000001,
+        -33.9677,
+        1.5,
+        145.8924,
+        27.465600000000016
+      ],
+      "status": "valid"
+    },
+    "0096/00968134": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0096\\00968134.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0096__00968134.png",
+      "triangles": 36,
+      "topological_edges_rendered": 60,
+      "bounds": [
+        0.0,
+        -115.0686,
+        -134.5466,
+        19.0,
+        68.9314,
+        163.4534
+      ],
+      "status": "valid"
+    },
+    "0006/00067200": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (120,) + inhomogeneous part."
+    },
+    "0095/00952733": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (168,) + inhomogeneous part."
+    },
+    "0100/01000027": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (48,) + inhomogeneous part."
+    },
+    "0031/00319351": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0031\\00319351.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0031__00319351.png",
+      "triangles": 24,
+      "topological_edges_rendered": 42,
+      "bounds": [
+        -21.5644,
+        -50.8,
+        -31.9627,
+        29.2356,
+        0.0,
+        18.8373
+      ],
+      "status": "valid"
+    },
+    "0100/01001624": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (36,) + inhomogeneous part."
+    },
+    "0069/00695177": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (48,) + inhomogeneous part."
+    },
+    "0076/00764637": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (78,) + inhomogeneous part."
+    },
+    "0022/00228861": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0022\\00228861.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0022__00228861.png",
+      "triangles": 80,
+      "topological_edges_rendered": 132,
+      "bounds": [
+        -659.5957,
+        -237.18060000000003,
+        0.0,
+        1010.2305,
+        325.36969999999997,
+        381.0
+      ],
+      "status": "valid"
+    },
+    "0029/00291284": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0029\\00291284.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0029__00291284.png",
+      "triangles": 92,
+      "topological_edges_rendered": 144,
+      "bounds": [
+        -520.7,
+        -311.15,
+        -50.8,
+        520.7,
+        0.0,
+        88.9
+      ],
+      "status": "valid"
+    },
+    "0091/00915102": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0091\\00915102.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0091__00915102.png",
+      "triangles": 36,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -1394.2746,
+        -205.41660000000002,
+        -157.5924,
+        372.60080000000005,
+        363.6374,
+        202.4076
+      ],
+      "status": "valid"
+    },
+    "0022/00221689": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0022\\00221689.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0022__00221689.png",
+      "triangles": 168,
+      "topological_edges_rendered": 228,
+      "bounds": [
+        -341.969,
+        0.0,
+        -48.147200000000005,
+        318.431,
+        38.1,
+        28.0528
+      ],
+      "status": "valid"
+    },
+    "0083/00834396": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0083\\00834396.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0083__00834396.png",
+      "triangles": 68,
+      "topological_edges_rendered": 144,
+      "bounds": [
+        -1097.8376,
+        0.0,
+        -109.88820000000001,
+        1019.8383,
+        149.81760000000003,
+        259.39158330104
+      ],
+      "status": "valid"
+    },
+    "0037/00378326": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0037\\00378326.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0037__00378326.png",
+      "triangles": 44,
+      "topological_edges_rendered": 72,
+      "bounds": [
+        -1092.2,
+        -25.4,
+        -101.6,
+        1092.2,
+        25.4,
+        101.6
+      ],
+      "status": "valid"
+    },
+    "0049/00494328": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (30,) + inhomogeneous part."
+    },
+    "0093/00936998": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0093\\00936998.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0093__00936998.png",
+      "triangles": 108,
+      "topological_edges_rendered": 144,
+      "bounds": [
+        -45.0,
+        -30.5,
+        0.0,
+        45.0,
+        30.5,
+        40.0
+      ],
+      "status": "valid"
+    },
+    "0080/00808389": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (120,) + inhomogeneous part."
+    },
+    "0089/00894002": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0089\\00894002.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0089__00894002.png",
+      "triangles": 2688,
+      "topological_edges_rendered": 4086,
+      "bounds": [
+        -115.1206,
+        -14.6354,
+        0.0,
+        115.1206,
+        14.635400000000002,
+        12.7
+      ],
+      "status": "valid"
+    },
+    "0082/00827413": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (3378,) + inhomogeneous part."
+    },
+    "0100/01009619": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (14,) + inhomogeneous part."
+    },
+    "0049/00495105": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (78,) + inhomogeneous part."
+    },
+    "0079/00791185": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0079\\00791185.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0079__00791185.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -5.182471659067191,
+        -1.9811999999999999,
+        0.0,
+        5.156200000000001,
+        1.9875000000000007,
+        9.918700000000001
+      ],
+      "status": "valid"
+    },
+    "0001/00019472": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (30,) + inhomogeneous part."
+    },
+    "0041/00418882": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0041\\00418882.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0041__00418882.png",
+      "triangles": 24,
+      "topological_edges_rendered": 42,
+      "bounds": [
+        -50.8,
+        -50.8,
+        0.0,
+        0.0,
+        0.0,
+        50.8
+      ],
+      "status": "valid"
+    },
+    "0066/00663360": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (72,) + inhomogeneous part."
+    },
+    "0030/00307729": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0030\\00307729.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0030__00307729.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -37.5634,
+        -50.8,
+        -1.0658141036401503e-14,
+        76.7366,
+        25.4,
+        63.500000000000014
+      ],
+      "status": "valid"
+    },
+    "0087/00873278": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (60,) + inhomogeneous part."
+    },
+    "0100/01009587": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (24,) + inhomogeneous part."
+    },
+    "0017/00174779": {
+      "status": "invalid",
+      "error": "ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (84,) + inhomogeneous part."
+    },
+    "0025/00259902": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0025\\00259902.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0025__00259902.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        0.0,
+        -38.1,
+        0.0,
+        12.7,
+        0.0,
+        25.4
+      ],
+      "status": "valid"
+    },
+    "0028/00284156": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0028\\00284156.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0028__00284156.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        0.0,
+        -25.4,
+        0.0,
+        38.1,
+        0.0,
+        25.4
+      ],
+      "status": "valid"
+    },
+    "0033/00332305": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0033\\00332305.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0033__00332305.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        -16.7,
+        -16.7,
+        0.0,
+        16.7,
+        16.7,
+        31.7
+      ],
+      "status": "valid"
+    },
+    "0048/00480817": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480817.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0048__00480817.png",
+      "triangles": 32,
+      "topological_edges_rendered": 54,
+      "bounds": [
+        -25.4,
+        -38.1,
+        0.0,
+        0.0,
+        0.0,
+        25.4
+      ],
+      "status": "valid"
+    },
+    "0048/00480829": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0048\\00480829.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0048__00480829.png",
+      "triangles": 24,
+      "topological_edges_rendered": 46,
+      "bounds": [
+        0.0,
+        -38.10000000000001,
+        0.0,
+        25.4,
+        8.881784197001252e-16,
+        25.4
+      ],
+      "status": "valid"
+    },
+    "0057/00571722": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0057\\00571722.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0057__00571722.png",
+      "triangles": 28,
+      "topological_edges_rendered": 48,
+      "bounds": [
+        0.0,
+        -19.2725,
+        -6.350000000000001,
+        25.4,
+        18.8275,
+        33.6782
+      ],
+      "status": "valid"
+    },
+    "0057/00575531": {
+      "step_path": "D:\\Postdoc\\research\\jepa_cad\\HistCAD dataset\\STEP\\histcad_step_deepcad_0001-0099\\0057\\00575531.step",
+      "render_path": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_retrieval_adapter\\outputs\\rendered_parts\\0057__00575531.png",
+      "triangles": 20,
+      "topological_edges_rendered": 42,
+      "bounds": [
+        0.0,
+        -1.4210854715202004e-14,
+        0.0,
+        50.8,
+        31.75,
+        31.7502
+      ],
+      "status": "valid"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+base_config: ../config.yaml
+output: outputs/default
+widths: [256, 512]
+# Select 512 only if its validation macro-F1 exceeds 256 by this margin.
+minimum_validation_gain_for_512: 0.003
+
+# Same downstream classifier protocol for both widths. JEPA stays frozen.
+classifier:
+  attention_heads: 8
+  dropout: 0.25
+  batch_size: 48
+  epochs: 50
+  learning_rate: 0.0002
+  minimum_learning_rate: 0.00002
+  weight_decay: 0.0001
+  label_smoothing: 0.02
+  patience: 8
+  min_epochs: 8
+  gradient_clip: 1.0
+
+# Applies only to post-evaluation PNGs, not model features or metrics.
+qualitative:
+  cases_per_class_outcome: 1
+  image_size: 300
+  max_render_triangles: 12000
+  max_render_edges: 200

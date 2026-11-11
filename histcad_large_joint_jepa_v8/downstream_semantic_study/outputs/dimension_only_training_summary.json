@@ -1,0 +1,100 @@
+{
+  "name": "semantic_plus_dimensions",
+  "checkpoint": "D:\\Postdoc\\research\\jepa_cad\\histcad_large_joint_jepa_v7\\downstream_semantic_study\\outputs\\semantic_plus_dimensions.pt",
+  "train_samples": 145899,
+  "validation_samples": 8130,
+  "best_epoch": 6,
+  "best_validation_loss": 0.22525296158456273,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "semantic_cosine": 0.2450719177624883,
+        "semantic_relational": 0.053508034487736535,
+        "dimension": 0.2848995934197056,
+        "loss": 0.3982233216374779
+      },
+      "val": {
+        "semantic_cosine": 0.21620019227083026,
+        "semantic_relational": 0.04171649619002184,
+        "dimension": 0.20062789463175765,
+        "loss": 0.32485743601237127
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "semantic_cosine": 0.22113176717779112,
+        "semantic_relational": 0.03664223993025716,
+        "dimension": 0.14950026003556993,
+        "loss": 0.30321034530483615
+      },
+      "val": {
+        "semantic_cosine": 0.21500238287199613,
+        "semantic_relational": 0.03836194818786736,
+        "dimension": 0.10836572728290476,
+        "loss": 0.27685763664351176
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "semantic_cosine": 0.21684172765646212,
+        "semantic_relational": 0.03527103855070523,
+        "dimension": 0.08947048184864917,
+        "loss": 0.26863117549775467
+      },
+      "val": {
+        "semantic_cosine": 0.20988748621969938,
+        "semantic_relational": 0.039178427624966386,
+        "dimension": 0.071300262467521,
+        "loss": 0.2533733035365594
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "semantic_cosine": 0.21205555331472992,
+        "semantic_relational": 0.035271162036396915,
+        "dimension": 0.06418297732098983,
+        "loss": 0.2512012742508951
+      },
+      "val": {
+        "semantic_cosine": 0.2066829743787078,
+        "semantic_relational": 0.03890355536015418,
+        "dimension": 0.05235451250938472,
+        "loss": 0.24064094378059642
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "semantic_cosine": 0.20772939315090955,
+        "semantic_relational": 0.03529635251159436,
+        "dimension": 0.050999903835347096,
+        "loss": 0.2402886158079868
+      },
+      "val": {
+        "semantic_cosine": 0.2028540684214964,
+        "semantic_relational": 0.03711268097015618,
+        "dimension": 0.04230460982865953,
+        "loss": 0.23142890932375215
+      }
+    },
+    {
+      "epoch": 6,
+      "train": {
+        "semantic_cosine": 0.20447947855653434,
+        "semantic_relational": 0.03527119424184165,
+        "dimension": 0.042670075764772226,
+        "loss": 0.23286875502271986
+      },
+      "val": {
+        "semantic_cosine": 0.19975608802442915,
+        "semantic_relational": 0.03730249735188807,
+        "dimension": 0.036072749821389,
+        "loss": 0.22525296158456273
+      }
+    }
+  ]
+}

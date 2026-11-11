@@ -1,0 +1,45 @@
+seed: 97
+paths:
+  # Existing model/data are read-only. New caches and results stay here.
+  baseline_checkpoint: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_mesh/outputs/default/pooled_plus_brep_view_geometry_mesh/best.pt
+  manifest: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad/data/processed/manifest.json
+  frozen_views: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_brep_views/data/processed
+  geometry_cache: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_geometry/data/processed/geometry.npy
+  geometry_metadata: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_geometry/data/processed/geometry_metadata.json
+  mesh_cache: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_mesh/data/processed/mesh_profile.npy
+  mesh_metadata: ../../histcad_large_joint_jepa_v7/downstream_classifier_tmcad_mesh/data/processed/mesh_profile_metadata.json
+  processed: data/processed
+  output: outputs/default
+
+baseline:
+  expected_validation_macro_f1: 0.857505665866789
+  validation_tolerance: 0.002
+  batch_size: 64
+  num_workers: 0
+  device: auto
+
+adapter:
+  # 37 full-file STEP dimensions + 84 surface-profile fields = 121 inputs.
+  # These are trainable hidden widths (16..256), not the true input width.
+  # If testing 128/192/256, choose a new paths.output for a separate checkpoint.
+  physical_width: 128
+  fusion_width: 128
+  dropout: 0.25
+  epochs: 32
+  batch_size: 64
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.00003
+  weight_decay: 0.001
+  residual_l2: 0.01
+  label_smoothing: 0.02
+  gradient_clip: 1.0
+  patience: 7
+  min_epochs: 8
+  minimum_validation_macro_f1_gain: 0.003
+
+# Evaluation-only display settings; these do not alter model inputs or scores.
+qualitative:
+  cases_per_class_outcome: 1
+  image_size: 300
+  max_render_triangles: 12000
+  max_render_edges: 200

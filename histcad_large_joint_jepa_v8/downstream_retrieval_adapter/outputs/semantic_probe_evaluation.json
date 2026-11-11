@@ -1,0 +1,136 @@
+{
+  "protocol": "Frozen v7 JEPA and frozen existing adapter; train-only functional descriptions fit a linear multi-label readout; validation-only fusion selection",
+  "train_samples": 145915,
+  "validation_samples": 8130,
+  "test_samples": 8086,
+  "token_vocabulary_size": 136,
+  "best_epoch": 5,
+  "history": [
+    {
+      "epoch": 1,
+      "train_bce": 0.29450803037920614,
+      "val_bce": 0.2666865460547134
+    },
+    {
+      "epoch": 2,
+      "train_bce": 0.265260264599041,
+      "val_bce": 0.26092451987524606
+    },
+    {
+      "epoch": 3,
+      "train_bce": 0.26009542074171793,
+      "val_bce": 0.2567982828191872
+    },
+    {
+      "epoch": 4,
+      "train_bce": 0.25677641875041346,
+      "val_bce": 0.25367103505691774
+    },
+    {
+      "epoch": 5,
+      "train_bce": 0.2545512523168044,
+      "val_bce": 0.2526417840450892
+    }
+  ],
+  "validation_grid": {
+    "direct": {
+      "text_token_jaccard_at_1": 0.41412328419778216,
+      "exact_function_at_1_all_queries": 0.15264452644526444,
+      "dimension_mae_at_1": 0.2474788874387741,
+      "history_accuracy_at_1": 0.8512915372848511,
+      "feature_count_accuracy_at_1": 0.8820418119430542,
+      "geometry_structure_at_1": 0.47515374422073364
+    },
+    "adapted": {
+      "text_token_jaccard_at_1": 0.4050714359886167,
+      "exact_function_at_1_all_queries": 0.15694956949569497,
+      "dimension_mae_at_1": 0.1674010455608368,
+      "history_accuracy_at_1": 0.9121771454811096,
+      "feature_count_accuracy_at_1": 0.9682657122612,
+      "geometry_structure_at_1": 0.6506764888763428
+    },
+    "semantic_only": {
+      "text_token_jaccard_at_1": 0.4412218019455007,
+      "exact_function_at_1_all_queries": 0.17195571955719557,
+      "dimension_mae_at_1": 0.25849199295043945,
+      "history_accuracy_at_1": 0.9002460241317749,
+      "feature_count_accuracy_at_1": 0.9407134056091309,
+      "geometry_structure_at_1": 0.45719558000564575
+    },
+    "0.0": {
+      "text_token_jaccard_at_1": 0.4050092032234319,
+      "exact_function_at_1_all_queries": 0.15682656826568267,
+      "dimension_mae_at_1": 0.1674010455608368,
+      "history_accuracy_at_1": 0.9121771454811096,
+      "feature_count_accuracy_at_1": 0.9682657122612,
+      "geometry_structure_at_1": 0.6506764888763428
+    },
+    "0.25": {
+      "text_token_jaccard_at_1": 0.4111425810384326,
+      "exact_function_at_1_all_queries": 0.15867158671586715,
+      "dimension_mae_at_1": 0.16835325956344604,
+      "history_accuracy_at_1": 0.913776159286499,
+      "feature_count_accuracy_at_1": 0.9680196642875671,
+      "geometry_structure_at_1": 0.6461254358291626
+    },
+    "0.5": {
+      "text_token_jaccard_at_1": 0.4215815369218929,
+      "exact_function_at_1_all_queries": 0.16359163591635917,
+      "dimension_mae_at_1": 0.1732487827539444,
+      "history_accuracy_at_1": 0.9141451120376587,
+      "feature_count_accuracy_at_1": 0.9656826853752136,
+      "geometry_structure_at_1": 0.6314883232116699
+    },
+    "1.0": {
+      "text_token_jaccard_at_1": 0.4301081337974983,
+      "exact_function_at_1_all_queries": 0.16494464944649445,
+      "dimension_mae_at_1": 0.18432514369487762,
+      "history_accuracy_at_1": 0.913776159286499,
+      "feature_count_accuracy_at_1": 0.960762619972229,
+      "geometry_structure_at_1": 0.6020910143852234
+    },
+    "2.0": {
+      "text_token_jaccard_at_1": 0.4352888432570804,
+      "exact_function_at_1_all_queries": 0.16592865928659287,
+      "dimension_mae_at_1": 0.20440424978733063,
+      "history_accuracy_at_1": 0.9092251062393188,
+      "feature_count_accuracy_at_1": 0.9536285400390625,
+      "geometry_structure_at_1": 0.5539975166320801
+    }
+  },
+  "selected_fusion_weight": 0.5,
+  "test": {
+    "direct": {
+      "text_token_jaccard_at_1": 0.4097997691471763,
+      "exact_function_at_1_all_queries": 0.14568389809547366,
+      "dimension_mae_at_1": 0.2539851665496826,
+      "history_accuracy_at_1": 0.8447934985160828,
+      "feature_count_accuracy_at_1": 0.8739797472953796,
+      "geometry_structure_at_1": 0.4662379324436188
+    },
+    "adapted": {
+      "text_token_jaccard_at_1": 0.4007253848104994,
+      "exact_function_at_1_all_queries": 0.14704427405392034,
+      "dimension_mae_at_1": 0.16870702803134918,
+      "history_accuracy_at_1": 0.9109572172164917,
+      "feature_count_accuracy_at_1": 0.9657432436943054,
+      "geometry_structure_at_1": 0.6446945071220398
+    },
+    "semantic_only": {
+      "text_token_jaccard_at_1": 0.4341702113854899,
+      "exact_function_at_1_all_queries": 0.16002968093000247,
+      "dimension_mae_at_1": 0.26391077041625977,
+      "history_accuracy_at_1": 0.9006925821304321,
+      "feature_count_accuracy_at_1": 0.9358149766921997,
+      "geometry_structure_at_1": 0.4474400281906128
+    },
+    "semantic_fused": {
+      "text_token_jaccard_at_1": 0.41274688205935817,
+      "exact_function_at_1_all_queries": 0.15075439030422955,
+      "dimension_mae_at_1": 0.17399919033050537,
+      "history_accuracy_at_1": 0.9138016104698181,
+      "feature_count_accuracy_at_1": 0.9637645483016968,
+      "geometry_structure_at_1": 0.6252782344818115
+    }
+  }
+}
