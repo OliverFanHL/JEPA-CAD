@@ -30,5 +30,23 @@
     "credential_like_matches": 0,
     "source_CAD_files": 0,
     "oversized_git_files": 0
+  },
+  "existing_pretrained_arm": {
+    "arm": "jepa_joint",
+    "mode": "existing_pretrained_frozen",
+    "cache_path": "D:\\Postdoc\\research\\jepa_cad\\github_release\\JEPA-CAD\\histcad_large_joint_jepa_v8\\data\\processed\\full_paired_graphs_v7.pt",
+    "checkpoint_path": "D:\\Postdoc\\research\\jepa_cad\\github_release\\JEPA-CAD\\histcad_large_joint_jepa_v8\\outputs\\full_dataset_4096\\best.pt",
+    "checkpoint_epoch": 20,
+    "cache_parts": 162131,
+    "split_sizes": {
+      "train": 145915,
+      "val": 8130,
+      "test": 8086
+    },
+    "embedding_dim": 4096,
+    "preprocessing_run": false,
+    "training_run": false,
+    "optimizer_created": false,
+    "artifact_copies_byte_identical": true
   }
 }

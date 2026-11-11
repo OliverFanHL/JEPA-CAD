@@ -36,6 +36,18 @@ test parts. This verification does not need the source datasets or large encoder
 
 ## Regenerate the full pipeline
 
+For the existing pretrained comparison, do not run the training/preprocessing
+commands below. The Windows working copy already has
+`histcad_large_joint_jepa_v8/data/processed/full_paired_graphs_v7.pt` and
+`histcad_large_joint_jepa_v8/outputs/full_dataset_4096/best.pt` copied from the
+completed experiment. Run `python use_pretrained.py` from the repository root
+to verify compatibility. The optional `--extract` flag performs frozen inference
+only, writing the representation file consumed by benchmark arm `jepa_joint`.
+Missing cache/checkpoint files cause an error, never a preprocessing/training
+fallback. The large local files remain ignored by Git.
+
+The following instructions are for a separate, deliberate from-scratch run.
+
 Download the [source datasets](DATASETS.md), retain the original split identities,
 and update dataset paths in the YAML files and historical manifests. The preserved
 two-project layout lets the final configuration reference v7 preprocessing and

@@ -1,0 +1,23 @@
+{
+  "arm": "jepa_joint",
+  "preprocessing_run": false,
+  "training_run": false,
+  "files": [
+    {
+      "source": "D:/Postdoc/research/jepa_cad/histcad_large_joint_jepa_v8/data/processed/full_paired_graphs_v7.pt",
+      "path": "histcad_large_joint_jepa_v8/data/processed/full_paired_graphs_v7.pt",
+      "bytes": 8075724068,
+      "sha256": "9944b05fe6dacc9e52250da9dcccfdcac1ef7ad1380a2dbb5d0217a7a8f52e76",
+      "copy_verified": true,
+      "git_tracked": false
+    },
+    {
+      "source": "D:/Postdoc/research/jepa_cad/histcad_large_joint_jepa_v8/outputs/full_dataset_4096/best.pt",
+      "path": "histcad_large_joint_jepa_v8/outputs/full_dataset_4096/best.pt",
+      "bytes": 1938955953,
+      "sha256": "fe54c5645b231887079bbe22d8b6e071d316f5355517f05f43cf35c8d348360d",
+      "copy_verified": true,
+      "git_tracked": false
+    }
+  ]
+}

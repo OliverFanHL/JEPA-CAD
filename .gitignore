@@ -23,3 +23,7 @@ __pycache__/
 **/data/processed/*.npy
 **/data/processed/*.npz
 !histcad_large_joint_jepa_v8/downstream_classifier_tmcad_final/data/processed/*_frozen_inputs.npz
+
+# Local reuse of the Windows pretrained comparison arm (multi-gigabyte artifacts).
+histcad_large_joint_jepa_v8/outputs/full_dataset_4096/best.pt
+*.pt.copying

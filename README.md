@@ -43,3 +43,17 @@ benchmark's 1,090. Compare methods within the corresponding protocol.
 Run `python verify_release.py` for portable file-integrity and saved-result checks.
 Run `python verify_classifier.py` with NumPy and PyTorch to reproduce all 1,404
 final TMCAD predictions from the released checkpoint and frozen inputs.
+
+## Existing pretrained comparison arm
+
+On the Windows working copy, the original graph cache and pretrained `best.pt`
+are copied into the v8 project's matching paths. `jepa_joint` explicitly uses
+that checkpoint as a frozen comparison arm. Run `python use_pretrained.py` to
+check artifact compatibility. It fails if either existing file is missing;
+it never starts preprocessing or training. See `LOCAL_PRETRAINED_ARTIFACTS.json`
+for the verified copy sizes and hashes. These large local files are excluded
+from GitHub.
+
+If representations need to be regenerated, `python use_pretrained.py --extract`
+runs inference on the copied cache with the frozen checkpoint. This is optional;
+the artifact copy and compatibility check do not run extraction.

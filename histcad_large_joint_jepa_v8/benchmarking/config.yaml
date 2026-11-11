@@ -23,6 +23,11 @@ representations:
   - name: jepa_joint
     family: jepa
     dataset: histcad
+    checkpoint: ../outputs/full_dataset_4096/best.pt
+    cache_path: ../data/processed/full_paired_graphs_v7.pt
+    pretrained: true
+    encoder_finetuning: false
+    preprocessing_allowed: false
     format: histcad_pt
     artifact: ../outputs/full_dataset_4096/representations.pt
     storage: embeddings
@@ -30,7 +35,7 @@ representations:
     required: true
     reuse: true
     tasks: [frozen, retrieval, semantic]
-    comparability: exact HistCAD cache and split; 4096-D joint representation
+    comparability: existing Windows pretrained checkpoint reused without preprocessing or encoder updates; exact HistCAD cache and split; 4096-D joint representation
 
   - name: graph_autoencoder_joint
     family: autoencoder

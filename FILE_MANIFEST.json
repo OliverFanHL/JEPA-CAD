@@ -1272,8 +1272,10 @@
     {
       "path": "histcad_large_joint_jepa_v8/benchmarking/config.yaml",
       "category": "source",
-      "bytes": 11811,
-      "sha256": "ad4a12b7ffb0f0b0c37e5beb84e8a579460050c24ab76b44274edceb825f0dbe"
+      "bytes": 12095,
+      "sha256": "405c2b1d580102551e8bf5a6bf7e507b9a705f416d078352283022a47e30f76e",
+      "source_sha256": "ad4a12b7ffb0f0b0c37e5beb84e8a579460050c24ab76b44274edceb825f0dbe",
+      "release_adjustment": "Explicit existing pretrained jepa_joint checkpoint/cache provenance; preprocessing and encoder fine-tuning disabled for this arm."
     },
     {
       "path": "histcad_large_joint_jepa_v8/benchmarking/external/brepnet_histcad.coverage.json",
